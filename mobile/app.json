@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "CampusWars",
+    "name": "Campus Wars",
     "slug": "campuswars",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,7 +8,8 @@
     "scheme": "campuswars",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/images/cw_logo_emblem.png"
+      "icon": "./assets/images/cw_logo_emblem.png",
+      "bundleIdentifier": "com.anonymous.campuswars"
     },
     "android": {
       "adaptiveIcon": {
