@@ -6,18 +6,32 @@ create extension if not exists pgtap;
 begin;
 select plan(8);
 
+-- fixture school: listed (has email_domains) so signups against it validate
+do $$
+declare u uuid;
+begin
+  insert into public.universities (name, short_name, country, state,
+    email_domains) values ('Signup School', 'SS', 'US', 'VA', '{dev.test}')
+    returning id into u;
+  perform set_config('test.uni', u::text, true);
+end $$;
+
 -- handle_new_user creates a profile even when metadata carries a blocked
--- display_name (metadata is ignored; default 'Player' is used).
-select lives_ok($$
-  insert into auth.users (id, instance_id, aud, role, email,
-    encrypted_password, email_confirmed_at, raw_app_meta_data,
-    raw_user_meta_data, created_at, updated_at)
-  values ('11111111-1111-1111-1111-111111111111',
-    '00000000-0000-0000-0000-000000000000',
-    'authenticated', 'authenticated', 'blocked@dev.test', '', now(),
-    '{"provider":"email","providers":["email"]}'::jsonb,
-    '{"display_name":"fuck"}'::jsonb, now(), now())
-$$, 'signup succeeds even with blocked display_name in metadata');
+-- display_name (metadata name is ignored; default 'Player' is used).
+-- university_id metadata is required by handle_new_user (D15/D23) and must
+-- match the email's school.
+select lives_ok(
+  format($$
+    insert into auth.users (id, instance_id, aud, role, email,
+      encrypted_password, email_confirmed_at, raw_app_meta_data,
+      raw_user_meta_data, created_at, updated_at)
+    values ('11111111-1111-1111-1111-111111111111',
+      '00000000-0000-0000-0000-000000000000',
+      'authenticated', 'authenticated', 'blocked@dev.test', '', now(),
+      '{"provider":"email","providers":["email"]}'::jsonb,
+      '{"display_name":"fuck","university_id":"%s"}'::jsonb, now(), now())
+  $$, current_setting('test.uni')),
+  'signup succeeds even with blocked display_name in metadata');
 
 select is(
   (select display_name from public.profiles

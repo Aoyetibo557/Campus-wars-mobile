@@ -4,19 +4,28 @@
 create extension if not exists pgtap;
 
 begin;
-select plan(54);
+select plan(65);
 
 -- fixtures ---------------------------------------------------------------
 do $$
 declare
   a uuid; b uuid; u1 uuid; u2 uuid; g uuid; s1 uuid; s2 uuid;
 begin
+  -- schools must exist first: handle_new_user re-validates university_id
+  -- against the email domain. u2 is intentionally unlisted ('{}').
+  insert into public.universities (name, short_name, country, state,
+    email_domains) values ('Test University', 'TU', 'US', 'VA', '{dev.test}')
+    returning id into u1;
+  insert into public.universities (name, email_domains)
+    values ('Other University', '{}') returning id into u2;
+
   insert into auth.users (id, instance_id, aud, role, email,
     encrypted_password, email_confirmed_at, raw_app_meta_data,
     raw_user_meta_data, created_at, updated_at)
   values (gen_random_uuid(), '00000000-0000-0000-0000-000000000000',
     'authenticated', 'authenticated', 'alice@dev.test', '', now(),
-    '{"provider":"email","providers":["email"]}'::jsonb, '{}'::jsonb,
+    '{"provider":"email","providers":["email"]}'::jsonb,
+    format('{"university_id":"%s"}', u1)::jsonb,
     now(), now())
   returning id into a;
 
@@ -25,16 +34,13 @@ begin
     raw_user_meta_data, created_at, updated_at)
   values (gen_random_uuid(), '00000000-0000-0000-0000-000000000000',
     'authenticated', 'authenticated', 'bob@dev.test', '', now(),
-    '{"provider":"email","providers":["email"]}'::jsonb, '{}'::jsonb,
+    '{"provider":"email","providers":["email"]}'::jsonb,
+    format('{"university_id":"%s"}', u1)::jsonb,
     now(), now())
   returning id into b;
 
-  insert into public.universities (name, short_name, country, state)
-    values ('Test University', 'TU', 'US', 'VA') returning id into u1;
-  insert into public.universities (name) values ('Other University')
-    returning id into u2;
-
-  update public.profiles set university_id = u1 where id = a;
+  -- bob starts school-less so we can prove null -> value is also rejected
+  update public.profiles set university_id = null where id = b;
 
   select id into g from public.games where slug = 'wordle';
 
@@ -57,6 +63,17 @@ set local role authenticated;
 
 -- allowed reads
 select lives_ok('select id from public.universities limit 1', 'auth reads universities');
+select lives_ok('select id, name, short_name, state, country, email_domains from public.universities limit 1',
+  'auth reads safe university columns incl. email_domains');
+select is((select count(*) from public.universities
+            where id = current_setting('test.uni2')::uuid), 0::bigint,
+  'unlisted schools hidden from authenticated');
+select throws_ok('select website from public.universities limit 1', null,
+  'website column hidden');
+select throws_ok('select scorecard_unit_id from public.universities limit 1', null,
+  'scorecard_unit_id column hidden');
+select throws_ok('select * from public.universities limit 1', null,
+  'select(*) on universities fails (column-grant)');
 select lives_ok('select id from public.games limit 1', 'auth reads games');
 select lives_ok('select university_id from public.university_points limit 1', 'auth reads university_points');
 select lives_ok('select id from public.profiles limit 1', 'auth reads profiles');
@@ -94,6 +111,8 @@ select throws_ok('select term from public.profanity_blocklist limit 1', null,
   'profanity_blocklist unreadable');
 select throws_ok('select id from public.reset_state limit 1', null,
   'reset_state unreadable');
+select throws_ok('select normalized_email from public.mailbox_registry limit 1', null,
+  'mailbox_registry unreadable');
 
 -- forbidden writes
 select throws_ok(
@@ -159,18 +178,19 @@ select set_config('request.jwt.claims',
                     'role', 'authenticated')::text, true);
 set local role authenticated;
 
--- university_id set-once: null -> value allowed
-select lives_ok(
+-- university_id: no client write at all (D3 amended) — column grant revoked,
+-- so even null -> value is denied before the lock trigger runs
+select throws_ok(
   'update public.profiles set university_id = ''' || current_setting('test.uni2') ||
     ''' where id = ''' || current_setting('test.bob') || '''',
-  'bob sets university_id once');
+  null, 'bob cannot set university_id (even null -> value)');
 select is((select university_id from public.profiles
             where id = current_setting('test.bob')::uuid),
-  current_setting('test.uni2')::uuid, 'university_id was set');
+  null::uuid, 'university_id stays null');
 select throws_ok(
   'update public.profiles set university_id = ''' || current_setting('test.uni1') ||
     ''' where id = ''' || current_setting('test.bob') || '''',
-  null, 'bob cannot change it afterward');
+  null, 'bob cannot set university_id to a listed school either');
 
 -- token reassignment: token belongs to the device, follows it to bob
 select is((select count(*) from public.push_tokens), 0::bigint,
@@ -209,10 +229,21 @@ select is((select university_id from public.profiles
             where id = current_setting('test.bob')::uuid),
   current_setting('test.uni1')::uuid, 'university_id updated by service_role');
 
--- == anon gets nothing ==
+-- == anon: only safe columns of LISTED schools (signup picker, D23) ==
 select set_config('request.jwt.claims', '{"role":"anon"}', true);
 set local role anon;
 
+select lives_ok('select id, name, short_name, state, country, email_domains from public.universities limit 1',
+  'anon reads safe university columns (signup picker)');
+select is((select count(*) from public.universities
+            where id = current_setting('test.uni2')::uuid), 0::bigint,
+  'unlisted schools hidden from anon');
+select throws_ok('select website from public.universities limit 1', null,
+  'anon cannot read website');
+select throws_ok('select * from public.universities limit 1', null,
+  'anon select(*) fails (column-grant)');
+select throws_ok('select normalized_email from public.mailbox_registry limit 1', null,
+  'anon cannot read mailbox_registry');
 select throws_ok('select id from public.profiles limit 1', null,
   'anon cannot read profiles');
 select throws_ok(
@@ -244,7 +275,6 @@ select results_eq(
     ('profiles' collate "C",'authenticated' collate "C",'SELECT' collate "C"),
     ('push_tokens' collate "C",'authenticated' collate "C",'DELETE' collate "C"),
     ('push_tokens' collate "C",'authenticated' collate "C",'SELECT' collate "C"),
-    ('universities' collate "C",'authenticated' collate "C",'SELECT' collate "C"),
     ('university_points' collate "C",'authenticated' collate "C",'SELECT' collate "C")
   $$,
   'table-level grants match allowlist exactly');
@@ -277,7 +307,18 @@ select results_eq(
     ('game_sessions.submitted_at' collate "C",'authenticated' collate "C",'SELECT' collate "C"),
     ('game_sessions.user_id' collate "C",'authenticated' collate "C",'SELECT' collate "C"),
     ('profiles.display_name' collate "C",'authenticated' collate "C",'UPDATE' collate "C"),
-    ('profiles.university_id' collate "C",'authenticated' collate "C",'UPDATE' collate "C")
+    ('universities.country' collate "C",'anon' collate "C",'SELECT' collate "C"),
+    ('universities.country' collate "C",'authenticated' collate "C",'SELECT' collate "C"),
+    ('universities.email_domains' collate "C",'anon' collate "C",'SELECT' collate "C"),
+    ('universities.email_domains' collate "C",'authenticated' collate "C",'SELECT' collate "C"),
+    ('universities.id' collate "C",'anon' collate "C",'SELECT' collate "C"),
+    ('universities.id' collate "C",'authenticated' collate "C",'SELECT' collate "C"),
+    ('universities.name' collate "C",'anon' collate "C",'SELECT' collate "C"),
+    ('universities.name' collate "C",'authenticated' collate "C",'SELECT' collate "C"),
+    ('universities.short_name' collate "C",'anon' collate "C",'SELECT' collate "C"),
+    ('universities.short_name' collate "C",'authenticated' collate "C",'SELECT' collate "C"),
+    ('universities.state' collate "C",'anon' collate "C",'SELECT' collate "C"),
+    ('universities.state' collate "C",'authenticated' collate "C",'SELECT' collate "C")
   $$,
   'column-level grants match allowlist exactly');
 
@@ -301,6 +342,7 @@ select results_eq(
   $$,
   $$
   values
+    ('complete_onboarding' collate "C",'authenticated' collate "C"),
     ('register_push_token' collate "C",'authenticated' collate "C")
   $$,
   'function execute grants match allowlist exactly');

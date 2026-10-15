@@ -12,24 +12,26 @@ declare
   b uuid := '33333333-3333-3333-3333-333333333333';
   u uuid; w uuid; t uuid; m uuid; s uuid;
 begin
+  -- listed school first: handle_new_user re-validates university_id
+  -- against the email domain at insert time
+  insert into public.universities (name, short_name, country, state,
+    email_domains) values ('Finalize U', 'FU', 'US', 'VA', '{dev.test}')
+    returning id into u;
+
   insert into auth.users (id, instance_id, aud, role, email,
     encrypted_password, email_confirmed_at, raw_app_meta_data,
     raw_user_meta_data, created_at, updated_at)
   values (a, '00000000-0000-0000-0000-000000000000',
     'authenticated', 'authenticated', 'player@dev.test', '', now(),
-    '{"provider":"email","providers":["email"]}'::jsonb, '{}'::jsonb,
-    now(), now());
+    '{"provider":"email","providers":["email"]}'::jsonb,
+    format('{"university_id":"%s"}', u)::jsonb, now(), now());
   insert into auth.users (id, instance_id, aud, role, email,
     encrypted_password, email_confirmed_at, raw_app_meta_data,
     raw_user_meta_data, created_at, updated_at)
   values (b, '00000000-0000-0000-0000-000000000000',
     'authenticated', 'authenticated', 'other@dev.test', '', now(),
-    '{"provider":"email","providers":["email"]}'::jsonb, '{}'::jsonb,
-    now(), now());
-
-  insert into public.universities (name, short_name, country, state)
-    values ('Finalize U', 'FU', 'US', 'VA') returning id into u;
-  update public.profiles set university_id = u where id in (a, b);
+    '{"provider":"email","providers":["email"]}'::jsonb,
+    format('{"university_id":"%s"}', u)::jsonb, now(), now());
 
   select id into w from public.games where slug = 'wordle';
   select id into t from public.games where slug = 'trivia';
