@@ -8,7 +8,7 @@ Choices made after reviewing `docs/web-audit.md`. Where these conflict with the 
 - When the user confirms an Open entry, move it to Decided and apply any listed PRD edit.
 - IDs are permanent. Entries moved from Open keep a "formerly" note.
 
-Last updated: 2026-10-10
+Last updated: 2026-10-14
 
 ---
 
@@ -24,18 +24,14 @@ Last updated: 2026-10-10
 - **Decision:** `docs/web-audit.md` is a snapshot of the old app and is never edited to reflect new choices. Choices live here. Precedence if documents conflict: `decisions.md` > PRD > `web-audit.md`.
 - **Affects:** AGENTS.md (precedence rule), PRD (edits applied per the checklist at the bottom).
 
-### D3. School is locked after onboarding
-- **Decision:** `profiles.university_id` can be set once (null to a school) during onboarding and cannot be changed by the client afterward. Exceptions (for example, a transfer student) are handled manually by an admin using the service role.
+### D3. School is set once at signup and locked
+- **Decision:** `profiles.university_id` is set by the server at signup, from the school the user chose after the signup hook validated their email domain (D23). Clients have no UPDATE grant on it and cannot change it afterward. Exceptions (for example, a transfer student) are handled manually by an admin using the service role.
 - **Why:** Otherwise players can move points between schools.
-- **Implementation notes:** Enforce with a trigger that rejects changes once set (service-role changes allowed). There is no automatic points transfer in the MVP: a manual school change must also adjust `university_points` by hand, and that procedure is not designed yet. A school should be selected before any scored play.
-- **Affects:** `profiles` trigger/migration, onboarding flow, PRD section 9.2. Resolves PRD open question 3.
+- **Implementation notes:** The `lock_university_id` trigger stays as defense in depth for client roles. There is no automatic points transfer in the MVP: a manual school change must also adjust `university_points` by hand, and that procedure is not designed yet.
+- **Affects:** `handle_new_user`, `profiles` grants and triggers, PRD section 9.2. Resolves PRD open question 3.
 
-### D4. School verification: self-select now, external API validation later
-- **Decision:** Players pick their school and sign up with any email. At MVP nothing checks that the email belongs to the school. Later, validation will use an external API and run server-side behind the scenes (an Edge Function with the API credentials stored as a secret, never in the app). No onboarding UI change is planned for the MVP.
-- **Why:** Faster to ship. The signup email is already collected and confirmed by code (D21), so it can be validated later without new UI. Keep `universities.email_domains` for a simple domain check if the API is delayed.
-- **Trade-off:** Leaderboards are less credible until verification exists.
-- **Future notes (not for now):** Verification status and any school email must live in a private table, not in the publicly readable `profiles`. Personal-email signups will need a later "verify with your school email" step. Whether unverified players count on leaderboards is undecided.
-- **Affects:** Auth, onboarding (nothing at MVP), PRD sections 4.2 and 11. Resolves PRD open question 1.
+### D4. School verification: self-select now, external API later (SUPERSEDED by D23)
+- Superseded by D23: school email verification is now part of the MVP.
 
 ### D5. Daily scored-play caps
 - **Decision:** Wordle 1 scored play per day, Trivia 10, Speed Math 10. Stored in `games.daily_scored_limit` so they can be tuned without an app release. Plays beyond the cap are allowed but award 0 points, and the result screen says so.
@@ -56,7 +52,7 @@ Last updated: 2026-10-10
 ### D8. University picker data and `short_name` (formerly O6)
 - **Decision:** The picker shows name + state + `short_name`. Drop student count, rank badge, and logos. Use initials avatars (this also avoids using school logos or marks without permission). Add `short_name text` to `universities`.
 - **Why:** Compact leaderboard rows and the header chip need a short name on small screens.
-- **Affects:** `universities` schema and seed, onboarding, leaderboard rows. PRD edit pending (see checklist).
+- **Affects:** `universities` schema and seed, sign-up school picker, leaderboard rows. PRD edit pending (see checklist).
 
 ### D9. Literal points (formerly O7)
 - **Decision:** Points are literal. No `points × 100` display inflation. If bigger numbers are ever wanted, scale the formulas in the PRD instead of multiplying at display time.
@@ -87,9 +83,9 @@ Last updated: 2026-10-10
 - **Affects:** `profiles` check constraint, onboarding name field.
 
 ### D15. Signup ignores display-name metadata
-- **Decision:** `handle_new_user` always creates the profile with `display_name = 'Player'` and never reads `raw_user_meta_data`. The real name is set through the client's column-granted update, which runs the profanity and length checks.
-- **Why:** a blocked or malicious metadata name must not be able to fail signup or bypass the filter.
-- **Affects:** `handle_new_user` trigger, onboarding (choosing a name is always a second step).
+- **Decision:** `handle_new_user` always creates the profile with `display_name = 'Player'` and never reads a display name from `raw_user_meta_data`. The real name is set during onboarding (D25), which runs the profanity and length checks. The one metadata value it does read is `university_id`, and it re-validates that value (the school exists, and the email domain matches it) before using it. If validation fails, the signup is aborted.
+- **Why:** a blocked or malicious metadata name must not fail signup or bypass the filter, and a school chosen by the client must never be trusted without a server check.
+- **Affects:** `handle_new_user` trigger, onboarding.
 
 ### D16. Reset catch-up semantics via reset_state
 - **Decision:** `reset_periodic_points()` is called by two daily pg_cron jobs (04:00 and 05:00 UTC — covering NY midnight in both EDT and EST) and no-ops unless the New York local hour is 0. `reset_state` records the last applied weekly/monthly period starts; each period resets exactly once, and a missed midnight run catches up at the next NY-midnight run because `last_*_reset` stayed behind. `p_now timestamptz default now()` exists for deterministic tests. pg_cron must be enabled on the hosted project before remote deploy.
@@ -108,17 +104,36 @@ Last updated: 2026-10-10
 - **Decision:** `supabase gen types typescript` output goes to `mobile/src/types/database.ts` (the scaffold keeps all app code under `mobile/src/`).
 - **Affects:** AGENTS.md, PRD section 8.2.
 
-### D20. Component foundation: React Native Reusables, copy-in and selective (formerly O13)
-- **Decision:** Components are copied into the repo and owned by us. Only add what screens need. Theme with our semantic tokens. If setup would require migrating the styling engine or changing major versions of NativeWind or Tailwind, stop and ask; fall back to hand-built primitives (Button, Input, Text, Dialog) on NativeWind.
-- **Affects:** Scaffold, all screens.
+### D20. Component foundation: hand-built primitives on NativeWind v4 (formerly O13)
+- **Decision:** React Native Reusables was the preferred route, but its current setup appeared to require a styling-engine migration (Uniwind + Tailwind v4), which is this decision's stop condition. That was believed, not verified, because the docs were unreachable. Text, Label, Input, Button, AlertDialog, and Screen are hand-built on NativeWind v4 using our semantic tokens and the Reusables component shape (composable parts, `className` passthrough, variants), so a later swap stays cheap.
+- **Follow-up:** Re-check Reusables against its current docs when the network allows, then decide deliberately whether to migrate. Do not migrate silently.
+- **Affects:** `mobile/src/components/ui/`, all screens.
 
 ### D21. Email verification by 6-digit code entered in the app
 - **Decision:** Email confirmation is on (anti-abuse), with no deep links: the user types the code from the email and never leaves the app. Forgot-password uses the same pattern (recovery code, then new password). Minimum password length is 8.
 - **Affects:** `config.toml`, auth screens, email templates (also a hosted-project setup item).
 
-### D22. Onboarding flow and completion rule
-- **Decision:** Order: School, then Name, then a confirmation step. The profile is written once, atomically (`display_name` and `university_id` in one update), at the end of the confirmation step. Onboarding is complete if and only if `profiles.university_id` is not null. A quit mid-flow restarts at step 1. The confirmation step states that the school cannot be changed later (D3). Onboarding ends with a call to action to play the first game.
-- **Affects:** Onboarding screens, route guard, profile queries.
+### D22. Onboarding flow and completion rule (SUPERSEDED by D25)
+- Superseded by D25: the school is now chosen at signup, and onboarding is the display name only.
+
+### D23. School verification by school email at signup (supersedes D4)
+- **Decision:** Players must sign up with an email at their school's domain. Flow: pick school, then school email + password, then 6-digit code (D21), then display name (D25), then Home. A school appears in the picker only if it has at least one confirmed email domain.
+- **Enforcement (server-side, fails closed):** A Supabase Before User Created hook rejects signups whose email domain is not equal to, or a subdomain of (dot-boundary match), one of the chosen school's `email_domains`. The hook checks school and domain only. `handle_new_user` re-validates and aborts the signup if the check fails, so a missing or disabled hook (for example on the hosted project) cannot let unverified signups through. Rejection messages never confirm that an account exists.
+- **One account per mailbox:** the normalized email (lowercase, `+tag` stripped) is recorded in `mailbox_registry` when the email is confirmed, not at signup, so an unverified signup cannot squat a classmate's mailbox. A colliding confirmation fails (the auth service reports a generic "Error confirming user", which the app maps to neutral copy). Different spellings of one mailbox (jsmith vs john.smith) cannot be detected and are accepted.
+- **Public school data:** `anon` and `authenticated` can read `id, name, short_name, state, country, email_domains` of listed schools. `website` and `scorecard_unit_id` stay server-side. The domains are public data, and the server still enforces the rule.
+- **Email changes:** the app does not expose email change. At the database level, any email change must still match the school's domains and the uniqueness rule.
+- **Accepted:** faculty, staff, and alumni (domains cannot tell them apart).
+- **Why:** Leaderboard credibility from day one. Retrofitting later would leave accounts with unverified schools locked in by D3.
+- **Affects:** Auth hook and `config.toml`, `handle_new_user`, `mailbox_registry`, `universities` grants, sign-up screens, hosted-setup (enable the hook), PRD sections 4, 5, 6, 9, 11, 14. Resolves PRD open question 1.
+
+### D24. School data pipeline: College Scorecard + Hipo, build-time only
+- **Decision:** A build-time script combines College Scorecard (the spine for US schools: name, state, website, unit ID; needs a free api.data.gov key, kept in an environment variable and never committed) with the Hipo University Domains JSON (email domains; a pinned snapshot filtered to the US). Match by website domain first, then normalized name. Ambiguous and unmatched schools are reviewed by hand through an overrides file, largest schools first. The curated result is committed as data and loaded by a migration or import. External APIs are never called at runtime. Refresh annually. US schools only at launch; international later via Hipo.
+- **Safeguards:** No free-email-provider domain (for example gmail.com) or bare public suffix may ever appear as a school domain, enforced by a test. Sources and snapshot dates are recorded in `docs/data-sources.md`.
+- **Affects:** `scripts/universities/`, `data/universities/`, `universities` schema (`scorecard_unit_id`, `website`), seed data.
+
+### D25. Onboarding is the display name only; completion marker is onboarded_at (supersedes D22)
+- **Decision:** After email verification, one screen asks for the display name (2 to 20 code points, D14). Onboarding is complete if and only if `profiles.onboarded_at` is not null. It is set once by a `complete_onboarding(p_display_name)` SECURITY DEFINER function that runs the name checks. A quit before finishing returns the user to the name screen. It ends with a call to action to play the first game.
+- **Affects:** `profiles` schema, route guard, onboarding screen.
 
 ---
 
@@ -166,14 +181,17 @@ Last updated: 2026-10-10
 - **Note (D18):** this behavior lives in `start-session`, not in `wordle_daily` / `ensure_wordle_daily` (which only picks the answer). Still undecided.
 - **Affects:** `start-session` behavior for Wordle, session status handling, Home screen daily card.
 
+### O17. Schools not listed / no school email
+- **Recommended:** "My school isn't listed" opens a simple waitlist form (school name + contact email), stored through an RPC or Edge Function with rate limiting. No signup is possible without a listed school (D23), so this link would otherwise be a dead end.
+- **Open:** where requests are stored and how you get notified. Resolves PRD open question 2.
+
 ---
 
 ## PRD edits pending
 
 The agent reported syncing PRD sections 7, 8.2, 9, 9.2, 9.3, 9.4 and 10 to the migrations (D12–D19). Spot-check the PRD, then tick the boxes below.
 
-- [ ] D3: add the `university_id` lock trigger to section 9.2 and reword the "School changes" note
-- [ ] D4: replace the `.edu` verification wording in sections 4.2 and 11 with "school verification (external API, post-MVP)"; note that `email_domains` is retained
+- [ ] D3: replace the "School changes" note in section 9.2 with the amended D3 (school set at signup, no client UPDATE grant, lock trigger kept as defense in depth)
 - [ ] D5: confirm caps in section 7 and the `games` seed
 - [ ] D6: update resets (section 9.4 and the `pg_cron` notes) to `America/New_York`
 - [ ] D7: Wordle row in section 7 becomes a shared daily puzzle; add the daily-answer storage to section 9
@@ -181,4 +199,5 @@ The agent reported syncing PRD sections 7, 8.2, 9, 9.2, 9.3, 9.4 and 10 to the m
 - [ ] D9: confirm points are literal
 - [ ] D10: Trivia row in section 7 becomes 10 questions, max 150; update `games.max_points` seed
 - [ ] D11: note that display names are not unique and a profanity filter applies
-- [ ] Section 19: mark questions 1, 3, 4, 5, 6 resolved with pointers to D4, D3, D5, D6, D7
+- [ ] D23/D24/D25: apply Part 2 of `School_Verification_Decisions_and_PRD.md` (sections 4.1, 4.2, 5.1, 6, 9, 9.2, 11, 14, 19); this replaces the old D4 edits
+- [ ] Section 19: mark question 1 resolved by D23 and question 2 pointed to O17; questions 3, 4, 5, 6 resolved by D3, D5, D6, D7

@@ -127,6 +127,24 @@ export type Database = {
         }
         Relationships: []
       }
+      mailbox_registry: {
+        Row: {
+          created_at: string | null
+          normalized_email: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string | null
+          normalized_email: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string | null
+          normalized_email?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
       profanity_blocklist: {
         Row: {
           term: string
@@ -144,6 +162,7 @@ export type Database = {
           created_at: string | null
           display_name: string
           id: string
+          onboarded_at: string | null
           points: number
           university_id: string | null
         }
@@ -151,6 +170,7 @@ export type Database = {
           created_at?: string | null
           display_name: string
           id: string
+          onboarded_at?: string | null
           points?: number
           university_id?: string | null
         }
@@ -158,6 +178,7 @@ export type Database = {
           created_at?: string | null
           display_name?: string
           id?: string
+          onboarded_at?: string | null
           points?: number
           university_id?: string | null
         }
@@ -252,29 +273,35 @@ export type Database = {
         Row: {
           country: string | null
           created_at: string | null
-          email_domains: string[] | null
+          email_domains: string[]
           id: string
           name: string
+          scorecard_unit_id: number | null
           short_name: string | null
           state: string | null
+          website: string | null
         }
         Insert: {
           country?: string | null
           created_at?: string | null
-          email_domains?: string[] | null
+          email_domains?: string[]
           id?: string
           name: string
+          scorecard_unit_id?: number | null
           short_name?: string | null
           state?: string | null
+          website?: string | null
         }
         Update: {
           country?: string | null
           created_at?: string | null
-          email_domains?: string[] | null
+          email_domains?: string[]
           id?: string
           name?: string
+          scorecard_unit_id?: number | null
           short_name?: string | null
           state?: string | null
+          website?: string | null
         }
         Relationships: []
       }
@@ -345,6 +372,16 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
+      before_user_created_hook: { Args: { event: Json }; Returns: Json }
+      complete_onboarding: {
+        Args: { p_display_name: string }
+        Returns: undefined
+      }
+      email_domain_matches: {
+        Args: { p_domains: string[]; p_email: string }
+        Returns: boolean
+      }
+      email_domains_valid: { Args: { p_domains: string[] }; Returns: boolean }
       ensure_wordle_daily: { Args: { p_date: string }; Returns: string }
       finalize_game_session: {
         Args: {
@@ -360,6 +397,7 @@ export type Database = {
           user_points: number
         }[]
       }
+      normalize_mailbox: { Args: { p_email: string }; Returns: string }
       ny_date: { Args: { p_ts?: string }; Returns: string }
       register_push_token: {
         Args: { p_expo_token: string; p_platform: string }
@@ -378,6 +416,10 @@ export type Database = {
         }
       }
       reset_periodic_points: { Args: { p_now?: string }; Returns: undefined }
+      signup_school_error: {
+        Args: { p_email: string; p_university_id: string }
+        Returns: string
+      }
     }
     Enums: {
       [_ in never]: never

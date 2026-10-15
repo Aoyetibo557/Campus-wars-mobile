@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <body
+    style="
+      margin: 0;
+      padding: 24px;
+      font-family: -apple-system, Helvetica, Arial, sans-serif;
+      color: #1c1b19;
+      background: #faf6ea;
+    "
+  >
+    <h1 style="font-size: 20px; margin: 0 0 12px">Campus Wars</h1>
+    <p style="margin: 0 0 16px">Your password reset code is:</p>
+    <p
+      style="
+        font-size: 32px;
+        font-weight: bold;
+        letter-spacing: 6px;
+        margin: 0 0 16px;
+      "
+    >
+      {{ .Token }}
+    </p>
+    <p style="margin: 0 0 8px">
+      Enter it in the app, then choose a new password.
+    </p>
+    <p style="margin: 0; color: #6b6760; font-size: 13px">
+      This code was sent to {{ .Email }} and expires in 15 minutes. If you
+      didn't ask for a reset, you can ignore this email.
+    </p>
+  </body>
+</html>

@@ -97,7 +97,7 @@ npm run lint                   # eslint (eslint-config-expo + prettier)
 npm run typecheck              # tsc --noEmit
 npm run format                 # prettier --write .
 npm run format:check           # prettier --check .
-npm test                       # NOT CONFIGURED YET — Jest setup is a later milestone
+npm test                       # jest-expo + @testing-library/react-native
 npx expo install <pkg>         # add packages (picks SDK-compatible versions)
 
 # supabase/  (run from repo root)
