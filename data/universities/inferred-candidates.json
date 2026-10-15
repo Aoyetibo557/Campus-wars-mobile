@@ -1,0 +1,8098 @@
+{
+ "_meta": "Unmatched schools with .edu websites — run dns-check.mjs, then approve via overrides.json add_domains",
+ "count": 1156,
+ "candidates": [
+  {
+   "scorecard_unit_id": 163204,
+   "name": "University of Maryland Global Campus",
+   "state": "MD",
+   "enrollment": 49664,
+   "domain": "umgc.edu"
+  },
+  {
+   "scorecard_unit_id": 129367,
+   "name": "Connecticut State Community College",
+   "state": "CT",
+   "enrollment": 33645,
+   "domain": "ctstate.edu"
+  },
+  {
+   "scorecard_unit_id": 227979,
+   "name": "San Jacinto Community College",
+   "state": "TX",
+   "enrollment": 22969,
+   "domain": "sanjac.edu"
+  },
+  {
+   "scorecard_unit_id": 154022,
+   "name": "The University of Arizona Global Campus",
+   "state": "AZ",
+   "enrollment": 20152,
+   "domain": "uagc.edu"
+  },
+  {
+   "scorecard_unit_id": 409315,
+   "name": "South Texas College",
+   "state": "TX",
+   "enrollment": 15856,
+   "domain": "southtexascollege.edu"
+  },
+  {
+   "scorecard_unit_id": 454227,
+   "name": "Chamberlain University-Illinois",
+   "state": "IL",
+   "enrollment": 14027,
+   "domain": "chamberlain.edu"
+  },
+  {
+   "scorecard_unit_id": 130183,
+   "name": "Post University",
+   "state": "CT",
+   "enrollment": 13603,
+   "domain": "post.edu"
+  },
+  {
+   "scorecard_unit_id": 179308,
+   "name": "Saint Louis Community College",
+   "state": "MO",
+   "enrollment": 11788,
+   "domain": "stlcc.edu"
+  },
+  {
+   "scorecard_unit_id": 196680,
+   "name": "Excelsior University",
+   "state": "NY",
+   "enrollment": 11550,
+   "domain": "excelsior.edu"
+  },
+  {
+   "scorecard_unit_id": 137096,
+   "name": "Santa Fe College",
+   "state": "FL",
+   "enrollment": 11122,
+   "domain": "sfcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 137759,
+   "name": "Tallahassee State College",
+   "state": "FL",
+   "enrollment": 11053,
+   "domain": "fl.edu"
+  },
+  {
+   "scorecard_unit_id": 224554,
+   "name": "East Texas A&M University",
+   "state": "TX",
+   "enrollment": 9912,
+   "domain": "etamu.edu"
+  },
+  {
+   "scorecard_unit_id": 127820,
+   "name": "Pikes Peak State College",
+   "state": "CO",
+   "enrollment": 9595,
+   "domain": "pikespeak.edu"
+  },
+  {
+   "scorecard_unit_id": 243197,
+   "name": "University of Puerto Rico-Mayaguez",
+   "state": "PR",
+   "enrollment": 9539,
+   "domain": "uprm.edu"
+  },
+  {
+   "scorecard_unit_id": 498562,
+   "name": "Commonwealth University of Pennsylvania",
+   "state": "PA",
+   "enrollment": 9210,
+   "domain": "commonwealthu.edu"
+  },
+  {
+   "scorecard_unit_id": 441371,
+   "name": "Ultimate Medical Academy",
+   "state": "FL",
+   "enrollment": 8932,
+   "domain": "ultimatemedical.edu"
+  },
+  {
+   "scorecard_unit_id": 480091,
+   "name": "Bryant & Stratton College-Online",
+   "state": "NY",
+   "enrollment": 8841,
+   "domain": "bryantstratton.edu"
+  },
+  {
+   "scorecard_unit_id": 460464,
+   "name": "Norco College",
+   "state": "CA",
+   "enrollment": 8779,
+   "domain": "norcocollege.edu"
+  },
+  {
+   "scorecard_unit_id": 220552,
+   "name": "South College",
+   "state": "TN",
+   "enrollment": 8745,
+   "domain": "south.edu"
+  },
+  {
+   "scorecard_unit_id": 243221,
+   "name": "University of Puerto Rico-Rio Piedras",
+   "state": "PR",
+   "enrollment": 8572,
+   "domain": "uprrp.edu"
+  },
+  {
+   "scorecard_unit_id": 243601,
+   "name": "Universidad Ana G. Mendez-Gurabo Campus",
+   "state": "PR",
+   "enrollment": 7868,
+   "domain": "uagm.edu"
+  },
+  {
+   "scorecard_unit_id": 179867,
+   "name": "Washington University in St Louis",
+   "state": "MO",
+   "enrollment": 7857,
+   "domain": "washu.edu"
+  },
+  {
+   "scorecard_unit_id": 191126,
+   "name": "Fashion Institute of Technology",
+   "state": "NY",
+   "enrollment": 7637,
+   "domain": "fitnyc.edu"
+  },
+  {
+   "scorecard_unit_id": 196264,
+   "name": "Empire State University",
+   "state": "NY",
+   "enrollment": 7585,
+   "domain": "sunyempire.edu"
+  },
+  {
+   "scorecard_unit_id": 498571,
+   "name": "Pennsylvania Western University",
+   "state": "PA",
+   "enrollment": 7451,
+   "domain": "pennwest.edu"
+  },
+  {
+   "scorecard_unit_id": 135391,
+   "name": "State College of Florida-Manatee-Sarasota",
+   "state": "FL",
+   "enrollment": 7379,
+   "domain": "scf.edu"
+  },
+  {
+   "scorecard_unit_id": 156541,
+   "name": "University of the Cumberlands",
+   "state": "KY",
+   "enrollment": 6941,
+   "domain": "ucumberlands.edu"
+  },
+  {
+   "scorecard_unit_id": 459949,
+   "name": "Texas A&M University-San Antonio",
+   "state": "TX",
+   "enrollment": 6599,
+   "domain": "tamusa.edu"
+  },
+  {
+   "scorecard_unit_id": 193654,
+   "name": "The New School",
+   "state": "NY",
+   "enrollment": 6563,
+   "domain": "newschool.edu"
+  },
+  {
+   "scorecard_unit_id": 130226,
+   "name": "Quinnipiac University",
+   "state": "CT",
+   "enrollment": 6531,
+   "domain": "qu.edu"
+  },
+  {
+   "scorecard_unit_id": 475121,
+   "name": "South University-Savannah Online",
+   "state": "GA",
+   "enrollment": 6433,
+   "domain": "southuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 225414,
+   "name": "University of Houston-Clear Lake",
+   "state": "TX",
+   "enrollment": 6078,
+   "domain": "uhcl.edu"
+  },
+  {
+   "scorecard_unit_id": 444787,
+   "name": "Nightingale College",
+   "state": "UT",
+   "enrollment": 5986,
+   "domain": "nightingale.edu"
+  },
+  {
+   "scorecard_unit_id": 436429,
+   "name": "Los Angeles Film School",
+   "state": "CA",
+   "enrollment": 5472,
+   "domain": "lafilm.edu"
+  },
+  {
+   "scorecard_unit_id": 377555,
+   "name": "University of Washington-Bothell Campus",
+   "state": "WA",
+   "enrollment": 5457,
+   "domain": "uwb.edu"
+  },
+  {
+   "scorecard_unit_id": 199281,
+   "name": "University of North Carolina at Pembroke",
+   "state": "NC",
+   "enrollment": 5330,
+   "domain": "uncp.edu"
+  },
+  {
+   "scorecard_unit_id": 137564,
+   "name": "Southeastern University",
+   "state": "FL",
+   "enrollment": 4813,
+   "domain": "seu.edu"
+  },
+  {
+   "scorecard_unit_id": 497046,
+   "name": "Madera Community College",
+   "state": "CA",
+   "enrollment": 4808,
+   "domain": "maderacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 483595,
+   "name": "Ana G. Mendez University",
+   "state": "FL",
+   "enrollment": 4763,
+   "domain": "agmu.edu"
+  },
+  {
+   "scorecard_unit_id": 241739,
+   "name": "Universidad Ana G. Mendez-Cupey Campus",
+   "state": "PR",
+   "enrollment": 4540,
+   "domain": "uagm.edu"
+  },
+  {
+   "scorecard_unit_id": 262086,
+   "name": "University of Massachusetts Global",
+   "state": "CA",
+   "enrollment": 4491,
+   "domain": "umassglobal.edu"
+  },
+  {
+   "scorecard_unit_id": 455196,
+   "name": "Jersey College",
+   "state": "NJ",
+   "enrollment": 4478,
+   "domain": "jerseycollege.edu"
+  },
+  {
+   "scorecard_unit_id": 243346,
+   "name": "Universidad Ana G. Mendez-Carolina Campus",
+   "state": "PR",
+   "enrollment": 4468,
+   "domain": "uagm.edu"
+  },
+  {
+   "scorecard_unit_id": 443650,
+   "name": "Miller-Motte College-Chattanooga",
+   "state": "TN",
+   "enrollment": 4462,
+   "domain": "miller-motte.edu"
+  },
+  {
+   "scorecard_unit_id": 243443,
+   "name": "Universidad del Sagrado Corazon",
+   "state": "PR",
+   "enrollment": 4442,
+   "domain": "sagrado.edu"
+  },
+  {
+   "scorecard_unit_id": 201955,
+   "name": "University of Cincinnati-Blue Ash College",
+   "state": "OH",
+   "enrollment": 4354,
+   "domain": "ucblueash.edu"
+  },
+  {
+   "scorecard_unit_id": 167729,
+   "name": "Salem State University",
+   "state": "MA",
+   "enrollment": 4291,
+   "domain": "salemstate.edu"
+  },
+  {
+   "scorecard_unit_id": 135188,
+   "name": "Lake-Sumter State College",
+   "state": "FL",
+   "enrollment": 4177,
+   "domain": "lssc.edu"
+  },
+  {
+   "scorecard_unit_id": 196237,
+   "name": "SUNY Old Westbury",
+   "state": "NY",
+   "enrollment": 4162,
+   "domain": "oldwestbury.edu"
+  },
+  {
+   "scorecard_unit_id": 183804,
+   "name": "Beth Medrash Govoha",
+   "state": "NJ",
+   "enrollment": 4027,
+   "domain": "bmg.edu"
+  },
+  {
+   "scorecard_unit_id": 147776,
+   "name": "Northeastern Illinois University",
+   "state": "IL",
+   "enrollment": 3982,
+   "domain": "neiu.edu"
+  },
+  {
+   "scorecard_unit_id": 233754,
+   "name": "Virginia Peninsula Community College",
+   "state": "VA",
+   "enrollment": 3941,
+   "domain": "vpcc.edu"
+  },
+  {
+   "scorecard_unit_id": 168430,
+   "name": "Worcester State University",
+   "state": "MA",
+   "enrollment": 3930,
+   "domain": "worcester.edu"
+  },
+  {
+   "scorecard_unit_id": 241410,
+   "name": "Pontifical Catholic University of Puerto Rico-Ponce",
+   "state": "PR",
+   "enrollment": 3874,
+   "domain": "pucpr.edu"
+  },
+  {
+   "scorecard_unit_id": 236188,
+   "name": "Olympic College",
+   "state": "WA",
+   "enrollment": 3826,
+   "domain": "olympic.edu"
+  },
+  {
+   "scorecard_unit_id": 441900,
+   "name": "Nevada State University",
+   "state": "NV",
+   "enrollment": 3762,
+   "domain": "nevadastate.edu"
+  },
+  {
+   "scorecard_unit_id": 235103,
+   "name": "Edmonds College",
+   "state": "WA",
+   "enrollment": 3656,
+   "domain": "edmonds.edu"
+  },
+  {
+   "scorecard_unit_id": 168263,
+   "name": "Westfield State University",
+   "state": "MA",
+   "enrollment": 3615,
+   "domain": "ma.edu"
+  },
+  {
+   "scorecard_unit_id": 231165,
+   "name": "Vermont State University",
+   "state": "VT",
+   "enrollment": 3590,
+   "domain": "vermontstate.edu"
+  },
+  {
+   "scorecard_unit_id": 196006,
+   "name": "SUNY College of Technology at Alfred",
+   "state": "NY",
+   "enrollment": 3563,
+   "domain": "alfredstate.edu"
+  },
+  {
+   "scorecard_unit_id": 207397,
+   "name": "Oklahoma State University-Oklahoma City",
+   "state": "OK",
+   "enrollment": 3514,
+   "domain": "osuokc.edu"
+  },
+  {
+   "scorecard_unit_id": 207865,
+   "name": "Southwestern Oklahoma State University",
+   "state": "OK",
+   "enrollment": 3514,
+   "domain": "swosu.edu"
+  },
+  {
+   "scorecard_unit_id": 242705,
+   "name": "Inter American University of Puerto Rico-Bayamon",
+   "state": "PR",
+   "enrollment": 3476,
+   "domain": "inter.edu"
+  },
+  {
+   "scorecard_unit_id": 166656,
+   "name": "Massachusetts College of Pharmacy and Health Sciences",
+   "state": "MA",
+   "enrollment": 3451,
+   "domain": "mcphs.edu"
+  },
+  {
+   "scorecard_unit_id": 448594,
+   "name": "Lemoore College",
+   "state": "CA",
+   "enrollment": 3373,
+   "domain": "lemoorecollege.edu"
+  },
+  {
+   "scorecard_unit_id": 227377,
+   "name": "Texas Southmost College",
+   "state": "TX",
+   "enrollment": 3372,
+   "domain": "tsc.edu"
+  },
+  {
+   "scorecard_unit_id": 197151,
+   "name": "School of Visual Arts",
+   "state": "NY",
+   "enrollment": 3244,
+   "domain": "sva.edu"
+  },
+  {
+   "scorecard_unit_id": 196219,
+   "name": "SUNY at Purchase College",
+   "state": "NY",
+   "enrollment": 3197,
+   "domain": "purchase.edu"
+  },
+  {
+   "scorecard_unit_id": 121309,
+   "name": "Point Loma Nazarene University",
+   "state": "CA",
+   "enrollment": 3188,
+   "domain": "pointloma.edu"
+  },
+  {
+   "scorecard_unit_id": 195544,
+   "name": "St. Joseph's University-New York",
+   "state": "NY",
+   "enrollment": 3144,
+   "domain": "sjny.edu"
+  },
+  {
+   "scorecard_unit_id": 138309,
+   "name": "Rasmussen University-Florida",
+   "state": "FL",
+   "enrollment": 3121,
+   "domain": "rasmussen.edu"
+  },
+  {
+   "scorecard_unit_id": 210429,
+   "name": "Western Oregon University",
+   "state": "OR",
+   "enrollment": 3103,
+   "domain": "wou.edu"
+  },
+  {
+   "scorecard_unit_id": 178341,
+   "name": "Missouri Southern State University",
+   "state": "MO",
+   "enrollment": 3019,
+   "domain": "mssu.edu"
+  },
+  {
+   "scorecard_unit_id": 201946,
+   "name": "University of Cincinnati-Clermont College",
+   "state": "OH",
+   "enrollment": 3019,
+   "domain": "ucclermont.edu"
+  },
+  {
+   "scorecard_unit_id": 207847,
+   "name": "Southeastern Oklahoma State University",
+   "state": "OK",
+   "enrollment": 3018,
+   "domain": "se.edu"
+  },
+  {
+   "scorecard_unit_id": 190503,
+   "name": "Culinary Institute of America",
+   "state": "NY",
+   "enrollment": 3011,
+   "domain": "ciachef.edu"
+  },
+  {
+   "scorecard_unit_id": 181783,
+   "name": "Wayne State College",
+   "state": "NE",
+   "enrollment": 3010,
+   "domain": "wsc.edu"
+  },
+  {
+   "scorecard_unit_id": 139250,
+   "name": "College of Coastal Georgia",
+   "state": "GA",
+   "enrollment": 2979,
+   "domain": "ccga.edu"
+  },
+  {
+   "scorecard_unit_id": 446604,
+   "name": "Uta Mesivta of Kiryas Joel",
+   "state": "NY",
+   "enrollment": 2957,
+   "domain": "utam.edu"
+  },
+  {
+   "scorecard_unit_id": 242626,
+   "name": "Inter American University of Puerto Rico-Aguadilla",
+   "state": "PR",
+   "enrollment": 2906,
+   "domain": "inter.edu"
+  },
+  {
+   "scorecard_unit_id": 205957,
+   "name": "Franciscan University of Steubenville",
+   "state": "OH",
+   "enrollment": 2901,
+   "domain": "franciscan.edu"
+  },
+  {
+   "scorecard_unit_id": 217688,
+   "name": "Charleston Southern University",
+   "state": "SC",
+   "enrollment": 2893,
+   "domain": "charlestonsouthern.edu"
+  },
+  {
+   "scorecard_unit_id": 225399,
+   "name": "Houston Christian University",
+   "state": "TX",
+   "enrollment": 2886,
+   "domain": "hc.edu"
+  },
+  {
+   "scorecard_unit_id": 196024,
+   "name": "SUNY College of Technology at Delhi",
+   "state": "NY",
+   "enrollment": 2843,
+   "domain": "delhi.edu"
+  },
+  {
+   "scorecard_unit_id": 442569,
+   "name": "University of Arkansas Grantham",
+   "state": "AR",
+   "enrollment": 2833,
+   "domain": "uagrantham.edu"
+  },
+  {
+   "scorecard_unit_id": 385619,
+   "name": "Everglades University",
+   "state": "FL",
+   "enrollment": 2789,
+   "domain": "evergladesuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 226471,
+   "name": "University of Mary Hardin-Baylor",
+   "state": "TX",
+   "enrollment": 2759,
+   "domain": "umhb.edu"
+  },
+  {
+   "scorecard_unit_id": 165820,
+   "name": "Fitchburg State University",
+   "state": "MA",
+   "enrollment": 2752,
+   "domain": "fitchburgstate.edu"
+  },
+  {
+   "scorecard_unit_id": 196015,
+   "name": "SUNY College of Technology at Canton",
+   "state": "NY",
+   "enrollment": 2741,
+   "domain": "canton.edu"
+  },
+  {
+   "scorecard_unit_id": 107983,
+   "name": "Southern Arkansas University Main Campus",
+   "state": "AR",
+   "enrollment": 2708,
+   "domain": "saumag.edu"
+  },
+  {
+   "scorecard_unit_id": 129154,
+   "name": "Goodwin University",
+   "state": "CT",
+   "enrollment": 2693,
+   "domain": "goodwin.edu"
+  },
+  {
+   "scorecard_unit_id": 243115,
+   "name": "University of Puerto Rico-Arecibo",
+   "state": "PR",
+   "enrollment": 2669,
+   "domain": "upra.edu"
+  },
+  {
+   "scorecard_unit_id": 161217,
+   "name": "University of Maine at Augusta",
+   "state": "ME",
+   "enrollment": 2659,
+   "domain": "uma.edu"
+  },
+  {
+   "scorecard_unit_id": 446561,
+   "name": "Stanbridge University",
+   "state": "CA",
+   "enrollment": 2643,
+   "domain": "stanbridge.edu"
+  },
+  {
+   "scorecard_unit_id": 487524,
+   "name": "Husson University",
+   "state": "ME",
+   "enrollment": 2618,
+   "domain": "husson.edu"
+  },
+  {
+   "scorecard_unit_id": 220613,
+   "name": "Lee University",
+   "state": "TN",
+   "enrollment": 2617,
+   "domain": "leeuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 242653,
+   "name": "Inter American University of Puerto Rico-Metro",
+   "state": "PR",
+   "enrollment": 2607,
+   "domain": "inter.edu"
+  },
+  {
+   "scorecard_unit_id": 136330,
+   "name": "Palm Beach Atlantic University",
+   "state": "FL",
+   "enrollment": 2603,
+   "domain": "pba.edu"
+  },
+  {
+   "scorecard_unit_id": 242617,
+   "name": "Inter American University of Puerto Rico-San German",
+   "state": "PR",
+   "enrollment": 2569,
+   "domain": "inter.edu"
+  },
+  {
+   "scorecard_unit_id": 105534,
+   "name": "Pima Medical Institute-Tucson",
+   "state": "AZ",
+   "enrollment": 2567,
+   "domain": "pmi.edu"
+  },
+  {
+   "scorecard_unit_id": 165866,
+   "name": "Framingham State University",
+   "state": "MA",
+   "enrollment": 2566,
+   "domain": "framingham.edu"
+  },
+  {
+   "scorecard_unit_id": 195720,
+   "name": "St. John Fisher University",
+   "state": "NY",
+   "enrollment": 2565,
+   "domain": "sjf.edu"
+  },
+  {
+   "scorecard_unit_id": 139968,
+   "name": "Gordon State College",
+   "state": "GA",
+   "enrollment": 2544,
+   "domain": "gordonstate.edu"
+  },
+  {
+   "scorecard_unit_id": 240754,
+   "name": "University of Guam",
+   "state": "GU",
+   "enrollment": 2515,
+   "domain": "uog.edu"
+  },
+  {
+   "scorecard_unit_id": 225502,
+   "name": "Texas A&M University-Victoria",
+   "state": "TX",
+   "enrollment": 2513,
+   "domain": "tamuv.edu"
+  },
+  {
+   "scorecard_unit_id": 204486,
+   "name": "University of Northwestern Ohio",
+   "state": "OH",
+   "enrollment": 2494,
+   "domain": "unoh.edu"
+  },
+  {
+   "scorecard_unit_id": 212984,
+   "name": "Holy Family University",
+   "state": "PA",
+   "enrollment": 2464,
+   "domain": "holyfamily.edu"
+  },
+  {
+   "scorecard_unit_id": 408844,
+   "name": "Florida National University-Main Campus",
+   "state": "FL",
+   "enrollment": 2449,
+   "domain": "fnu.edu"
+  },
+  {
+   "scorecard_unit_id": 441229,
+   "name": "Smith Chason College",
+   "state": "CA",
+   "enrollment": 2447,
+   "domain": "smithchason.edu"
+  },
+  {
+   "scorecard_unit_id": 200217,
+   "name": "University of Mary",
+   "state": "ND",
+   "enrollment": 2416,
+   "domain": "umary.edu"
+  },
+  {
+   "scorecard_unit_id": 212133,
+   "name": "Eastern University",
+   "state": "PA",
+   "enrollment": 2404,
+   "domain": "eastern.edu"
+  },
+  {
+   "scorecard_unit_id": 242662,
+   "name": "Inter American University of Puerto Rico-Ponce",
+   "state": "PR",
+   "enrollment": 2404,
+   "domain": "inter.edu"
+  },
+  {
+   "scorecard_unit_id": 243142,
+   "name": "University of Puerto Rico-Carolina",
+   "state": "PR",
+   "enrollment": 2404,
+   "domain": "uprc.edu"
+  },
+  {
+   "scorecard_unit_id": 242699,
+   "name": "Inter American University of Puerto Rico-Guayama",
+   "state": "PR",
+   "enrollment": 2393,
+   "domain": "inter.edu"
+  },
+  {
+   "scorecard_unit_id": 133711,
+   "name": "Flagler College",
+   "state": "FL",
+   "enrollment": 2391,
+   "domain": "flagler.edu"
+  },
+  {
+   "scorecard_unit_id": 490133,
+   "name": "Westcliff University",
+   "state": "CA",
+   "enrollment": 2363,
+   "domain": "westcliff.edu"
+  },
+  {
+   "scorecard_unit_id": 237792,
+   "name": "Shepherd University",
+   "state": "WV",
+   "enrollment": 2344,
+   "domain": "shepherd.edu"
+  },
+  {
+   "scorecard_unit_id": 243212,
+   "name": "University of Puerto Rico at Ponce",
+   "state": "PR",
+   "enrollment": 2278,
+   "domain": "uprp.edu"
+  },
+  {
+   "scorecard_unit_id": 203368,
+   "name": "John Carroll University",
+   "state": "OH",
+   "enrollment": 2274,
+   "domain": "jcu.edu"
+  },
+  {
+   "scorecard_unit_id": 466930,
+   "name": "Chamberlain University-Texas",
+   "state": "TX",
+   "enrollment": 2270,
+   "domain": "chamberlain.edu"
+  },
+  {
+   "scorecard_unit_id": 151786,
+   "name": "Marian University",
+   "state": "IN",
+   "enrollment": 2266,
+   "domain": "marian.edu"
+  },
+  {
+   "scorecard_unit_id": 197018,
+   "name": "United Talmudical Seminary",
+   "state": "NY",
+   "enrollment": 2241,
+   "domain": "utsny.edu"
+  },
+  {
+   "scorecard_unit_id": 242635,
+   "name": "Inter American University of Puerto Rico-Arecibo",
+   "state": "PR",
+   "enrollment": 2220,
+   "domain": "inter.edu"
+  },
+  {
+   "scorecard_unit_id": 178387,
+   "name": "Missouri Western State University",
+   "state": "MO",
+   "enrollment": 2219,
+   "domain": "missouriwestern.edu"
+  },
+  {
+   "scorecard_unit_id": 212805,
+   "name": "Grove City College",
+   "state": "PA",
+   "enrollment": 2216,
+   "domain": "gcc.edu"
+  },
+  {
+   "scorecard_unit_id": 176479,
+   "name": "William Carey University",
+   "state": "MS",
+   "enrollment": 2201,
+   "domain": "wmcarey.edu"
+  },
+  {
+   "scorecard_unit_id": 156286,
+   "name": "Bellarmine University",
+   "state": "KY",
+   "enrollment": 2161,
+   "domain": "bellarmine.edu"
+  },
+  {
+   "scorecard_unit_id": 101709,
+   "name": "University of Montevallo",
+   "state": "AL",
+   "enrollment": 2151,
+   "domain": "montevallo.edu"
+  },
+  {
+   "scorecard_unit_id": 186432,
+   "name": "Saint Peter's University",
+   "state": "NJ",
+   "enrollment": 2135,
+   "domain": "saintpeters.edu"
+  },
+  {
+   "scorecard_unit_id": 210739,
+   "name": "DeSales University",
+   "state": "PA",
+   "enrollment": 2128,
+   "domain": "desales.edu"
+  },
+  {
+   "scorecard_unit_id": 177977,
+   "name": "State Technical College of Missouri",
+   "state": "MO",
+   "enrollment": 2123,
+   "domain": "statetechmo.edu"
+  },
+  {
+   "scorecard_unit_id": 217536,
+   "name": "Salve Regina University",
+   "state": "RI",
+   "enrollment": 2121,
+   "domain": "salve.edu"
+  },
+  {
+   "scorecard_unit_id": 219949,
+   "name": "Cumberland University",
+   "state": "TN",
+   "enrollment": 2104,
+   "domain": "cumberland.edu"
+  },
+  {
+   "scorecard_unit_id": 445267,
+   "name": "Central Methodist University-College of Graduate and Extended Studies",
+   "state": "MO",
+   "enrollment": 2092,
+   "domain": "centralmethodist.edu"
+  },
+  {
+   "scorecard_unit_id": 217493,
+   "name": "Rhode Island School of Design",
+   "state": "RI",
+   "enrollment": 2084,
+   "domain": "risd.edu"
+  },
+  {
+   "scorecard_unit_id": 451556,
+   "name": "Southwest University at El Paso",
+   "state": "TX",
+   "enrollment": 2073,
+   "domain": "southwestuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 447263,
+   "name": "Joyce University of Nursing and Health Sciences",
+   "state": "UT",
+   "enrollment": 2058,
+   "domain": "joyce.edu"
+  },
+  {
+   "scorecard_unit_id": 127945,
+   "name": "Rocky Mountain College of Art and Design",
+   "state": "CO",
+   "enrollment": 2050,
+   "domain": "rmcad.edu"
+  },
+  {
+   "scorecard_unit_id": 207564,
+   "name": "Oklahoma State University Institute of Technology",
+   "state": "OK",
+   "enrollment": 2028,
+   "domain": "osuit.edu"
+  },
+  {
+   "scorecard_unit_id": 109651,
+   "name": "Art Center College of Design",
+   "state": "CA",
+   "enrollment": 2017,
+   "domain": "artcenter.edu"
+  },
+  {
+   "scorecard_unit_id": 173735,
+   "name": "Minnesota North College",
+   "state": "MN",
+   "enrollment": 2013,
+   "domain": "minnesotanorth.edu"
+  },
+  {
+   "scorecard_unit_id": 138868,
+   "name": "Point University",
+   "state": "GA",
+   "enrollment": 1996,
+   "domain": "point.edu"
+  },
+  {
+   "scorecard_unit_id": 204185,
+   "name": "University of Mount Union",
+   "state": "OH",
+   "enrollment": 1995,
+   "domain": "mountunion.edu"
+  },
+  {
+   "scorecard_unit_id": 106041,
+   "name": "Universal Technical Institute of Arizona Inc",
+   "state": "AZ",
+   "enrollment": 1957,
+   "domain": "uti.edu"
+  },
+  {
+   "scorecard_unit_id": 497480,
+   "name": "Reach University",
+   "state": "CA",
+   "enrollment": 1946,
+   "domain": "reach.edu"
+  },
+  {
+   "scorecard_unit_id": 145619,
+   "name": "Benedictine University",
+   "state": "IL",
+   "enrollment": 1942,
+   "domain": "ben.edu"
+  },
+  {
+   "scorecard_unit_id": 475732,
+   "name": "Chamberlain University-Georgia",
+   "state": "GA",
+   "enrollment": 1940,
+   "domain": "chamberlain.edu"
+  },
+  {
+   "scorecard_unit_id": 123651,
+   "name": "Vanguard University of Southern California",
+   "state": "CA",
+   "enrollment": 1933,
+   "domain": "vanguard.edu"
+  },
+  {
+   "scorecard_unit_id": 196051,
+   "name": "SUNY Morrisville",
+   "state": "NY",
+   "enrollment": 1923,
+   "domain": "morrisville.edu"
+  },
+  {
+   "scorecard_unit_id": 161341,
+   "name": "University of Maine at Presque Isle",
+   "state": "ME",
+   "enrollment": 1913,
+   "domain": "umpi.edu"
+  },
+  {
+   "scorecard_unit_id": 243106,
+   "name": "University of Puerto Rico-Aguadilla",
+   "state": "PR",
+   "enrollment": 1883,
+   "domain": "uprag.edu"
+  },
+  {
+   "scorecard_unit_id": 198561,
+   "name": "Gardner-Webb University",
+   "state": "NC",
+   "enrollment": 1856,
+   "domain": "gardner-webb.edu"
+  },
+  {
+   "scorecard_unit_id": 484932,
+   "name": "BridgeValley Community & Technical College",
+   "state": "WV",
+   "enrollment": 1854,
+   "domain": "bridgevalley.edu"
+  },
+  {
+   "scorecard_unit_id": 166674,
+   "name": "Massachusetts College of Art and Design",
+   "state": "MA",
+   "enrollment": 1831,
+   "domain": "massart.edu"
+  },
+  {
+   "scorecard_unit_id": 154518,
+   "name": "Waldorf University",
+   "state": "IA",
+   "enrollment": 1827,
+   "domain": "waldorf.edu"
+  },
+  {
+   "scorecard_unit_id": 128780,
+   "name": "Charter Oak State College",
+   "state": "CT",
+   "enrollment": 1821,
+   "domain": "charteroak.edu"
+  },
+  {
+   "scorecard_unit_id": 218441,
+   "name": "North Greenville University",
+   "state": "SC",
+   "enrollment": 1819,
+   "domain": "ngu.edu"
+  },
+  {
+   "scorecard_unit_id": 147679,
+   "name": "North Park University",
+   "state": "IL",
+   "enrollment": 1818,
+   "domain": "northpark.edu"
+  },
+  {
+   "scorecard_unit_id": 184612,
+   "name": "Felician University",
+   "state": "NJ",
+   "enrollment": 1774,
+   "domain": "felician.edu"
+  },
+  {
+   "scorecard_unit_id": 168281,
+   "name": "Wheaton College (Massachusetts)",
+   "state": "MA",
+   "enrollment": 1773,
+   "domain": "wheatoncollege.edu"
+  },
+  {
+   "scorecard_unit_id": 147013,
+   "name": "McKendree University",
+   "state": "IL",
+   "enrollment": 1752,
+   "domain": "mckendree.edu"
+  },
+  {
+   "scorecard_unit_id": 167899,
+   "name": "Springfield College",
+   "state": "MA",
+   "enrollment": 1751,
+   "domain": "springfield.edu"
+  },
+  {
+   "scorecard_unit_id": 483036,
+   "name": "Texas A&M University-Central Texas",
+   "state": "TX",
+   "enrollment": 1750,
+   "domain": "tamuct.edu"
+  },
+  {
+   "scorecard_unit_id": 221892,
+   "name": "Trevecca Nazarene University",
+   "state": "TN",
+   "enrollment": 1737,
+   "domain": "trevecca.edu"
+  },
+  {
+   "scorecard_unit_id": 214175,
+   "name": "Muhlenberg College",
+   "state": "PA",
+   "enrollment": 1727,
+   "domain": "muhlenberg.edu"
+  },
+  {
+   "scorecard_unit_id": 119173,
+   "name": "Mount Saint Mary's University",
+   "state": "CA",
+   "enrollment": 1719,
+   "domain": "msmu.edu"
+  },
+  {
+   "scorecard_unit_id": 231785,
+   "name": "Bryant & Stratton College-Virginia Beach",
+   "state": "VA",
+   "enrollment": 1709,
+   "domain": "bryantstratton.edu"
+  },
+  {
+   "scorecard_unit_id": 487597,
+   "name": "Universal Technical Institute-Southern California",
+   "state": "CA",
+   "enrollment": 1701,
+   "domain": "uti.edu"
+  },
+  {
+   "scorecard_unit_id": 214069,
+   "name": "Misericordia University",
+   "state": "PA",
+   "enrollment": 1672,
+   "domain": "misericordia.edu"
+  },
+  {
+   "scorecard_unit_id": 245953,
+   "name": "Mid-America Christian University",
+   "state": "OK",
+   "enrollment": 1666,
+   "domain": "macu.edu"
+  },
+  {
+   "scorecard_unit_id": 136774,
+   "name": "Ringling College of Art and Design",
+   "state": "FL",
+   "enrollment": 1662,
+   "domain": "ringling.edu"
+  },
+  {
+   "scorecard_unit_id": 239716,
+   "name": "Saint Norbert College",
+   "state": "WI",
+   "enrollment": 1662,
+   "domain": "snc.edu"
+  },
+  {
+   "scorecard_unit_id": 170806,
+   "name": "Madonna University",
+   "state": "MI",
+   "enrollment": 1632,
+   "domain": "madonna.edu"
+  },
+  {
+   "scorecard_unit_id": 117751,
+   "name": "The Master's University and Seminary",
+   "state": "CA",
+   "enrollment": 1622,
+   "domain": "masters.edu"
+  },
+  {
+   "scorecard_unit_id": 460543,
+   "name": "Universal Technical Institute-Dallas Fort Worth",
+   "state": "TX",
+   "enrollment": 1610,
+   "domain": "uti.edu"
+  },
+  {
+   "scorecard_unit_id": 107512,
+   "name": "Ouachita Baptist University",
+   "state": "AR",
+   "enrollment": 1602,
+   "domain": "obu.edu"
+  },
+  {
+   "scorecard_unit_id": 157216,
+   "name": "Lindsey Wilson University",
+   "state": "KY",
+   "enrollment": 1585,
+   "domain": "lindsey.edu"
+  },
+  {
+   "scorecard_unit_id": 439367,
+   "name": "CBD College",
+   "state": "CA",
+   "enrollment": 1581,
+   "domain": "cbd.edu"
+  },
+  {
+   "scorecard_unit_id": 213400,
+   "name": "Lancaster Bible College",
+   "state": "PA",
+   "enrollment": 1569,
+   "domain": "lbc.edu"
+  },
+  {
+   "scorecard_unit_id": 152336,
+   "name": "University of Saint Francis-Fort Wayne",
+   "state": "IN",
+   "enrollment": 1567,
+   "domain": "sf.edu"
+  },
+  {
+   "scorecard_unit_id": 215743,
+   "name": "Saint Francis University",
+   "state": "PA",
+   "enrollment": 1557,
+   "domain": "francis.edu"
+  },
+  {
+   "scorecard_unit_id": 438504,
+   "name": "Universal Technical Institute of California Inc",
+   "state": "CA",
+   "enrollment": 1553,
+   "domain": "uti.edu"
+  },
+  {
+   "scorecard_unit_id": 234845,
+   "name": "Centralia College",
+   "state": "WA",
+   "enrollment": 1552,
+   "domain": "centralia.edu"
+  },
+  {
+   "scorecard_unit_id": 101189,
+   "name": "Faulkner University",
+   "state": "AL",
+   "enrollment": 1549,
+   "domain": "faulkner.edu"
+  },
+  {
+   "scorecard_unit_id": 112075,
+   "name": "Concordia University-Irvine",
+   "state": "CA",
+   "enrollment": 1536,
+   "domain": "cui.edu"
+  },
+  {
+   "scorecard_unit_id": 175227,
+   "name": "Dunwoody College of Technology",
+   "state": "MN",
+   "enrollment": 1533,
+   "domain": "dunwoody.edu"
+  },
+  {
+   "scorecard_unit_id": 243665,
+   "name": "University of the Virgin Islands",
+   "state": "VI",
+   "enrollment": 1518,
+   "domain": "uvi.edu"
+  },
+  {
+   "scorecard_unit_id": 147369,
+   "name": "Moody Bible Institute",
+   "state": "IL",
+   "enrollment": 1510,
+   "domain": "moody.edu"
+  },
+  {
+   "scorecard_unit_id": 237330,
+   "name": "Concord University",
+   "state": "WV",
+   "enrollment": 1504,
+   "domain": "concord.edu"
+  },
+  {
+   "scorecard_unit_id": 207306,
+   "name": "Northwestern Oklahoma State University",
+   "state": "OK",
+   "enrollment": 1498,
+   "domain": "nwosu.edu"
+  },
+  {
+   "scorecard_unit_id": 172264,
+   "name": "Siena Heights University",
+   "state": "MI",
+   "enrollment": 1495,
+   "domain": "sienaheights.edu"
+  },
+  {
+   "scorecard_unit_id": 215947,
+   "name": "Seton Hill University",
+   "state": "PA",
+   "enrollment": 1492,
+   "domain": "setonhill.edu"
+  },
+  {
+   "scorecard_unit_id": 178244,
+   "name": "Missouri Baptist University",
+   "state": "MO",
+   "enrollment": 1488,
+   "domain": "mobap.edu"
+  },
+  {
+   "scorecard_unit_id": 206446,
+   "name": "Washington State College of Ohio",
+   "state": "OH",
+   "enrollment": 1484,
+   "domain": "wsco.edu"
+  },
+  {
+   "scorecard_unit_id": 474863,
+   "name": "Los Angeles Pacific University",
+   "state": "CA",
+   "enrollment": 1483,
+   "domain": "lapu.edu"
+  },
+  {
+   "scorecard_unit_id": 228325,
+   "name": "Nelson University",
+   "state": "TX",
+   "enrollment": 1479,
+   "domain": "nelson.edu"
+  },
+  {
+   "scorecard_unit_id": 142179,
+   "name": "College of Eastern Idaho",
+   "state": "ID",
+   "enrollment": 1478,
+   "domain": "cei.edu"
+  },
+  {
+   "scorecard_unit_id": 482699,
+   "name": "South Georgia State College",
+   "state": "GA",
+   "enrollment": 1466,
+   "domain": "sgsc.edu"
+  },
+  {
+   "scorecard_unit_id": 107071,
+   "name": "Henderson State University",
+   "state": "AR",
+   "enrollment": 1456,
+   "domain": "hsu.edu"
+  },
+  {
+   "scorecard_unit_id": 241216,
+   "name": "Atlantic University",
+   "state": "PR",
+   "enrollment": 1451,
+   "domain": "atlanticu.edu"
+  },
+  {
+   "scorecard_unit_id": 198969,
+   "name": "Methodist University",
+   "state": "NC",
+   "enrollment": 1448,
+   "domain": "methodist.edu"
+  },
+  {
+   "scorecard_unit_id": 178697,
+   "name": "College of the Ozarks",
+   "state": "MO",
+   "enrollment": 1444,
+   "domain": "cofo.edu"
+  },
+  {
+   "scorecard_unit_id": 178369,
+   "name": "Missouri Valley College",
+   "state": "MO",
+   "enrollment": 1443,
+   "domain": "moval.edu"
+  },
+  {
+   "scorecard_unit_id": 174491,
+   "name": "University of Northwestern-St Paul",
+   "state": "MN",
+   "enrollment": 1442,
+   "domain": "unwsp.edu"
+  },
+  {
+   "scorecard_unit_id": 156213,
+   "name": "Asbury University",
+   "state": "KY",
+   "enrollment": 1420,
+   "domain": "asbury.edu"
+  },
+  {
+   "scorecard_unit_id": 139621,
+   "name": "East Georgia State College",
+   "state": "GA",
+   "enrollment": 1413,
+   "domain": "ega.edu"
+  },
+  {
+   "scorecard_unit_id": 243832,
+   "name": "EDP University of Puerto Rico Inc-San Juan",
+   "state": "PR",
+   "enrollment": 1404,
+   "domain": "edpuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 205203,
+   "name": "University of Rio Grande",
+   "state": "OH",
+   "enrollment": 1400,
+   "domain": "rio.edu"
+  },
+  {
+   "scorecard_unit_id": 166692,
+   "name": "Massachusetts Maritime Academy",
+   "state": "MA",
+   "enrollment": 1395,
+   "domain": "maritime.edu"
+  },
+  {
+   "scorecard_unit_id": 206437,
+   "name": "Walsh University",
+   "state": "OH",
+   "enrollment": 1390,
+   "domain": "walsh.edu"
+  },
+  {
+   "scorecard_unit_id": 105297,
+   "name": "Dine College",
+   "state": "AZ",
+   "enrollment": 1375,
+   "domain": "dinecollege.edu"
+  },
+  {
+   "scorecard_unit_id": 192749,
+   "name": "Manhattanville University",
+   "state": "NY",
+   "enrollment": 1362,
+   "domain": "mville.edu"
+  },
+  {
+   "scorecard_unit_id": 133872,
+   "name": "AdventHealth University",
+   "state": "FL",
+   "enrollment": 1361,
+   "domain": "ahu.edu"
+  },
+  {
+   "scorecard_unit_id": 204194,
+   "name": "Mount Vernon Nazarene University",
+   "state": "OH",
+   "enrollment": 1358,
+   "domain": "mvnu.edu"
+  },
+  {
+   "scorecard_unit_id": 442611,
+   "name": "Universal Technical Institute-Mooresville",
+   "state": "NC",
+   "enrollment": 1345,
+   "domain": "uti.edu"
+  },
+  {
+   "scorecard_unit_id": 144351,
+   "name": "Concordia University-Chicago",
+   "state": "IL",
+   "enrollment": 1323,
+   "domain": "cuchicago.edu"
+  },
+  {
+   "scorecard_unit_id": 213011,
+   "name": "Immaculata University",
+   "state": "PA",
+   "enrollment": 1320,
+   "domain": "immaculata.edu"
+  },
+  {
+   "scorecard_unit_id": 454865,
+   "name": "Cambridge College of Healthcare & Technology",
+   "state": "FL",
+   "enrollment": 1315,
+   "domain": "cambridgehealth.edu"
+  },
+  {
+   "scorecard_unit_id": 101693,
+   "name": "University of Mobile",
+   "state": "AL",
+   "enrollment": 1307,
+   "domain": "umobile.edu"
+  },
+  {
+   "scorecard_unit_id": 228981,
+   "name": "Texas Lutheran University",
+   "state": "TX",
+   "enrollment": 1304,
+   "domain": "tlu.edu"
+  },
+  {
+   "scorecard_unit_id": 188340,
+   "name": "Vaughn College of Aeronautics and Technology",
+   "state": "NY",
+   "enrollment": 1302,
+   "domain": "vaughn.edu"
+  },
+  {
+   "scorecard_unit_id": 170037,
+   "name": "Cornerstone University",
+   "state": "MI",
+   "enrollment": 1298,
+   "domain": "cornerstone.edu"
+  },
+  {
+   "scorecard_unit_id": 446048,
+   "name": "Ave Maria University",
+   "state": "FL",
+   "enrollment": 1298,
+   "domain": "avemaria.edu"
+  },
+  {
+   "scorecard_unit_id": 122728,
+   "name": "William Jessup University",
+   "state": "CA",
+   "enrollment": 1294,
+   "domain": "jessup.edu"
+  },
+  {
+   "scorecard_unit_id": 180984,
+   "name": "Concordia University-Nebraska",
+   "state": "NE",
+   "enrollment": 1283,
+   "domain": "cune.edu"
+  },
+  {
+   "scorecard_unit_id": 225247,
+   "name": "Hardin-Simmons University",
+   "state": "TX",
+   "enrollment": 1283,
+   "domain": "hsutx.edu"
+  },
+  {
+   "scorecard_unit_id": 165936,
+   "name": "Gordon College",
+   "state": "MA",
+   "enrollment": 1278,
+   "domain": "gordon.edu"
+  },
+  {
+   "scorecard_unit_id": 197984,
+   "name": "Belmont Abbey College",
+   "state": "NC",
+   "enrollment": 1276,
+   "domain": "belmontabbeycollege.edu"
+  },
+  {
+   "scorecard_unit_id": 157377,
+   "name": "Midway University",
+   "state": "KY",
+   "enrollment": 1262,
+   "domain": "midway.edu"
+  },
+  {
+   "scorecard_unit_id": 190716,
+   "name": "D'Youville  University",
+   "state": "NY",
+   "enrollment": 1258,
+   "domain": "dyu.edu"
+  },
+  {
+   "scorecard_unit_id": 234173,
+   "name": "Virginia Wesleyan University",
+   "state": "VA",
+   "enrollment": 1256,
+   "domain": "vwu.edu"
+  },
+  {
+   "scorecard_unit_id": 226383,
+   "name": "Lubbock Christian University",
+   "state": "TX",
+   "enrollment": 1252,
+   "domain": "lcu.edu"
+  },
+  {
+   "scorecard_unit_id": 126182,
+   "name": "Adams State University",
+   "state": "CO",
+   "enrollment": 1250,
+   "domain": "adams.edu"
+  },
+  {
+   "scorecard_unit_id": 240107,
+   "name": "Viterbo University",
+   "state": "WI",
+   "enrollment": 1249,
+   "domain": "viterbo.edu"
+  },
+  {
+   "scorecard_unit_id": 183211,
+   "name": "Rivier University",
+   "state": "NH",
+   "enrollment": 1231,
+   "domain": "rivier.edu"
+  },
+  {
+   "scorecard_unit_id": 169442,
+   "name": "College for Creative Studies",
+   "state": "MI",
+   "enrollment": 1230,
+   "domain": "ccsdetroit.edu"
+  },
+  {
+   "scorecard_unit_id": 177339,
+   "name": "Evangel University",
+   "state": "MO",
+   "enrollment": 1229,
+   "domain": "evangel.edu"
+  },
+  {
+   "scorecard_unit_id": 495457,
+   "name": "Arizona College of Nursing-Phoenix",
+   "state": "AZ",
+   "enrollment": 1229,
+   "domain": "arizonacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 138901,
+   "name": "Atlanta Metropolitan State College",
+   "state": "GA",
+   "enrollment": 1228,
+   "domain": "atlm.edu"
+  },
+  {
+   "scorecard_unit_id": 196389,
+   "name": "Swedish Institute a College of Health Sciences",
+   "state": "NY",
+   "enrollment": 1227,
+   "domain": "swedishinstitute.edu"
+  },
+  {
+   "scorecard_unit_id": 486956,
+   "name": "Chamberlain University-New Jersey",
+   "state": "NJ",
+   "enrollment": 1226,
+   "domain": "chamberlain.edu"
+  },
+  {
+   "scorecard_unit_id": 240790,
+   "name": "Northern Marianas College",
+   "state": "MP",
+   "enrollment": 1225,
+   "domain": "marianas.edu"
+  },
+  {
+   "scorecard_unit_id": 120403,
+   "name": "Otis College of Art and Design",
+   "state": "CA",
+   "enrollment": 1223,
+   "domain": "otis.edu"
+  },
+  {
+   "scorecard_unit_id": 487375,
+   "name": "Arizona College of Nursing-Las Vegas",
+   "state": "NV",
+   "enrollment": 1222,
+   "domain": "arizonacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 210571,
+   "name": "Albright College",
+   "state": "PA",
+   "enrollment": 1217,
+   "domain": "albright.edu"
+  },
+  {
+   "scorecard_unit_id": 199209,
+   "name": "North Carolina Wesleyan University",
+   "state": "NC",
+   "enrollment": 1214,
+   "domain": "ncwu.edu"
+  },
+  {
+   "scorecard_unit_id": 207342,
+   "name": "University of Oklahoma-Health Sciences Center",
+   "state": "OK",
+   "enrollment": 1214,
+   "domain": "ouhsc.edu"
+  },
+  {
+   "scorecard_unit_id": 448433,
+   "name": "Universal Technical Institute of Northern California Inc",
+   "state": "CA",
+   "enrollment": 1214,
+   "domain": "uti.edu"
+  },
+  {
+   "scorecard_unit_id": 220215,
+   "name": "Freed-Hardeman University",
+   "state": "TN",
+   "enrollment": 1212,
+   "domain": "fhu.edu"
+  },
+  {
+   "scorecard_unit_id": 238980,
+   "name": "Lakeland University",
+   "state": "WI",
+   "enrollment": 1212,
+   "domain": "lakeland.edu"
+  },
+  {
+   "scorecard_unit_id": 184959,
+   "name": "Eastwick College-Ramsey",
+   "state": "NJ",
+   "enrollment": 1203,
+   "domain": "eastwickcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 421708,
+   "name": "Arizona College of Nursing-Tempe",
+   "state": "AZ",
+   "enrollment": 1202,
+   "domain": "arizonacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 192271,
+   "name": "LIM College",
+   "state": "NY",
+   "enrollment": 1187,
+   "domain": "limcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 224004,
+   "name": "Concordia University Texas",
+   "state": "TX",
+   "enrollment": 1185,
+   "domain": "concordia.edu"
+  },
+  {
+   "scorecard_unit_id": 217961,
+   "name": "Converse University",
+   "state": "SC",
+   "enrollment": 1173,
+   "domain": "converse.edu"
+  },
+  {
+   "scorecard_unit_id": 183488,
+   "name": "Eastwick College-Hackensack",
+   "state": "NJ",
+   "enrollment": 1171,
+   "domain": "eastwickcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 165802,
+   "name": "Fisher College",
+   "state": "MA",
+   "enrollment": 1167,
+   "domain": "fisher.edu"
+  },
+  {
+   "scorecard_unit_id": 105899,
+   "name": "Arizona Christian University",
+   "state": "AZ",
+   "enrollment": 1165,
+   "domain": "arizonachristian.edu"
+  },
+  {
+   "scorecard_unit_id": 154004,
+   "name": "Morningside University",
+   "state": "IA",
+   "enrollment": 1163,
+   "domain": "morningside.edu"
+  },
+  {
+   "scorecard_unit_id": 167260,
+   "name": "Nichols College",
+   "state": "MA",
+   "enrollment": 1163,
+   "domain": "nichols.edu"
+  },
+  {
+   "scorecard_unit_id": 181330,
+   "name": "Midland University",
+   "state": "NE",
+   "enrollment": 1159,
+   "domain": "midlandu.edu"
+  },
+  {
+   "scorecard_unit_id": 194958,
+   "name": "Roberts Wesleyan University",
+   "state": "NY",
+   "enrollment": 1149,
+   "domain": "roberts.edu"
+  },
+  {
+   "scorecard_unit_id": 448673,
+   "name": "Rasmussen University-Illinois",
+   "state": "IL",
+   "enrollment": 1145,
+   "domain": "rasmussen.edu"
+  },
+  {
+   "scorecard_unit_id": 240745,
+   "name": "Guam Community College",
+   "state": "GU",
+   "enrollment": 1139,
+   "domain": "guamcc.edu"
+  },
+  {
+   "scorecard_unit_id": 433013,
+   "name": "Career Networks Institute",
+   "state": "CA",
+   "enrollment": 1133,
+   "domain": "cnicollege.edu"
+  },
+  {
+   "scorecard_unit_id": 140818,
+   "name": "Piedmont University",
+   "state": "GA",
+   "enrollment": 1117,
+   "domain": "piedmont.edu"
+  },
+  {
+   "scorecard_unit_id": 123165,
+   "name": "Scripps College",
+   "state": "CA",
+   "enrollment": 1113,
+   "domain": "scrippscollege.edu"
+  },
+  {
+   "scorecard_unit_id": 154013,
+   "name": "Mount Mercy University",
+   "state": "IA",
+   "enrollment": 1107,
+   "domain": "mtmercy.edu"
+  },
+  {
+   "scorecard_unit_id": 190761,
+   "name": "Dominican University New York",
+   "state": "NY",
+   "enrollment": 1105,
+   "domain": "duny.edu"
+  },
+  {
+   "scorecard_unit_id": 233897,
+   "name": "University of Virginia's College at Wise",
+   "state": "VA",
+   "enrollment": 1101,
+   "domain": "uvawise.edu"
+  },
+  {
+   "scorecard_unit_id": 156745,
+   "name": "Georgetown College",
+   "state": "KY",
+   "enrollment": 1097,
+   "domain": "georgetowncollege.edu"
+  },
+  {
+   "scorecard_unit_id": 219277,
+   "name": "Oglala Lakota College",
+   "state": "SD",
+   "enrollment": 1097,
+   "domain": "olc.edu"
+  },
+  {
+   "scorecard_unit_id": 237385,
+   "name": "Glenville State University",
+   "state": "WV",
+   "enrollment": 1096,
+   "domain": "glenville.edu"
+  },
+  {
+   "scorecard_unit_id": 214166,
+   "name": "Mount Aloysius College",
+   "state": "PA",
+   "enrollment": 1094,
+   "domain": "mtaloy.edu"
+  },
+  {
+   "scorecard_unit_id": 232672,
+   "name": "Mary Baldwin University",
+   "state": "VA",
+   "enrollment": 1090,
+   "domain": "marybaldwin.edu"
+  },
+  {
+   "scorecard_unit_id": 165574,
+   "name": "Dean College",
+   "state": "MA",
+   "enrollment": 1089,
+   "domain": "dean.edu"
+  },
+  {
+   "scorecard_unit_id": 232025,
+   "name": "Emory & Henry University",
+   "state": "VA",
+   "enrollment": 1078,
+   "domain": "emoryhenry.edu"
+  },
+  {
+   "scorecard_unit_id": 242680,
+   "name": "Inter American University of Puerto Rico-Fajardo",
+   "state": "PR",
+   "enrollment": 1072,
+   "domain": "inter.edu"
+  },
+  {
+   "scorecard_unit_id": 140872,
+   "name": "Reinhardt University",
+   "state": "GA",
+   "enrollment": 1066,
+   "domain": "reinhardt.edu"
+  },
+  {
+   "scorecard_unit_id": 189811,
+   "name": "St Paul's School of Nursing-Queens",
+   "state": "NY",
+   "enrollment": 1056,
+   "domain": "stpaulsschoolofnursing.edu"
+  },
+  {
+   "scorecard_unit_id": 198899,
+   "name": "Mars Hill University",
+   "state": "NC",
+   "enrollment": 1044,
+   "domain": "mhu.edu"
+  },
+  {
+   "scorecard_unit_id": 440828,
+   "name": "Oregon State University-Cascades Campus",
+   "state": "OR",
+   "enrollment": 1044,
+   "domain": "osucascades.edu"
+  },
+  {
+   "scorecard_unit_id": 142294,
+   "name": "The College of Idaho",
+   "state": "ID",
+   "enrollment": 1041,
+   "domain": "collegeofidaho.edu"
+  },
+  {
+   "scorecard_unit_id": 176947,
+   "name": "Central Methodist University-College of Liberal Arts and Sciences",
+   "state": "MO",
+   "enrollment": 1040,
+   "domain": "centralmethodist.edu"
+  },
+  {
+   "scorecard_unit_id": 451750,
+   "name": "Bryant & Stratton College-Wauwatosa",
+   "state": "WI",
+   "enrollment": 1037,
+   "domain": "bryantstratton.edu"
+  },
+  {
+   "scorecard_unit_id": 241836,
+   "name": "EDP University of Puerto Rico Inc-San Sebastian",
+   "state": "PR",
+   "enrollment": 1032,
+   "domain": "edpuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 142461,
+   "name": "Northwest Nazarene University",
+   "state": "ID",
+   "enrollment": 1024,
+   "domain": "nnu.edu"
+  },
+  {
+   "scorecard_unit_id": 182980,
+   "name": "New England College",
+   "state": "NH",
+   "enrollment": 1022,
+   "domain": "nec.edu"
+  },
+  {
+   "scorecard_unit_id": 133960,
+   "name": "The College of the Florida Keys",
+   "state": "FL",
+   "enrollment": 1012,
+   "domain": "cfk.edu"
+  },
+  {
+   "scorecard_unit_id": 172334,
+   "name": "Spring Arbor University",
+   "state": "MI",
+   "enrollment": 1010,
+   "domain": "springarbor.edu"
+  },
+  {
+   "scorecard_unit_id": 239080,
+   "name": "Marian University",
+   "state": "WI",
+   "enrollment": 1010,
+   "domain": "marianuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 376695,
+   "name": "College of the Marshall Islands",
+   "state": "MH",
+   "enrollment": 1009,
+   "domain": "cmi.edu"
+  },
+  {
+   "scorecard_unit_id": 141167,
+   "name": "Thomas University",
+   "state": "GA",
+   "enrollment": 998,
+   "domain": "thomasu.edu"
+  },
+  {
+   "scorecard_unit_id": 128498,
+   "name": "Albertus Magnus College",
+   "state": "CT",
+   "enrollment": 991,
+   "domain": "albertus.edu"
+  },
+  {
+   "scorecard_unit_id": 194499,
+   "name": "Plaza College",
+   "state": "NY",
+   "enrollment": 984,
+   "domain": "plazacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 196653,
+   "name": "Trocaire College",
+   "state": "NY",
+   "enrollment": 984,
+   "domain": "trocaire.edu"
+  },
+  {
+   "scorecard_unit_id": 155520,
+   "name": "MidAmerica Nazarene University",
+   "state": "KS",
+   "enrollment": 983,
+   "domain": "mnu.edu"
+  },
+  {
+   "scorecard_unit_id": 197911,
+   "name": "Barton College",
+   "state": "NC",
+   "enrollment": 982,
+   "domain": "barton.edu"
+  },
+  {
+   "scorecard_unit_id": 237950,
+   "name": "West Virginia University Institute of Technology",
+   "state": "WV",
+   "enrollment": 981,
+   "domain": "wvutech.edu"
+  },
+  {
+   "scorecard_unit_id": 195243,
+   "name": "St. Thomas Aquinas College",
+   "state": "NY",
+   "enrollment": 972,
+   "domain": "stac.edu"
+  },
+  {
+   "scorecard_unit_id": 192192,
+   "name": "Keuka College",
+   "state": "NY",
+   "enrollment": 966,
+   "domain": "keuka.edu"
+  },
+  {
+   "scorecard_unit_id": 167598,
+   "name": "Regis College",
+   "state": "MA",
+   "enrollment": 956,
+   "domain": "regiscollege.edu"
+  },
+  {
+   "scorecard_unit_id": 199184,
+   "name": "University of North Carolina School of the Arts",
+   "state": "NC",
+   "enrollment": 945,
+   "domain": "uncsa.edu"
+  },
+  {
+   "scorecard_unit_id": 161299,
+   "name": "Maine Maritime Academy",
+   "state": "ME",
+   "enrollment": 942,
+   "domain": "mainemaritime.edu"
+  },
+  {
+   "scorecard_unit_id": 203960,
+   "name": "Mercy College of Ohio",
+   "state": "OH",
+   "enrollment": 939,
+   "domain": "mercycollege.edu"
+  },
+  {
+   "scorecard_unit_id": 181428,
+   "name": "University of Nebraska Medical Center",
+   "state": "NE",
+   "enrollment": 938,
+   "domain": "unmc.edu"
+  },
+  {
+   "scorecard_unit_id": 242644,
+   "name": "Inter American University of Puerto Rico-Barranquitas",
+   "state": "PR",
+   "enrollment": 937,
+   "domain": "inter.edu"
+  },
+  {
+   "scorecard_unit_id": 151777,
+   "name": "Manchester University",
+   "state": "IN",
+   "enrollment": 936,
+   "domain": "manchester.edu"
+  },
+  {
+   "scorecard_unit_id": 145691,
+   "name": "Illinois College",
+   "state": "IL",
+   "enrollment": 930,
+   "domain": "ic.edu"
+  },
+  {
+   "scorecard_unit_id": 228644,
+   "name": "The University of Texas Health Science Center at San Antonio",
+   "state": "TX",
+   "enrollment": 930,
+   "domain": "uthscsa.edu"
+  },
+  {
+   "scorecard_unit_id": 188058,
+   "name": "Northern New Mexico College",
+   "state": "NM",
+   "enrollment": 926,
+   "domain": "nnmc.edu"
+  },
+  {
+   "scorecard_unit_id": 155812,
+   "name": "University of Saint Mary",
+   "state": "KS",
+   "enrollment": 925,
+   "domain": "stmary.edu"
+  },
+  {
+   "scorecard_unit_id": 153861,
+   "name": "Maharishi International University",
+   "state": "IA",
+   "enrollment": 922,
+   "domain": "miu.edu"
+  },
+  {
+   "scorecard_unit_id": 191621,
+   "name": "Hilbert College",
+   "state": "NY",
+   "enrollment": 921,
+   "domain": "hilbert.edu"
+  },
+  {
+   "scorecard_unit_id": 207351,
+   "name": "Oklahoma Panhandle State University",
+   "state": "OK",
+   "enrollment": 917,
+   "domain": "opsu.edu"
+  },
+  {
+   "scorecard_unit_id": 191597,
+   "name": "Helene Fuld College of Nursing",
+   "state": "NY",
+   "enrollment": 914,
+   "domain": "helenefuld.edu"
+  },
+  {
+   "scorecard_unit_id": 183974,
+   "name": "Centenary University",
+   "state": "NJ",
+   "enrollment": 910,
+   "domain": "centenaryuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 164492,
+   "name": "Anna Maria College",
+   "state": "MA",
+   "enrollment": 906,
+   "domain": "annamaria.edu"
+  },
+  {
+   "scorecard_unit_id": 150604,
+   "name": "Franklin College",
+   "state": "IN",
+   "enrollment": 900,
+   "domain": "franklincollege.edu"
+  },
+  {
+   "scorecard_unit_id": 140252,
+   "name": "Life University",
+   "state": "GA",
+   "enrollment": 893,
+   "domain": "life.edu"
+  },
+  {
+   "scorecard_unit_id": 237783,
+   "name": "Salem University",
+   "state": "WV",
+   "enrollment": 892,
+   "domain": "salemu.edu"
+  },
+  {
+   "scorecard_unit_id": 457536,
+   "name": "Midwestern Career College",
+   "state": "IL",
+   "enrollment": 887,
+   "domain": "mccollege.edu"
+  },
+  {
+   "scorecard_unit_id": 202170,
+   "name": "Columbus College of Art & Design",
+   "state": "OH",
+   "enrollment": 882,
+   "domain": "ccad.edu"
+  },
+  {
+   "scorecard_unit_id": 141185,
+   "name": "Toccoa Falls College",
+   "state": "GA",
+   "enrollment": 875,
+   "domain": "tfc.edu"
+  },
+  {
+   "scorecard_unit_id": 198808,
+   "name": "Lees-McRae College",
+   "state": "NC",
+   "enrollment": 873,
+   "domain": "lmc.edu"
+  },
+  {
+   "scorecard_unit_id": 155627,
+   "name": "Ottawa University-Ottawa",
+   "state": "KS",
+   "enrollment": 870,
+   "domain": "ottawa.edu"
+  },
+  {
+   "scorecard_unit_id": 153977,
+   "name": "Mercy College of Health Sciences",
+   "state": "IA",
+   "enrollment": 867,
+   "domain": "mchs.edu"
+  },
+  {
+   "scorecard_unit_id": 159948,
+   "name": "New Orleans Baptist Theological Seminary",
+   "state": "LA",
+   "enrollment": 865,
+   "domain": "nobts.edu"
+  },
+  {
+   "scorecard_unit_id": 217013,
+   "name": "Wilson College",
+   "state": "PA",
+   "enrollment": 865,
+   "domain": "wilson.edu"
+  },
+  {
+   "scorecard_unit_id": 220701,
+   "name": "The University of Tennessee Southern",
+   "state": "TN",
+   "enrollment": 864,
+   "domain": "utsouthern.edu"
+  },
+  {
+   "scorecard_unit_id": 189857,
+   "name": "Central Yeshiva Tomchei Tmimim Lubavitz",
+   "state": "NY",
+   "enrollment": 863,
+   "domain": "cyttl.edu"
+  },
+  {
+   "scorecard_unit_id": 159373,
+   "name": "Louisiana State University Health Sciences Center-New Orleans",
+   "state": "LA",
+   "enrollment": 862,
+   "domain": "lsuhsc.edu"
+  },
+  {
+   "scorecard_unit_id": 201964,
+   "name": "Ohio Christian University",
+   "state": "OH",
+   "enrollment": 862,
+   "domain": "ohiochristian.edu"
+  },
+  {
+   "scorecard_unit_id": 152381,
+   "name": "Saint Mary-of-the-Woods College",
+   "state": "IN",
+   "enrollment": 853,
+   "domain": "smwc.edu"
+  },
+  {
+   "scorecard_unit_id": 237701,
+   "name": "Potomac State College of West Virginia University",
+   "state": "WV",
+   "enrollment": 853,
+   "domain": "potomacstatecollege.edu"
+  },
+  {
+   "scorecard_unit_id": 203580,
+   "name": "Lake Erie College",
+   "state": "OH",
+   "enrollment": 852,
+   "domain": "lec.edu"
+  },
+  {
+   "scorecard_unit_id": 155335,
+   "name": "Newman University",
+   "state": "KS",
+   "enrollment": 851,
+   "domain": "newmanu.edu"
+  },
+  {
+   "scorecard_unit_id": 461148,
+   "name": "New York Film Academy",
+   "state": "CA",
+   "enrollment": 849,
+   "domain": "nyfa.edu"
+  },
+  {
+   "scorecard_unit_id": 157748,
+   "name": "The Southern Baptist Theological Seminary",
+   "state": "KY",
+   "enrollment": 848,
+   "domain": "sbts.edu"
+  },
+  {
+   "scorecard_unit_id": 221731,
+   "name": "Tennessee Wesleyan University",
+   "state": "TN",
+   "enrollment": 846,
+   "domain": "tnwesleyan.edu"
+  },
+  {
+   "scorecard_unit_id": 157076,
+   "name": "Kentucky Wesleyan College",
+   "state": "KY",
+   "enrollment": 842,
+   "domain": "kwc.edu"
+  },
+  {
+   "scorecard_unit_id": 207254,
+   "name": "Spartan College of Aeronautics and Technology",
+   "state": "OK",
+   "enrollment": 840,
+   "domain": "spartan.edu"
+  },
+  {
+   "scorecard_unit_id": 240736,
+   "name": "American Samoa Community College",
+   "state": "AS",
+   "enrollment": 839,
+   "domain": "amsamoa.edu"
+  },
+  {
+   "scorecard_unit_id": 130314,
+   "name": "University of Saint Joseph",
+   "state": "CT",
+   "enrollment": 838,
+   "domain": "usj.edu"
+  },
+  {
+   "scorecard_unit_id": 239309,
+   "name": "Milwaukee Institute of Art & Design",
+   "state": "WI",
+   "enrollment": 837,
+   "domain": "miad.edu"
+  },
+  {
+   "scorecard_unit_id": 464226,
+   "name": "Ottawa University-Surprise",
+   "state": "AZ",
+   "enrollment": 836,
+   "domain": "ottawa.edu"
+  },
+  {
+   "scorecard_unit_id": 211468,
+   "name": "Cedar Crest College",
+   "state": "PA",
+   "enrollment": 834,
+   "domain": "cedarcrest.edu"
+  },
+  {
+   "scorecard_unit_id": 241191,
+   "name": "Universidad Adventista de las Antillas",
+   "state": "PR",
+   "enrollment": 830,
+   "domain": "uaa.edu"
+  },
+  {
+   "scorecard_unit_id": 160074,
+   "name": "Franciscan Missionaries of Our Lady University",
+   "state": "LA",
+   "enrollment": 821,
+   "domain": "franu.edu"
+  },
+  {
+   "scorecard_unit_id": 457129,
+   "name": "Chamberlain University-Florida",
+   "state": "FL",
+   "enrollment": 821,
+   "domain": "chamberlain.edu"
+  },
+  {
+   "scorecard_unit_id": 149505,
+   "name": "Trinity Christian College",
+   "state": "IL",
+   "enrollment": 820,
+   "domain": "trnty.edu"
+  },
+  {
+   "scorecard_unit_id": 198066,
+   "name": "Brevard College",
+   "state": "NC",
+   "enrollment": 815,
+   "domain": "brevard.edu"
+  },
+  {
+   "scorecard_unit_id": 211583,
+   "name": "Chestnut Hill College",
+   "state": "PA",
+   "enrollment": 815,
+   "domain": "chc.edu"
+  },
+  {
+   "scorecard_unit_id": 219790,
+   "name": "Bryan College-Dayton",
+   "state": "TN",
+   "enrollment": 814,
+   "domain": "bryan.edu"
+  },
+  {
+   "scorecard_unit_id": 138293,
+   "name": "Webber International University",
+   "state": "FL",
+   "enrollment": 813,
+   "domain": "webber.edu"
+  },
+  {
+   "scorecard_unit_id": 177746,
+   "name": "Kansas City Art Institute",
+   "state": "MO",
+   "enrollment": 812,
+   "domain": "kcai.edu"
+  },
+  {
+   "scorecard_unit_id": 235422,
+   "name": "Heritage University",
+   "state": "WA",
+   "enrollment": 812,
+   "domain": "heritage.edu"
+  },
+  {
+   "scorecard_unit_id": 123457,
+   "name": "Simpson University",
+   "state": "CA",
+   "enrollment": 809,
+   "domain": "simpsonu.edu"
+  },
+  {
+   "scorecard_unit_id": 384412,
+   "name": "University of the Potomac-Washington DC Campus",
+   "state": "DC",
+   "enrollment": 809,
+   "domain": "potomac.edu"
+  },
+  {
+   "scorecard_unit_id": 177144,
+   "name": "Culver-Stockton College",
+   "state": "MO",
+   "enrollment": 807,
+   "domain": "culver.edu"
+  },
+  {
+   "scorecard_unit_id": 214883,
+   "name": "Peirce College",
+   "state": "PA",
+   "enrollment": 799,
+   "domain": "peirce.edu"
+  },
+  {
+   "scorecard_unit_id": 174862,
+   "name": "Crown College",
+   "state": "MN",
+   "enrollment": 796,
+   "domain": "crown.edu"
+  },
+  {
+   "scorecard_unit_id": 136145,
+   "name": "North Florida College",
+   "state": "FL",
+   "enrollment": 793,
+   "domain": "nfc.edu"
+  },
+  {
+   "scorecard_unit_id": 170967,
+   "name": "Rochester Christian University",
+   "state": "MI",
+   "enrollment": 792,
+   "domain": "rcu.edu"
+  },
+  {
+   "scorecard_unit_id": 498030,
+   "name": "Universal Technical Institute-South Florida Miramar",
+   "state": "FL",
+   "enrollment": 791,
+   "domain": "uti.edu"
+  },
+  {
+   "scorecard_unit_id": 216357,
+   "name": "Thiel College",
+   "state": "PA",
+   "enrollment": 788,
+   "domain": "thiel.edu"
+  },
+  {
+   "scorecard_unit_id": 369400,
+   "name": "Universal Technical Institute-Orlando",
+   "state": "FL",
+   "enrollment": 788,
+   "domain": "uti.edu"
+  },
+  {
+   "scorecard_unit_id": 181297,
+   "name": "Nebraska Methodist College of Nursing & Allied Health",
+   "state": "NE",
+   "enrollment": 781,
+   "domain": "methodistcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 139630,
+   "name": "Emmanuel University",
+   "state": "GA",
+   "enrollment": 775,
+   "domain": "eu.edu"
+  },
+  {
+   "scorecard_unit_id": 215114,
+   "name": "Cairn University-Langhorne",
+   "state": "PA",
+   "enrollment": 775,
+   "domain": "cairn.edu"
+  },
+  {
+   "scorecard_unit_id": 139205,
+   "name": "Brewton-Parker Christian University",
+   "state": "GA",
+   "enrollment": 774,
+   "domain": "bpc.edu"
+  },
+  {
+   "scorecard_unit_id": 182634,
+   "name": "Colby-Sawyer College",
+   "state": "NH",
+   "enrollment": 771,
+   "domain": "colby-sawyer.edu"
+  },
+  {
+   "scorecard_unit_id": 213303,
+   "name": "Keystone College",
+   "state": "PA",
+   "enrollment": 771,
+   "domain": "keystone.edu"
+  },
+  {
+   "scorecard_unit_id": 219639,
+   "name": "Baptist Health Sciences University",
+   "state": "TN",
+   "enrollment": 770,
+   "domain": "baptistu.edu"
+  },
+  {
+   "scorecard_unit_id": 217998,
+   "name": "Erskine College",
+   "state": "SC",
+   "enrollment": 766,
+   "domain": "erskine.edu"
+  },
+  {
+   "scorecard_unit_id": 476717,
+   "name": "Be'er Yaakov Talmudic Seminary",
+   "state": "NY",
+   "enrollment": 765,
+   "domain": "byts.edu"
+  },
+  {
+   "scorecard_unit_id": 219204,
+   "name": "National American University-Rapid City",
+   "state": "SD",
+   "enrollment": 764,
+   "domain": "national.edu"
+  },
+  {
+   "scorecard_unit_id": 204617,
+   "name": "Ohio Dominican University",
+   "state": "OH",
+   "enrollment": 760,
+   "domain": "ohiodominican.edu"
+  },
+  {
+   "scorecard_unit_id": 197285,
+   "name": "The College of Westchester",
+   "state": "NY",
+   "enrollment": 759,
+   "domain": "cw.edu"
+  },
+  {
+   "scorecard_unit_id": 111638,
+   "name": "Casa Loma College-Los Angeles",
+   "state": "CA",
+   "enrollment": 758,
+   "domain": "casalomacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 138275,
+   "name": "Warner University",
+   "state": "FL",
+   "enrollment": 756,
+   "domain": "warner.edu"
+  },
+  {
+   "scorecard_unit_id": 191676,
+   "name": "Houghton University",
+   "state": "NY",
+   "enrollment": 753,
+   "domain": "houghton.edu"
+  },
+  {
+   "scorecard_unit_id": 118693,
+   "name": "Menlo College",
+   "state": "CA",
+   "enrollment": 752,
+   "domain": "menlo.edu"
+  },
+  {
+   "scorecard_unit_id": 213358,
+   "name": "La Roche University",
+   "state": "PA",
+   "enrollment": 751,
+   "domain": "laroche.edu"
+  },
+  {
+   "scorecard_unit_id": 489353,
+   "name": "Chamberlain University-California",
+   "state": "CA",
+   "enrollment": 751,
+   "domain": "chamberlain.edu"
+  },
+  {
+   "scorecard_unit_id": 178208,
+   "name": "Midwestern Baptist Theological Seminary",
+   "state": "MO",
+   "enrollment": 747,
+   "domain": "mbts.edu"
+  },
+  {
+   "scorecard_unit_id": 217776,
+   "name": "Southern Wesleyan University",
+   "state": "SC",
+   "enrollment": 747,
+   "domain": "swu.edu"
+  },
+  {
+   "scorecard_unit_id": 117168,
+   "name": "Laguna College of Art and Design",
+   "state": "CA",
+   "enrollment": 746,
+   "domain": "lcad.edu"
+  },
+  {
+   "scorecard_unit_id": 157863,
+   "name": "Union Commonwealth University",
+   "state": "KY",
+   "enrollment": 746,
+   "domain": "unionky.edu"
+  },
+  {
+   "scorecard_unit_id": 141237,
+   "name": "Truett McConnell University",
+   "state": "GA",
+   "enrollment": 744,
+   "domain": "truett.edu"
+  },
+  {
+   "scorecard_unit_id": 189583,
+   "name": "Bryant & Stratton College-Buffalo",
+   "state": "NY",
+   "enrollment": 743,
+   "domain": "bryantstratton.edu"
+  },
+  {
+   "scorecard_unit_id": 220473,
+   "name": "Johnson University",
+   "state": "TN",
+   "enrollment": 743,
+   "domain": "johnsonu.edu"
+  },
+  {
+   "scorecard_unit_id": 174154,
+   "name": "Herzing University-Minneapolis",
+   "state": "MN",
+   "enrollment": 740,
+   "domain": "herzing.edu"
+  },
+  {
+   "scorecard_unit_id": 169327,
+   "name": "Cleary University",
+   "state": "MI",
+   "enrollment": 738,
+   "domain": "cleary.edu"
+  },
+  {
+   "scorecard_unit_id": 438586,
+   "name": "American InterContinental University-Atlanta",
+   "state": "GA",
+   "enrollment": 734,
+   "domain": "aiuniv.edu"
+  },
+  {
+   "scorecard_unit_id": 200226,
+   "name": "Mayville State University",
+   "state": "ND",
+   "enrollment": 733,
+   "domain": "mayvillestate.edu"
+  },
+  {
+   "scorecard_unit_id": 241331,
+   "name": "Albizu University-San Juan",
+   "state": "PR",
+   "enrollment": 728,
+   "domain": "albizu.edu"
+  },
+  {
+   "scorecard_unit_id": 173452,
+   "name": "Martin Luther College",
+   "state": "MN",
+   "enrollment": 725,
+   "domain": "mlc-wels.edu"
+  },
+  {
+   "scorecard_unit_id": 122296,
+   "name": "Samuel Merritt University",
+   "state": "CA",
+   "enrollment": 718,
+   "domain": "samuelmerritt.edu"
+  },
+  {
+   "scorecard_unit_id": 170000,
+   "name": "Grace Christian University",
+   "state": "MI",
+   "enrollment": 716,
+   "domain": "gracechristian.edu"
+  },
+  {
+   "scorecard_unit_id": 217925,
+   "name": "Columbia International University",
+   "state": "SC",
+   "enrollment": 716,
+   "domain": "ciu.edu"
+  },
+  {
+   "scorecard_unit_id": 386472,
+   "name": "Herzing University-Orlando",
+   "state": "FL",
+   "enrollment": 714,
+   "domain": "herzing.edu"
+  },
+  {
+   "scorecard_unit_id": 167288,
+   "name": "Massachusetts College of Liberal Arts",
+   "state": "MA",
+   "enrollment": 713,
+   "domain": "mcla.edu"
+  },
+  {
+   "scorecard_unit_id": 201821,
+   "name": "The Christ College of Nursing and Health Sciences",
+   "state": "OH",
+   "enrollment": 713,
+   "domain": "thechristcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 225548,
+   "name": "Howard Payne University",
+   "state": "TX",
+   "enrollment": 713,
+   "domain": "hputx.edu"
+  },
+  {
+   "scorecard_unit_id": 104090,
+   "name": "Brookline College-Phoenix",
+   "state": "AZ",
+   "enrollment": 712,
+   "domain": "brooklinecollege.edu"
+  },
+  {
+   "scorecard_unit_id": 198109,
+   "name": "Cabarrus College of Health Sciences",
+   "state": "NC",
+   "enrollment": 712,
+   "domain": "cabarruscollege.edu"
+  },
+  {
+   "scorecard_unit_id": 163578,
+   "name": "Notre Dame of Maryland University",
+   "state": "MD",
+   "enrollment": 709,
+   "domain": "ndm.edu"
+  },
+  {
+   "scorecard_unit_id": 174437,
+   "name": "North Central University",
+   "state": "MN",
+   "enrollment": 709,
+   "domain": "northcentral.edu"
+  },
+  {
+   "scorecard_unit_id": 146339,
+   "name": "Judson University",
+   "state": "IL",
+   "enrollment": 708,
+   "domain": "judsonu.edu"
+  },
+  {
+   "scorecard_unit_id": 190983,
+   "name": "Elmira College",
+   "state": "NY",
+   "enrollment": 708,
+   "domain": "elmira.edu"
+  },
+  {
+   "scorecard_unit_id": 260691,
+   "name": "Pima Medical Institute-Mesa",
+   "state": "AZ",
+   "enrollment": 705,
+   "domain": "pmi.edu"
+  },
+  {
+   "scorecard_unit_id": 169363,
+   "name": "Concordia University Ann Arbor",
+   "state": "MI",
+   "enrollment": 702,
+   "domain": "cuaa.edu"
+  },
+  {
+   "scorecard_unit_id": 214290,
+   "name": "New Castle School of Trades",
+   "state": "PA",
+   "enrollment": 700,
+   "domain": "ncstrades.edu"
+  },
+  {
+   "scorecard_unit_id": 232089,
+   "name": "Ferrum College",
+   "state": "VA",
+   "enrollment": 699,
+   "domain": "ferrum.edu"
+  },
+  {
+   "scorecard_unit_id": 219198,
+   "name": "Mount Marty University",
+   "state": "SD",
+   "enrollment": 697,
+   "domain": "mountmarty.edu"
+  },
+  {
+   "scorecard_unit_id": 454245,
+   "name": "Chamberlain University-Arizona",
+   "state": "AZ",
+   "enrollment": 693,
+   "domain": "chamberlain.edu"
+  },
+  {
+   "scorecard_unit_id": 202912,
+   "name": "Good Samaritan College of Nursing and Health Science",
+   "state": "OH",
+   "enrollment": 690,
+   "domain": "gscollege.edu"
+  },
+  {
+   "scorecard_unit_id": 499875,
+   "name": "Mosdos Yaakov V'Yisroel",
+   "state": "NJ",
+   "enrollment": 679,
+   "domain": "myy.edu"
+  },
+  {
+   "scorecard_unit_id": 210331,
+   "name": "Corban University",
+   "state": "OR",
+   "enrollment": 678,
+   "domain": "corban.edu"
+  },
+  {
+   "scorecard_unit_id": 206835,
+   "name": "Oklahoma Wesleyan University",
+   "state": "OK",
+   "enrollment": 673,
+   "domain": "okwu.edu"
+  },
+  {
+   "scorecard_unit_id": 237996,
+   "name": "West Virginia Junior College-Morgantown",
+   "state": "WV",
+   "enrollment": 673,
+   "domain": "wvjc.edu"
+  },
+  {
+   "scorecard_unit_id": 159568,
+   "name": "Louisiana Christian University",
+   "state": "LA",
+   "enrollment": 672,
+   "domain": "lcuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 206349,
+   "name": "Ursuline College",
+   "state": "OH",
+   "enrollment": 670,
+   "domain": "ursuline.edu"
+  },
+  {
+   "scorecard_unit_id": 173142,
+   "name": "Bethany Lutheran College",
+   "state": "MN",
+   "enrollment": 669,
+   "domain": "blc.edu"
+  },
+  {
+   "scorecard_unit_id": 380438,
+   "name": "Provo College",
+   "state": "UT",
+   "enrollment": 669,
+   "domain": "provocollege.edu"
+  },
+  {
+   "scorecard_unit_id": 233301,
+   "name": "Randolph College",
+   "state": "VA",
+   "enrollment": 658,
+   "domain": "randolphcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 192785,
+   "name": "Maria College of Albany",
+   "state": "NY",
+   "enrollment": 656,
+   "domain": "mariacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 195784,
+   "name": "St Paul's School of Nursing-Staten Island",
+   "state": "NY",
+   "enrollment": 656,
+   "domain": "stpaulsschoolofnursing.edu"
+  },
+  {
+   "scorecard_unit_id": 199306,
+   "name": "Pfeiffer University",
+   "state": "NC",
+   "enrollment": 655,
+   "domain": "pfeiffer.edu"
+  },
+  {
+   "scorecard_unit_id": 486938,
+   "name": "Chamberlain University-Nevada",
+   "state": "NV",
+   "enrollment": 652,
+   "domain": "chamberlain.edu"
+  },
+  {
+   "scorecard_unit_id": 447777,
+   "name": "Asher College",
+   "state": "CA",
+   "enrollment": 649,
+   "domain": "asher.edu"
+  },
+  {
+   "scorecard_unit_id": 236133,
+   "name": "Northwest University",
+   "state": "WA",
+   "enrollment": 645,
+   "domain": "northwestu.edu"
+  },
+  {
+   "scorecard_unit_id": 150774,
+   "name": "Holy Cross College",
+   "state": "IN",
+   "enrollment": 639,
+   "domain": "hcc-nd.edu"
+  },
+  {
+   "scorecard_unit_id": 179946,
+   "name": "Westminster College",
+   "state": "MO",
+   "enrollment": 638,
+   "domain": "wcmo.edu"
+  },
+  {
+   "scorecard_unit_id": 494746,
+   "name": "North-West College-San Diego",
+   "state": "CA",
+   "enrollment": 636,
+   "domain": "nw.edu"
+  },
+  {
+   "scorecard_unit_id": 239390,
+   "name": "Mount Mary University",
+   "state": "WI",
+   "enrollment": 631,
+   "domain": "mtmary.edu"
+  },
+  {
+   "scorecard_unit_id": 232797,
+   "name": "American National University",
+   "state": "VA",
+   "enrollment": 630,
+   "domain": "an.edu"
+  },
+  {
+   "scorecard_unit_id": 380377,
+   "name": "Northwest Indian College",
+   "state": "WA",
+   "enrollment": 629,
+   "domain": "nwic.edu"
+  },
+  {
+   "scorecard_unit_id": 486947,
+   "name": "Chamberlain University-Michigan",
+   "state": "MI",
+   "enrollment": 629,
+   "domain": "chamberlain.edu"
+  },
+  {
+   "scorecard_unit_id": 152992,
+   "name": "Briar Cliff University",
+   "state": "IA",
+   "enrollment": 624,
+   "domain": "briarcliff.edu"
+  },
+  {
+   "scorecard_unit_id": 201469,
+   "name": "Bryant & Stratton College-Parma",
+   "state": "OH",
+   "enrollment": 624,
+   "domain": "bryantstratton.edu"
+  },
+  {
+   "scorecard_unit_id": 180832,
+   "name": "Clarkson College",
+   "state": "NE",
+   "enrollment": 622,
+   "domain": "clarksoncollege.edu"
+  },
+  {
+   "scorecard_unit_id": 492759,
+   "name": "Chamberlain University-Louisiana",
+   "state": "LA",
+   "enrollment": 622,
+   "domain": "chamberlain.edu"
+  },
+  {
+   "scorecard_unit_id": 164368,
+   "name": "Hult International Business School",
+   "state": "MA",
+   "enrollment": 618,
+   "domain": "hult.edu"
+  },
+  {
+   "scorecard_unit_id": 185721,
+   "name": "Eastwick College-Nutley",
+   "state": "NJ",
+   "enrollment": 618,
+   "domain": "eastwickcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 446640,
+   "name": "Harrisburg University of Science and Technology",
+   "state": "PA",
+   "enrollment": 615,
+   "domain": "harrisburgu.edu"
+  },
+  {
+   "scorecard_unit_id": 231554,
+   "name": "Bluefield University",
+   "state": "VA",
+   "enrollment": 614,
+   "domain": "bluefield.edu"
+  },
+  {
+   "scorecard_unit_id": 243823,
+   "name": "Parker University",
+   "state": "TX",
+   "enrollment": 607,
+   "domain": "parker.edu"
+  },
+  {
+   "scorecard_unit_id": 440916,
+   "name": "Southern University Law Center",
+   "state": "LA",
+   "enrollment": 607,
+   "domain": "sulc.edu"
+  },
+  {
+   "scorecard_unit_id": 197142,
+   "name": "Villa Maria College",
+   "state": "NY",
+   "enrollment": 603,
+   "domain": "villa.edu"
+  },
+  {
+   "scorecard_unit_id": 198303,
+   "name": "Chowan University",
+   "state": "NC",
+   "enrollment": 603,
+   "domain": "chowan.edu"
+  },
+  {
+   "scorecard_unit_id": 178679,
+   "name": "Ozark Christian College",
+   "state": "MO",
+   "enrollment": 602,
+   "domain": "occ.edu"
+  },
+  {
+   "scorecard_unit_id": 440651,
+   "name": "Atenas University",
+   "state": "PR",
+   "enrollment": 597,
+   "domain": "atenasuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 496326,
+   "name": "Eagle Gate College-Boise Campus",
+   "state": "ID",
+   "enrollment": 594,
+   "domain": "eaglegatecollege.edu"
+  },
+  {
+   "scorecard_unit_id": 498049,
+   "name": "Arizona College of Nursing-Southfield",
+   "state": "MI",
+   "enrollment": 594,
+   "domain": "arizonacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 233356,
+   "name": "Bon Secours Memorial College of Nursing",
+   "state": "VA",
+   "enrollment": 591,
+   "domain": "bsmcon.edu"
+  },
+  {
+   "scorecard_unit_id": 213233,
+   "name": "Johnson College",
+   "state": "PA",
+   "enrollment": 590,
+   "domain": "johnson.edu"
+  },
+  {
+   "scorecard_unit_id": 238078,
+   "name": "Wheeling University",
+   "state": "WV",
+   "enrollment": 589,
+   "domain": "wheeling.edu"
+  },
+  {
+   "scorecard_unit_id": 133809,
+   "name": "Florida College",
+   "state": "FL",
+   "enrollment": 588,
+   "domain": "floridacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 494162,
+   "name": "Arizona College of Nursing-Dallas",
+   "state": "TX",
+   "enrollment": 588,
+   "domain": "arizonacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 157757,
+   "name": "Spalding University",
+   "state": "KY",
+   "enrollment": 583,
+   "domain": "spalding.edu"
+  },
+  {
+   "scorecard_unit_id": 194392,
+   "name": "Paul Smiths College of Arts and Science",
+   "state": "NY",
+   "enrollment": 579,
+   "domain": "paulsmiths.edu"
+  },
+  {
+   "scorecard_unit_id": 223083,
+   "name": "Baptist Health System School of Health Professions",
+   "state": "TX",
+   "enrollment": 575,
+   "domain": "bshp.edu"
+  },
+  {
+   "scorecard_unit_id": 228468,
+   "name": "Southwestern Adventist University",
+   "state": "TX",
+   "enrollment": 570,
+   "domain": "swau.edu"
+  },
+  {
+   "scorecard_unit_id": 200554,
+   "name": "United Tribes Technical College",
+   "state": "ND",
+   "enrollment": 569,
+   "domain": "uttc.edu"
+  },
+  {
+   "scorecard_unit_id": 124292,
+   "name": "Thomas Aquinas College",
+   "state": "CA",
+   "enrollment": 566,
+   "domain": "thomasaquinas.edu"
+  },
+  {
+   "scorecard_unit_id": 120537,
+   "name": "Hope International University",
+   "state": "CA",
+   "enrollment": 564,
+   "domain": "hiu.edu"
+  },
+  {
+   "scorecard_unit_id": 428170,
+   "name": "Southeastern College-Boynton Beach",
+   "state": "FL",
+   "enrollment": 563,
+   "domain": "sec.edu"
+  },
+  {
+   "scorecard_unit_id": 495448,
+   "name": "Arizona College of Nursing-Tucson",
+   "state": "AZ",
+   "enrollment": 562,
+   "domain": "arizonacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 156189,
+   "name": "Alice Lloyd College",
+   "state": "KY",
+   "enrollment": 558,
+   "domain": "alc.edu"
+  },
+  {
+   "scorecard_unit_id": 412173,
+   "name": "Academy for Nursing and Health Occupations",
+   "state": "FL",
+   "enrollment": 558,
+   "domain": "anho.edu"
+  },
+  {
+   "scorecard_unit_id": 186618,
+   "name": "Saint Elizabeth University",
+   "state": "NJ",
+   "enrollment": 557,
+   "domain": "steu.edu"
+  },
+  {
+   "scorecard_unit_id": 460871,
+   "name": "Chamberlain University-Virginia",
+   "state": "VA",
+   "enrollment": 557,
+   "domain": "chamberlain.edu"
+  },
+  {
+   "scorecard_unit_id": 159197,
+   "name": "ITI Technical College",
+   "state": "LA",
+   "enrollment": 555,
+   "domain": "iticollege.edu"
+  },
+  {
+   "scorecard_unit_id": 243586,
+   "name": "Pontifical Catholic University of Puerto Rico-Mayaguez",
+   "state": "PR",
+   "enrollment": 555,
+   "domain": "pucpr.edu"
+  },
+  {
+   "scorecard_unit_id": 180878,
+   "name": "Bryan College of Health Sciences",
+   "state": "NE",
+   "enrollment": 553,
+   "domain": "bryanhealthcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 486415,
+   "name": "AMG School of Nursing",
+   "state": "NY",
+   "enrollment": 552,
+   "domain": "amg.edu"
+  },
+  {
+   "scorecard_unit_id": 203544,
+   "name": "Kettering College",
+   "state": "OH",
+   "enrollment": 549,
+   "domain": "kc.edu"
+  },
+  {
+   "scorecard_unit_id": 191205,
+   "name": "Five Towns College",
+   "state": "NY",
+   "enrollment": 547,
+   "domain": "ftc.edu"
+  },
+  {
+   "scorecard_unit_id": 203757,
+   "name": "Lourdes University",
+   "state": "OH",
+   "enrollment": 543,
+   "domain": "lourdes.edu"
+  },
+  {
+   "scorecard_unit_id": 491288,
+   "name": "University of Wisconsin-Milwaukee Flex",
+   "state": "WI",
+   "enrollment": 543,
+   "domain": "wisconsin.edu"
+  },
+  {
+   "scorecard_unit_id": 444088,
+   "name": "Brookline College-Albuquerque",
+   "state": "NM",
+   "enrollment": 542,
+   "domain": "brooklinecollege.edu"
+  },
+  {
+   "scorecard_unit_id": 239071,
+   "name": "Maranatha Baptist University",
+   "state": "WI",
+   "enrollment": 541,
+   "domain": "mbu.edu"
+  },
+  {
+   "scorecard_unit_id": 176770,
+   "name": "Cox College",
+   "state": "MO",
+   "enrollment": 540,
+   "domain": "coxcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 192712,
+   "name": "Manhattan School of Music",
+   "state": "NY",
+   "enrollment": 539,
+   "domain": "msmnyc.edu"
+  },
+  {
+   "scorecard_unit_id": 202046,
+   "name": "Cleveland Institute of Art",
+   "state": "OH",
+   "enrollment": 539,
+   "domain": "cia.edu"
+  },
+  {
+   "scorecard_unit_id": 155937,
+   "name": "Sterling College",
+   "state": "KS",
+   "enrollment": 538,
+   "domain": "sterling.edu"
+  },
+  {
+   "scorecard_unit_id": 182148,
+   "name": "Las Vegas College",
+   "state": "NV",
+   "enrollment": 536,
+   "domain": "lvcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 247065,
+   "name": "Beckfield College-Florence",
+   "state": "KY",
+   "enrollment": 536,
+   "domain": "beckfield.edu"
+  },
+  {
+   "scorecard_unit_id": 445735,
+   "name": "Roseman University of Health Sciences",
+   "state": "NV",
+   "enrollment": 536,
+   "domain": "roseman.edu"
+  },
+  {
+   "scorecard_unit_id": 214148,
+   "name": "Moore College of Art and Design",
+   "state": "PA",
+   "enrollment": 535,
+   "domain": "moore.edu"
+  },
+  {
+   "scorecard_unit_id": 165167,
+   "name": "Cambridge College",
+   "state": "MA",
+   "enrollment": 532,
+   "domain": "cambridgecollege.edu"
+  },
+  {
+   "scorecard_unit_id": 204176,
+   "name": "Mount Carmel College of Nursing",
+   "state": "OH",
+   "enrollment": 532,
+   "domain": "mccn.edu"
+  },
+  {
+   "scorecard_unit_id": 150172,
+   "name": "Calumet College of Saint Joseph",
+   "state": "IN",
+   "enrollment": 529,
+   "domain": "ccsj.edu"
+  },
+  {
+   "scorecard_unit_id": 180258,
+   "name": "University of Providence",
+   "state": "MT",
+   "enrollment": 528,
+   "domain": "uprovidence.edu"
+  },
+  {
+   "scorecard_unit_id": 165264,
+   "name": "Laboure College of Healthcare",
+   "state": "MA",
+   "enrollment": 525,
+   "domain": "laboure.edu"
+  },
+  {
+   "scorecard_unit_id": 144971,
+   "name": "Eureka College",
+   "state": "IL",
+   "enrollment": 522,
+   "domain": "eureka.edu"
+  },
+  {
+   "scorecard_unit_id": 459842,
+   "name": "Herzing University-Kenosha",
+   "state": "WI",
+   "enrollment": 522,
+   "domain": "herzing.edu"
+  },
+  {
+   "scorecard_unit_id": 209409,
+   "name": "Bushnell University",
+   "state": "OR",
+   "enrollment": 517,
+   "domain": "bushnell.edu"
+  },
+  {
+   "scorecard_unit_id": 447759,
+   "name": "National Polytechnic College",
+   "state": "CA",
+   "enrollment": 516,
+   "domain": "npcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 250027,
+   "name": "Laurel Technical Institute",
+   "state": "PA",
+   "enrollment": 515,
+   "domain": "laurel.edu"
+  },
+  {
+   "scorecard_unit_id": 434469,
+   "name": "New Professions Technical Institute",
+   "state": "FL",
+   "enrollment": 514,
+   "domain": "npti.edu"
+  },
+  {
+   "scorecard_unit_id": 384254,
+   "name": "Beacon College",
+   "state": "FL",
+   "enrollment": 506,
+   "domain": "beaconcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 432384,
+   "name": "Platt College-Ontario",
+   "state": "CA",
+   "enrollment": 500,
+   "domain": "plattcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 152099,
+   "name": "Oakland City University",
+   "state": "IN",
+   "enrollment": 499,
+   "domain": "oak.edu"
+  },
+  {
+   "scorecard_unit_id": 175430,
+   "name": "Blue Mountain Christian University",
+   "state": "MS",
+   "enrollment": 498,
+   "domain": "bmc.edu"
+  },
+  {
+   "scorecard_unit_id": 440794,
+   "name": "Pillar College",
+   "state": "NJ",
+   "enrollment": 498,
+   "domain": "pillar.edu"
+  },
+  {
+   "scorecard_unit_id": 490878,
+   "name": "Platt College-Anaheim",
+   "state": "CA",
+   "enrollment": 498,
+   "domain": "plattcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 192688,
+   "name": "Mandl School-The College of Allied Health",
+   "state": "NY",
+   "enrollment": 497,
+   "domain": "mandl.edu"
+  },
+  {
+   "scorecard_unit_id": 421878,
+   "name": "Eastern International College-Jersey City",
+   "state": "NJ",
+   "enrollment": 495,
+   "domain": "eicollege.edu"
+  },
+  {
+   "scorecard_unit_id": 497338,
+   "name": "Glendale Career College-North-West College-Bakersfield",
+   "state": "CA",
+   "enrollment": 493,
+   "domain": "edu.edu"
+  },
+  {
+   "scorecard_unit_id": 241720,
+   "name": "Colegio Universitario de San Juan",
+   "state": "PR",
+   "enrollment": 491,
+   "domain": "cunisanjuan.edu"
+  },
+  {
+   "scorecard_unit_id": 493822,
+   "name": "College Unbound",
+   "state": "RI",
+   "enrollment": 491,
+   "domain": "collegeunbound.edu"
+  },
+  {
+   "scorecard_unit_id": 219374,
+   "name": "Sinte Gleska University",
+   "state": "SD",
+   "enrollment": 487,
+   "domain": "sintegleska.edu"
+  },
+  {
+   "scorecard_unit_id": 215691,
+   "name": "Rosemont College",
+   "state": "PA",
+   "enrollment": 486,
+   "domain": "rosemont.edu"
+  },
+  {
+   "scorecard_unit_id": 106713,
+   "name": "Central Baptist College",
+   "state": "AR",
+   "enrollment": 484,
+   "domain": "cbc.edu"
+  },
+  {
+   "scorecard_unit_id": 160995,
+   "name": "Beal University",
+   "state": "ME",
+   "enrollment": 484,
+   "domain": "beal.edu"
+  },
+  {
+   "scorecard_unit_id": 399911,
+   "name": "Soka University of America",
+   "state": "CA",
+   "enrollment": 484,
+   "domain": "soka.edu"
+  },
+  {
+   "scorecard_unit_id": 449506,
+   "name": "SABER College",
+   "state": "FL",
+   "enrollment": 482,
+   "domain": "sabercollege.edu"
+  },
+  {
+   "scorecard_unit_id": 188526,
+   "name": "Albany College of Pharmacy and Health Sciences",
+   "state": "NY",
+   "enrollment": 481,
+   "domain": "acphs.edu"
+  },
+  {
+   "scorecard_unit_id": 488776,
+   "name": "John Patrick University of Health and Applied Sciences",
+   "state": "IN",
+   "enrollment": 480,
+   "domain": "jpu.edu"
+  },
+  {
+   "scorecard_unit_id": 215682,
+   "name": "Rosedale Technical College",
+   "state": "PA",
+   "enrollment": 475,
+   "domain": "rosedaletech.edu"
+  },
+  {
+   "scorecard_unit_id": 194666,
+   "name": "Rabbinical College Bobover Yeshiva Bnei Zion",
+   "state": "NY",
+   "enrollment": 473,
+   "domain": "rabbinicalcollegeboboveryeshiva.edu"
+  },
+  {
+   "scorecard_unit_id": 494685,
+   "name": "Urshan University",
+   "state": "MO",
+   "enrollment": 472,
+   "domain": "urshan.edu"
+  },
+  {
+   "scorecard_unit_id": 143288,
+   "name": "Blackburn College",
+   "state": "IL",
+   "enrollment": 471,
+   "domain": "blackburn.edu"
+  },
+  {
+   "scorecard_unit_id": 181738,
+   "name": "Union Adventist University",
+   "state": "NE",
+   "enrollment": 471,
+   "domain": "uau.edu"
+  },
+  {
+   "scorecard_unit_id": 216542,
+   "name": "University of Valley Forge",
+   "state": "PA",
+   "enrollment": 471,
+   "domain": "valleyforge.edu"
+  },
+  {
+   "scorecard_unit_id": 188003,
+   "name": "Southeast New Mexico College",
+   "state": "NM",
+   "enrollment": 469,
+   "domain": "senmc.edu"
+  },
+  {
+   "scorecard_unit_id": 144883,
+   "name": "East-West University",
+   "state": "IL",
+   "enrollment": 468,
+   "domain": "eastwest.edu"
+  },
+  {
+   "scorecard_unit_id": 192110,
+   "name": "The Juilliard School",
+   "state": "NY",
+   "enrollment": 468,
+   "domain": "juilliard.edu"
+  },
+  {
+   "scorecard_unit_id": 494287,
+   "name": "EDP University of Puerto Rico-Manati",
+   "state": "PR",
+   "enrollment": 468,
+   "domain": "edpuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 241951,
+   "name": "Escuela de Artes Plasticas y Diseno de Puerto Rico",
+   "state": "PR",
+   "enrollment": 466,
+   "domain": "eap.edu"
+  },
+  {
+   "scorecard_unit_id": 229300,
+   "name": "The University of Texas Health Science Center at Houston",
+   "state": "TX",
+   "enrollment": 465,
+   "domain": "uth.edu"
+  },
+  {
+   "scorecard_unit_id": 489937,
+   "name": "Carolina University",
+   "state": "NC",
+   "enrollment": 460,
+   "domain": "carolinau.edu"
+  },
+  {
+   "scorecard_unit_id": 189565,
+   "name": "Bryant & Stratton College-Syracuse North",
+   "state": "NY",
+   "enrollment": 458,
+   "domain": "bryantstratton.edu"
+  },
+  {
+   "scorecard_unit_id": 117104,
+   "name": "Life Pacific University",
+   "state": "CA",
+   "enrollment": 456,
+   "domain": "lifepacific.edu"
+  },
+  {
+   "scorecard_unit_id": 112394,
+   "name": "University of Silicon Valley",
+   "state": "CA",
+   "enrollment": 455,
+   "domain": "usv.edu"
+  },
+  {
+   "scorecard_unit_id": 247649,
+   "name": "Landmark College",
+   "state": "VT",
+   "enrollment": 455,
+   "domain": "landmark.edu"
+  },
+  {
+   "scorecard_unit_id": 488059,
+   "name": "Med College",
+   "state": "FL",
+   "enrollment": 455,
+   "domain": "medcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 224271,
+   "name": "Dallas Institute of Funeral Service",
+   "state": "TX",
+   "enrollment": 454,
+   "domain": "dallasinstitute.edu"
+  },
+  {
+   "scorecard_unit_id": 459727,
+   "name": "Touro University Worldwide",
+   "state": "CA",
+   "enrollment": 454,
+   "domain": "tuw.edu"
+  },
+  {
+   "scorecard_unit_id": 445692,
+   "name": "Neumont College of Computer Science",
+   "state": "UT",
+   "enrollment": 453,
+   "domain": "neumont.edu"
+  },
+  {
+   "scorecard_unit_id": 162210,
+   "name": "Washington Adventist University",
+   "state": "MD",
+   "enrollment": 452,
+   "domain": "wau.edu"
+  },
+  {
+   "scorecard_unit_id": 251312,
+   "name": "South University-Columbia",
+   "state": "SC",
+   "enrollment": 450,
+   "domain": "southuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 177719,
+   "name": "Barnes-Jewish College Goldfarb School of Nursing",
+   "state": "MO",
+   "enrollment": 446,
+   "domain": "barnesjewishcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 181604,
+   "name": "College of Saint Mary",
+   "state": "NE",
+   "enrollment": 445,
+   "domain": "csm.edu"
+  },
+  {
+   "scorecard_unit_id": 101365,
+   "name": "Herzing University-Birmingham",
+   "state": "AL",
+   "enrollment": 442,
+   "domain": "herzing.edu"
+  },
+  {
+   "scorecard_unit_id": 157100,
+   "name": "Kentucky Christian University",
+   "state": "KY",
+   "enrollment": 429,
+   "domain": "kcu.edu"
+  },
+  {
+   "scorecard_unit_id": 181853,
+   "name": "York University",
+   "state": "NE",
+   "enrollment": 428,
+   "domain": "york.edu"
+  },
+  {
+   "scorecard_unit_id": 495439,
+   "name": "Arizona College of Nursing-Fort Lauderdale",
+   "state": "FL",
+   "enrollment": 428,
+   "domain": "arizonacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 446163,
+   "name": "Community Christian College",
+   "state": "AZ",
+   "enrollment": 424,
+   "domain": "cccollege.edu"
+  },
+  {
+   "scorecard_unit_id": 199607,
+   "name": "Salem College",
+   "state": "NC",
+   "enrollment": 423,
+   "domain": "salem.edu"
+  },
+  {
+   "scorecard_unit_id": 388520,
+   "name": "College of Biblical Studies-Houston",
+   "state": "TX",
+   "enrollment": 419,
+   "domain": "cbshouston.edu"
+  },
+  {
+   "scorecard_unit_id": 161509,
+   "name": "Maine College of Art & Design",
+   "state": "ME",
+   "enrollment": 415,
+   "domain": "meca.edu"
+  },
+  {
+   "scorecard_unit_id": 363907,
+   "name": "Caribbean University-Ponce",
+   "state": "PR",
+   "enrollment": 414,
+   "domain": "caribbean.edu"
+  },
+  {
+   "scorecard_unit_id": 486257,
+   "name": "Valor Christian College",
+   "state": "OH",
+   "enrollment": 414,
+   "domain": "valorcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 499635,
+   "name": "EDP University of Puerto Rico-Caguas",
+   "state": "PR",
+   "enrollment": 414,
+   "domain": "edpuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 480204,
+   "name": "Platt College-Riverside",
+   "state": "CA",
+   "enrollment": 413,
+   "domain": "plattcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 177542,
+   "name": "Hannibal-LaGrange University",
+   "state": "MO",
+   "enrollment": 410,
+   "domain": "hlg.edu"
+  },
+  {
+   "scorecard_unit_id": 153320,
+   "name": "Faith Baptist Bible College and Theological Seminary",
+   "state": "IA",
+   "enrollment": 405,
+   "domain": "faith.edu"
+  },
+  {
+   "scorecard_unit_id": 487603,
+   "name": "Northwest University-Center for Online and Extended Education",
+   "state": "WA",
+   "enrollment": 405,
+   "domain": "northwestu.edu"
+  },
+  {
+   "scorecard_unit_id": 190114,
+   "name": "Metropolitan College of New York",
+   "state": "NY",
+   "enrollment": 402,
+   "domain": "mcny.edu"
+  },
+  {
+   "scorecard_unit_id": 141325,
+   "name": "Wesleyan College",
+   "state": "GA",
+   "enrollment": 400,
+   "domain": "wesleyancollege.edu"
+  },
+  {
+   "scorecard_unit_id": 196431,
+   "name": "Talmudical Seminary Oholei Torah",
+   "state": "NY",
+   "enrollment": 400,
+   "domain": "tsot.edu"
+  },
+  {
+   "scorecard_unit_id": 215053,
+   "name": "Pennsylvania College of Art and Design",
+   "state": "PA",
+   "enrollment": 400,
+   "domain": "pcad.edu"
+  },
+  {
+   "scorecard_unit_id": 483780,
+   "name": "Washington University of Science and Technology",
+   "state": "VA",
+   "enrollment": 400,
+   "domain": "wust.edu"
+  },
+  {
+   "scorecard_unit_id": 442426,
+   "name": "St Louis College of Health Careers-Fenton",
+   "state": "MO",
+   "enrollment": 399,
+   "domain": "slchc.edu"
+  },
+  {
+   "scorecard_unit_id": 126605,
+   "name": "Spartan College of Aeronautics and Technology",
+   "state": "CO",
+   "enrollment": 397,
+   "domain": "spartan.edu"
+  },
+  {
+   "scorecard_unit_id": 155007,
+   "name": "Donnelly College",
+   "state": "KS",
+   "enrollment": 395,
+   "domain": "donnelly.edu"
+  },
+  {
+   "scorecard_unit_id": 205054,
+   "name": "Professional Skills Institute",
+   "state": "OH",
+   "enrollment": 395,
+   "domain": "proskills.edu"
+  },
+  {
+   "scorecard_unit_id": 451927,
+   "name": "Patrick Henry College",
+   "state": "VA",
+   "enrollment": 395,
+   "domain": "phc.edu"
+  },
+  {
+   "scorecard_unit_id": 237987,
+   "name": "West Virginia Junior College-Charleston",
+   "state": "WV",
+   "enrollment": 394,
+   "domain": "wvjc.edu"
+  },
+  {
+   "scorecard_unit_id": 487010,
+   "name": "The University of Tennessee Health Science Center",
+   "state": "TN",
+   "enrollment": 394,
+   "domain": "uthsc.edu"
+  },
+  {
+   "scorecard_unit_id": 167057,
+   "name": "The New England Conservatory of Music",
+   "state": "MA",
+   "enrollment": 393,
+   "domain": "necmusic.edu"
+  },
+  {
+   "scorecard_unit_id": 243647,
+   "name": "Palau Community College",
+   "state": "PW",
+   "enrollment": 393,
+   "domain": "palau.edu"
+  },
+  {
+   "scorecard_unit_id": 189413,
+   "name": "Boricua College",
+   "state": "NY",
+   "enrollment": 391,
+   "domain": "boricuacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 200785,
+   "name": "Herzing University-Akron",
+   "state": "OH",
+   "enrollment": 391,
+   "domain": "herzing.edu"
+  },
+  {
+   "scorecard_unit_id": 245962,
+   "name": "Miller-Motte College-Tulsa",
+   "state": "OK",
+   "enrollment": 389,
+   "domain": "miller-motte.edu"
+  },
+  {
+   "scorecard_unit_id": 449898,
+   "name": "South University-Tampa",
+   "state": "FL",
+   "enrollment": 388,
+   "domain": "southuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 140340,
+   "name": "Herzing University-Atlanta",
+   "state": "GA",
+   "enrollment": 387,
+   "domain": "herzing.edu"
+  },
+  {
+   "scorecard_unit_id": 137953,
+   "name": "Trinity College of Jacksonville",
+   "state": "FL",
+   "enrollment": 386,
+   "domain": "tcj.edu"
+  },
+  {
+   "scorecard_unit_id": 461023,
+   "name": "Crestpoint University",
+   "state": "AZ",
+   "enrollment": 385,
+   "domain": "crestpoint.edu"
+  },
+  {
+   "scorecard_unit_id": 456454,
+   "name": "Fortis College-Salt Lake City",
+   "state": "UT",
+   "enrollment": 383,
+   "domain": "fortis.edu"
+  },
+  {
+   "scorecard_unit_id": 176664,
+   "name": "Mission University",
+   "state": "MO",
+   "enrollment": 381,
+   "domain": "mission.edu"
+  },
+  {
+   "scorecard_unit_id": 154855,
+   "name": "Central Christian College of Kansas",
+   "state": "KS",
+   "enrollment": 380,
+   "domain": "centralchristian.edu"
+  },
+  {
+   "scorecard_unit_id": 498456,
+   "name": "Arizona College of Nursing-Ontario",
+   "state": "CA",
+   "enrollment": 380,
+   "domain": "arizonacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 492476,
+   "name": "EDP University of Puerto Rico-Villalba",
+   "state": "PR",
+   "enrollment": 379,
+   "domain": "edpuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 129774,
+   "name": "Mitchell College",
+   "state": "CT",
+   "enrollment": 377,
+   "domain": "mitchell.edu"
+  },
+  {
+   "scorecard_unit_id": 207856,
+   "name": "Southwestern Christian University",
+   "state": "OK",
+   "enrollment": 377,
+   "domain": "swcu.edu"
+  },
+  {
+   "scorecard_unit_id": 210304,
+   "name": "Warner Pacific University",
+   "state": "OR",
+   "enrollment": 375,
+   "domain": "warnerpacific.edu"
+  },
+  {
+   "scorecard_unit_id": 366003,
+   "name": "South Florida Bible College and Theological Seminary",
+   "state": "FL",
+   "enrollment": 373,
+   "domain": "sfbc.edu"
+  },
+  {
+   "scorecard_unit_id": 238324,
+   "name": "Bellin College",
+   "state": "WI",
+   "enrollment": 372,
+   "domain": "bellincollege.edu"
+  },
+  {
+   "scorecard_unit_id": 485519,
+   "name": "Lionel University",
+   "state": "CA",
+   "enrollment": 370,
+   "domain": "lionel.edu"
+  },
+  {
+   "scorecard_unit_id": 461263,
+   "name": "American Medical Sciences Center",
+   "state": "CA",
+   "enrollment": 365,
+   "domain": "amsc.edu"
+  },
+  {
+   "scorecard_unit_id": 490975,
+   "name": "Fortis College-Cutler Bay",
+   "state": "FL",
+   "enrollment": 365,
+   "domain": "fortis.edu"
+  },
+  {
+   "scorecard_unit_id": 189592,
+   "name": "Bryant & Stratton College-Greece",
+   "state": "NY",
+   "enrollment": 363,
+   "domain": "bryantstratton.edu"
+  },
+  {
+   "scorecard_unit_id": 447935,
+   "name": "ATA College",
+   "state": "KY",
+   "enrollment": 363,
+   "domain": "ata.edu"
+  },
+  {
+   "scorecard_unit_id": 132408,
+   "name": "Baptist University of Florida",
+   "state": "FL",
+   "enrollment": 360,
+   "domain": "buf.edu"
+  },
+  {
+   "scorecard_unit_id": 449889,
+   "name": "American College of Education",
+   "state": "IN",
+   "enrollment": 359,
+   "domain": "ace.edu"
+  },
+  {
+   "scorecard_unit_id": 480657,
+   "name": "Rasmussen University-Kansas",
+   "state": "KS",
+   "enrollment": 359,
+   "domain": "rasmussen.edu"
+  },
+  {
+   "scorecard_unit_id": 215390,
+   "name": "Pittsburgh Institute of Mortuary Science Inc",
+   "state": "PA",
+   "enrollment": 351,
+   "domain": "pims.edu"
+  },
+  {
+   "scorecard_unit_id": 433004,
+   "name": "American University of Health Sciences",
+   "state": "CA",
+   "enrollment": 351,
+   "domain": "auhs.edu"
+  },
+  {
+   "scorecard_unit_id": 498447,
+   "name": "Arizona College of Nursing-Falls Church",
+   "state": "VA",
+   "enrollment": 348,
+   "domain": "arizonacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 157021,
+   "name": "American National University-Louisville",
+   "state": "KY",
+   "enrollment": 347,
+   "domain": "an.edu"
+  },
+  {
+   "scorecard_unit_id": 433420,
+   "name": "California Aeronautical University",
+   "state": "CA",
+   "enrollment": 347,
+   "domain": "calaero.edu"
+  },
+  {
+   "scorecard_unit_id": 188182,
+   "name": "University of the Southwest",
+   "state": "NM",
+   "enrollment": 346,
+   "domain": "usw.edu"
+  },
+  {
+   "scorecard_unit_id": 433536,
+   "name": "Herzing University-New Orleans",
+   "state": "LA",
+   "enrollment": 346,
+   "domain": "herzing.edu"
+  },
+  {
+   "scorecard_unit_id": 127653,
+   "name": "Naropa University",
+   "state": "CO",
+   "enrollment": 339,
+   "domain": "naropa.edu"
+  },
+  {
+   "scorecard_unit_id": 148016,
+   "name": "Principia College",
+   "state": "IL",
+   "enrollment": 339,
+   "domain": "principiacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 139995,
+   "name": "Gupton Jones College of Funeral Service",
+   "state": "GA",
+   "enrollment": 338,
+   "domain": "gupton-jones.edu"
+  },
+  {
+   "scorecard_unit_id": 179265,
+   "name": "University of Health Sciences and Pharmacy in St. Louis",
+   "state": "MO",
+   "enrollment": 337,
+   "domain": "uhsp.edu"
+  },
+  {
+   "scorecard_unit_id": 455664,
+   "name": "The Chicago School at Los Angeles",
+   "state": "CA",
+   "enrollment": 337,
+   "domain": "thechicagoschool.edu"
+  },
+  {
+   "scorecard_unit_id": 499389,
+   "name": "Arizona College of Nursing-Aurora",
+   "state": "CO",
+   "enrollment": 336,
+   "domain": "arizonacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 495420,
+   "name": "Arizona College of Nursing-Tampa",
+   "state": "FL",
+   "enrollment": 335,
+   "domain": "arizonacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 187745,
+   "name": "Institute of American Indian and Alaska Native Culture and Arts Development",
+   "state": "NM",
+   "enrollment": 334,
+   "domain": "iaia.edu"
+  },
+  {
+   "scorecard_unit_id": 494436,
+   "name": "Fortis Institute-Cookeville",
+   "state": "TN",
+   "enrollment": 334,
+   "domain": "fortis.edu"
+  },
+  {
+   "scorecard_unit_id": 500306,
+   "name": "Arizona College of Nursing - Hartford",
+   "state": "CT",
+   "enrollment": 334,
+   "domain": "arizonacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 491844,
+   "name": "Red Lake Nation College",
+   "state": "MN",
+   "enrollment": 332,
+   "domain": "rlnc.edu"
+  },
+  {
+   "scorecard_unit_id": 414595,
+   "name": "Pacific College of Health and Science",
+   "state": "NY",
+   "enrollment": 330,
+   "domain": "pacificcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 485768,
+   "name": "Atlantis University",
+   "state": "FL",
+   "enrollment": 330,
+   "domain": "atlantisuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 243188,
+   "name": "University of Puerto Rico-Utuado",
+   "state": "PR",
+   "enrollment": 325,
+   "domain": "uprutuado.edu"
+  },
+  {
+   "scorecard_unit_id": 494278,
+   "name": "EDP University of Puerto Rico-Humacao",
+   "state": "PR",
+   "enrollment": 325,
+   "domain": "edpuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 216940,
+   "name": "Williamson College of the Trades",
+   "state": "PA",
+   "enrollment": 322,
+   "domain": "williamson.edu"
+  },
+  {
+   "scorecard_unit_id": 457402,
+   "name": "University of Fort Lauderdale",
+   "state": "FL",
+   "enrollment": 314,
+   "domain": "uftl.edu"
+  },
+  {
+   "scorecard_unit_id": 195191,
+   "name": "St. Joseph's College of Nursing",
+   "state": "NY",
+   "enrollment": 313,
+   "domain": "sjhcon.edu"
+  },
+  {
+   "scorecard_unit_id": 444565,
+   "name": "Culinary Institute Inc",
+   "state": "TX",
+   "enrollment": 313,
+   "domain": "culinaryinstitute.edu"
+  },
+  {
+   "scorecard_unit_id": 120768,
+   "name": "Pacific Oaks College",
+   "state": "CA",
+   "enrollment": 312,
+   "domain": "pacificoaks.edu"
+  },
+  {
+   "scorecard_unit_id": 451103,
+   "name": "Miami Regional University",
+   "state": "FL",
+   "enrollment": 312,
+   "domain": "mru.edu"
+  },
+  {
+   "scorecard_unit_id": 189282,
+   "name": "Mount Sinai Phillips School of Nursing",
+   "state": "NY",
+   "enrollment": 311,
+   "domain": "pson.edu"
+  },
+  {
+   "scorecard_unit_id": 499176,
+   "name": "College of Biomedical Equipment Technology",
+   "state": "TX",
+   "enrollment": 311,
+   "domain": "cbet.edu"
+  },
+  {
+   "scorecard_unit_id": 146816,
+   "name": "Generations College",
+   "state": "IL",
+   "enrollment": 310,
+   "domain": "generations.edu"
+  },
+  {
+   "scorecard_unit_id": 449524,
+   "name": "Taylor College",
+   "state": "FL",
+   "enrollment": 308,
+   "domain": "taylorcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 241766,
+   "name": "Puerto Rico Conservatory of Music",
+   "state": "PR",
+   "enrollment": 307,
+   "domain": "cmpr.edu"
+  },
+  {
+   "scorecard_unit_id": 497268,
+   "name": "Arizona College of Nursing-Salt Lake City",
+   "state": "UT",
+   "enrollment": 306,
+   "domain": "arizonacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 440396,
+   "name": "New Saint Andrews College",
+   "state": "ID",
+   "enrollment": 305,
+   "domain": "nsa.edu"
+  },
+  {
+   "scorecard_unit_id": 444556,
+   "name": "Auguste Escoffier School of Culinary Arts-Austin",
+   "state": "TX",
+   "enrollment": 305,
+   "domain": "escoffier.edu"
+  },
+  {
+   "scorecard_unit_id": 101116,
+   "name": "South University-Montgomery",
+   "state": "AL",
+   "enrollment": 299,
+   "domain": "southuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 437097,
+   "name": "University of Management and Technology",
+   "state": "VA",
+   "enrollment": 294,
+   "domain": "umtweb.edu"
+  },
+  {
+   "scorecard_unit_id": 449384,
+   "name": "Gnomon",
+   "state": "CA",
+   "enrollment": 294,
+   "domain": "gnomon.edu"
+  },
+  {
+   "scorecard_unit_id": 434900,
+   "name": "Dewey University-Carolina",
+   "state": "PR",
+   "enrollment": 292,
+   "domain": "dewey.edu"
+  },
+  {
+   "scorecard_unit_id": 499413,
+   "name": "Glendale Career College-North-West College-MFSON",
+   "state": "CA",
+   "enrollment": 290,
+   "domain": "nw.edu"
+  },
+  {
+   "scorecard_unit_id": 132842,
+   "name": "Albizu University-Miami",
+   "state": "FL",
+   "enrollment": 287,
+   "domain": "albizu.edu"
+  },
+  {
+   "scorecard_unit_id": 462354,
+   "name": "John Paul the Great Catholic University",
+   "state": "CA",
+   "enrollment": 286,
+   "domain": "jpcatholic.edu"
+  },
+  {
+   "scorecard_unit_id": 127714,
+   "name": "Nazarene Bible College",
+   "state": "CO",
+   "enrollment": 284,
+   "domain": "nbc.edu"
+  },
+  {
+   "scorecard_unit_id": 222877,
+   "name": "Arlington Baptist University",
+   "state": "TX",
+   "enrollment": 284,
+   "domain": "abu.edu"
+  },
+  {
+   "scorecard_unit_id": 466921,
+   "name": "Chamberlain University-Missouri",
+   "state": "MO",
+   "enrollment": 284,
+   "domain": "chamberlain.edu"
+  },
+  {
+   "scorecard_unit_id": 111966,
+   "name": "Charles R Drew University of Medicine and Science",
+   "state": "CA",
+   "enrollment": 282,
+   "domain": "cdrewu.edu"
+  },
+  {
+   "scorecard_unit_id": 404055,
+   "name": "Brookline College-Tempe",
+   "state": "AZ",
+   "enrollment": 282,
+   "domain": "brooklinecollege.edu"
+  },
+  {
+   "scorecard_unit_id": 444811,
+   "name": "PITC Institute",
+   "state": "PA",
+   "enrollment": 282,
+   "domain": "pitc.edu"
+  },
+  {
+   "scorecard_unit_id": 202903,
+   "name": "Gods Bible School and College",
+   "state": "OH",
+   "enrollment": 281,
+   "domain": "gbs.edu"
+  },
+  {
+   "scorecard_unit_id": 163532,
+   "name": "Ner Israel Rabbinical College",
+   "state": "MD",
+   "enrollment": 280,
+   "domain": "nirc.edu"
+  },
+  {
+   "scorecard_unit_id": 201177,
+   "name": "Aultman College of Nursing and Health Sciences",
+   "state": "OH",
+   "enrollment": 280,
+   "domain": "aultmancollege.edu"
+  },
+  {
+   "scorecard_unit_id": 151962,
+   "name": "Mid-America College of Funeral Service",
+   "state": "IN",
+   "enrollment": 279,
+   "domain": "mid-america.edu"
+  },
+  {
+   "scorecard_unit_id": 443049,
+   "name": "Faith International University",
+   "state": "WA",
+   "enrollment": 276,
+   "domain": "faithiu.edu"
+  },
+  {
+   "scorecard_unit_id": 148575,
+   "name": "Saint Francis Medical Center College of Nursing",
+   "state": "IL",
+   "enrollment": 273,
+   "domain": "sfmccon.edu"
+  },
+  {
+   "scorecard_unit_id": 241395,
+   "name": "Pontifical Catholic University of Puerto Rico-Arecibo",
+   "state": "PR",
+   "enrollment": 273,
+   "domain": "pucpr.edu"
+  },
+  {
+   "scorecard_unit_id": 500087,
+   "name": "Doral College",
+   "state": "FL",
+   "enrollment": 272,
+   "domain": "doral.edu"
+  },
+  {
+   "scorecard_unit_id": 174507,
+   "name": "Northwestern Health Sciences University",
+   "state": "MN",
+   "enrollment": 271,
+   "domain": "nwhealth.edu"
+  },
+  {
+   "scorecard_unit_id": 139579,
+   "name": "South University-Savannah",
+   "state": "GA",
+   "enrollment": 270,
+   "domain": "southuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 207157,
+   "name": "Randall University",
+   "state": "OK",
+   "enrollment": 267,
+   "domain": "ru.edu"
+  },
+  {
+   "scorecard_unit_id": 449135,
+   "name": "Dewey University-Juana Diaz",
+   "state": "PR",
+   "enrollment": 263,
+   "domain": "dewey.edu"
+  },
+  {
+   "scorecard_unit_id": 216083,
+   "name": "South Hills School of Business & Technology",
+   "state": "PA",
+   "enrollment": 260,
+   "domain": "southhills.edu"
+  },
+  {
+   "scorecard_unit_id": 454582,
+   "name": "Ottawa University-Online",
+   "state": "KS",
+   "enrollment": 259,
+   "domain": "ottawa.edu"
+  },
+  {
+   "scorecard_unit_id": 413617,
+   "name": "College of Menominee Nation",
+   "state": "WI",
+   "enrollment": 258,
+   "domain": "menominee.edu"
+  },
+  {
+   "scorecard_unit_id": 200466,
+   "name": "Sitting Bull College",
+   "state": "ND",
+   "enrollment": 257,
+   "domain": "sittingbull.edu"
+  },
+  {
+   "scorecard_unit_id": 454236,
+   "name": "Chamberlain University-Ohio",
+   "state": "OH",
+   "enrollment": 257,
+   "domain": "chamberlain.edu"
+  },
+  {
+   "scorecard_unit_id": 496283,
+   "name": "Provo College-Idaho Falls Campus",
+   "state": "ID",
+   "enrollment": 257,
+   "domain": "eaglegatecollege.edu"
+  },
+  {
+   "scorecard_unit_id": 177117,
+   "name": "Cottey College",
+   "state": "MO",
+   "enrollment": 254,
+   "domain": "cottey.edu"
+  },
+  {
+   "scorecard_unit_id": 366261,
+   "name": "Commonwealth Institute of Funeral Service",
+   "state": "TX",
+   "enrollment": 254,
+   "domain": "commonwealth.edu"
+  },
+  {
+   "scorecard_unit_id": 226879,
+   "name": "Wade College",
+   "state": "TX",
+   "enrollment": 252,
+   "domain": "wadecollege.edu"
+  },
+  {
+   "scorecard_unit_id": 133465,
+   "name": "South University-West Palm Beach",
+   "state": "FL",
+   "enrollment": 251,
+   "domain": "southuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 439701,
+   "name": "The King's University",
+   "state": "TX",
+   "enrollment": 251,
+   "domain": "tku.edu"
+  },
+  {
+   "scorecard_unit_id": 496636,
+   "name": "Antigua College International",
+   "state": "FL",
+   "enrollment": 251,
+   "domain": "antigua.edu"
+  },
+  {
+   "scorecard_unit_id": 496973,
+   "name": "Herzing University-Tampa",
+   "state": "FL",
+   "enrollment": 251,
+   "domain": "herzing.edu"
+  },
+  {
+   "scorecard_unit_id": 419244,
+   "name": "Atlanta Institute of Music and Media",
+   "state": "GA",
+   "enrollment": 248,
+   "domain": "aimm.edu"
+  },
+  {
+   "scorecard_unit_id": 368452,
+   "name": "Nossi College of Art and Design",
+   "state": "TN",
+   "enrollment": 247,
+   "domain": "nossi.edu"
+  },
+  {
+   "scorecard_unit_id": 147129,
+   "name": "Methodist College",
+   "state": "IL",
+   "enrollment": 245,
+   "domain": "methodistcol.edu"
+  },
+  {
+   "scorecard_unit_id": 210492,
+   "name": "Bryn Athyn College of the New Church",
+   "state": "PA",
+   "enrollment": 244,
+   "domain": "brynathyn.edu"
+  },
+  {
+   "scorecard_unit_id": 443562,
+   "name": "Dewey University-Hato Rey",
+   "state": "PR",
+   "enrollment": 244,
+   "domain": "dewey.edu"
+  },
+  {
+   "scorecard_unit_id": 232885,
+   "name": "Sentara College of Health Sciences",
+   "state": "VA",
+   "enrollment": 242,
+   "domain": "sentara.edu"
+  },
+  {
+   "scorecard_unit_id": 100690,
+   "name": "Amridge University",
+   "state": "AL",
+   "enrollment": 241,
+   "domain": "amridgeuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 188517,
+   "name": "Bryant & Stratton College-Albany",
+   "state": "NY",
+   "enrollment": 240,
+   "domain": "bryantstratton.edu"
+  },
+  {
+   "scorecard_unit_id": 459268,
+   "name": "South University-Virginia Beach",
+   "state": "VA",
+   "enrollment": 240,
+   "domain": "southuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 497824,
+   "name": "Evangel University-College of Online Learning",
+   "state": "MO",
+   "enrollment": 240,
+   "domain": "evangel.edu"
+  },
+  {
+   "scorecard_unit_id": 161022,
+   "name": "Maine College of Health Professions",
+   "state": "ME",
+   "enrollment": 239,
+   "domain": "mchp.edu"
+  },
+  {
+   "scorecard_unit_id": 123952,
+   "name": "Southern California Institute of Architecture",
+   "state": "CA",
+   "enrollment": 236,
+   "domain": "sciarc.edu"
+  },
+  {
+   "scorecard_unit_id": 480985,
+   "name": "Midwives College of Utah",
+   "state": "UT",
+   "enrollment": 234,
+   "domain": "midwifery.edu"
+  },
+  {
+   "scorecard_unit_id": 459259,
+   "name": "South University-Richmond",
+   "state": "VA",
+   "enrollment": 232,
+   "domain": "southuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 177986,
+   "name": "Logan University",
+   "state": "MO",
+   "enrollment": 229,
+   "domain": "logan.edu"
+  },
+  {
+   "scorecard_unit_id": 481401,
+   "name": "Grace School of Theology",
+   "state": "TX",
+   "enrollment": 229,
+   "domain": "gsot.edu"
+  },
+  {
+   "scorecard_unit_id": 102395,
+   "name": "United States Sports University",
+   "state": "AL",
+   "enrollment": 228,
+   "domain": "ussu.edu"
+  },
+  {
+   "scorecard_unit_id": 446385,
+   "name": "Los Angeles College of Music",
+   "state": "CA",
+   "enrollment": 227,
+   "domain": "lacm.edu"
+  },
+  {
+   "scorecard_unit_id": 122506,
+   "name": "San Francisco Conservatory of Music",
+   "state": "CA",
+   "enrollment": 226,
+   "domain": "sfcm.edu"
+  },
+  {
+   "scorecard_unit_id": 166911,
+   "name": "Montserrat College of Art",
+   "state": "MA",
+   "enrollment": 226,
+   "domain": "montserrat.edu"
+  },
+  {
+   "scorecard_unit_id": 220206,
+   "name": "Welch College",
+   "state": "TN",
+   "enrollment": 226,
+   "domain": "welch.edu"
+  },
+  {
+   "scorecard_unit_id": 447421,
+   "name": "Eagle Gate College-Layton",
+   "state": "UT",
+   "enrollment": 226,
+   "domain": "eaglegatecollege.edu"
+  },
+  {
+   "scorecard_unit_id": 497833,
+   "name": "Marian University-Ancilla",
+   "state": "IN",
+   "enrollment": 226,
+   "domain": "marian.edu"
+  },
+  {
+   "scorecard_unit_id": 422695,
+   "name": "Pacific College",
+   "state": "CA",
+   "enrollment": 225,
+   "domain": "pacific-college.edu"
+  },
+  {
+   "scorecard_unit_id": 224244,
+   "name": "Dallas Christian College",
+   "state": "TX",
+   "enrollment": 224,
+   "domain": "dallas.edu"
+  },
+  {
+   "scorecard_unit_id": 480967,
+   "name": "College of the Muscogee Nation",
+   "state": "OK",
+   "enrollment": 222,
+   "domain": "cmn.edu"
+  },
+  {
+   "scorecard_unit_id": 469416,
+   "name": "Dewey University-Manati",
+   "state": "PR",
+   "enrollment": 221,
+   "domain": "dewey.edu"
+  },
+  {
+   "scorecard_unit_id": 155636,
+   "name": "Ottawa University-Kansas City",
+   "state": "KS",
+   "enrollment": 219,
+   "domain": "ottawa.edu"
+  },
+  {
+   "scorecard_unit_id": 129534,
+   "name": "Holy Apostles College and Seminary",
+   "state": "CT",
+   "enrollment": 216,
+   "domain": "holyapostles.edu"
+  },
+  {
+   "scorecard_unit_id": 205391,
+   "name": "The Modern College of Design",
+   "state": "OH",
+   "enrollment": 211,
+   "domain": "themodern.edu"
+  },
+  {
+   "scorecard_unit_id": 480073,
+   "name": "South University-Austin",
+   "state": "TX",
+   "enrollment": 211,
+   "domain": "southuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 401223,
+   "name": "World Mission University",
+   "state": "CA",
+   "enrollment": 207,
+   "domain": "wmu.edu"
+  },
+  {
+   "scorecard_unit_id": 110060,
+   "name": "Bethesda University",
+   "state": "CA",
+   "enrollment": 205,
+   "domain": "buc.edu"
+  },
+  {
+   "scorecard_unit_id": 201061,
+   "name": "Art Academy of Cincinnati",
+   "state": "OH",
+   "enrollment": 205,
+   "domain": "artacademy.edu"
+  },
+  {
+   "scorecard_unit_id": 489344,
+   "name": "Chamberlain University-North Carolina",
+   "state": "NC",
+   "enrollment": 202,
+   "domain": "chamberlain.edu"
+  },
+  {
+   "scorecard_unit_id": 500342,
+   "name": "EDvance College",
+   "state": "CA",
+   "enrollment": 201,
+   "domain": "edvance.edu"
+  },
+  {
+   "scorecard_unit_id": 223472,
+   "name": "Vet Tech Institute of Houston",
+   "state": "TX",
+   "enrollment": 200,
+   "domain": "vettechinstitute.edu"
+  },
+  {
+   "scorecard_unit_id": 455336,
+   "name": "MediaTech Institute-Dallas",
+   "state": "TX",
+   "enrollment": 199,
+   "domain": "mediatech.edu"
+  },
+  {
+   "scorecard_unit_id": 447953,
+   "name": "SUM Bible College and Theological Seminary",
+   "state": "CA",
+   "enrollment": 198,
+   "domain": "sum.edu"
+  },
+  {
+   "scorecard_unit_id": 170091,
+   "name": "Great Lakes Christian College",
+   "state": "MI",
+   "enrollment": 197,
+   "domain": "glcc.edu"
+  },
+  {
+   "scorecard_unit_id": 495916,
+   "name": "Pathways College",
+   "state": "AZ",
+   "enrollment": 196,
+   "domain": "pathwayscollege.edu"
+  },
+  {
+   "scorecard_unit_id": 237136,
+   "name": "Appalachian Bible College",
+   "state": "WV",
+   "enrollment": 193,
+   "domain": "abc.edu"
+  },
+  {
+   "scorecard_unit_id": 449728,
+   "name": "ATA College",
+   "state": "OK",
+   "enrollment": 193,
+   "domain": "ata.edu"
+  },
+  {
+   "scorecard_unit_id": 487861,
+   "name": "Felbry College",
+   "state": "OH",
+   "enrollment": 192,
+   "domain": "felbrycollege.edu"
+  },
+  {
+   "scorecard_unit_id": 447713,
+   "name": "California Career College",
+   "state": "CA",
+   "enrollment": 190,
+   "domain": "californiacareercollege.edu"
+  },
+  {
+   "scorecard_unit_id": 436599,
+   "name": "FINE Mortuary College",
+   "state": "MA",
+   "enrollment": 185,
+   "domain": "fmc.edu"
+  },
+  {
+   "scorecard_unit_id": 461883,
+   "name": "Millennia Atlantic University",
+   "state": "FL",
+   "enrollment": 184,
+   "domain": "maufl.edu"
+  },
+  {
+   "scorecard_unit_id": 213914,
+   "name": "Vet Tech Institute",
+   "state": "PA",
+   "enrollment": 183,
+   "domain": "vettechinstitute.edu"
+  },
+  {
+   "scorecard_unit_id": 369455,
+   "name": "Worsham College of Mortuary Science",
+   "state": "IL",
+   "enrollment": 183,
+   "domain": "worsham.edu"
+  },
+  {
+   "scorecard_unit_id": 119775,
+   "name": "Newschool of Architecture and Design",
+   "state": "CA",
+   "enrollment": 182,
+   "domain": "newschoolarch.edu"
+  },
+  {
+   "scorecard_unit_id": 186186,
+   "name": "Rabbinical College of America",
+   "state": "NJ",
+   "enrollment": 181,
+   "domain": "rca.edu"
+  },
+  {
+   "scorecard_unit_id": 237437,
+   "name": "Ameritas College",
+   "state": "WV",
+   "enrollment": 181,
+   "domain": "ameritas.edu"
+  },
+  {
+   "scorecard_unit_id": 178989,
+   "name": "Research College of Nursing",
+   "state": "MO",
+   "enrollment": 177,
+   "domain": "researchcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 143297,
+   "name": "Blessing Rieman College of Nursing and Health Sciences",
+   "state": "IL",
+   "enrollment": 176,
+   "domain": "brcn.edu"
+  },
+  {
+   "scorecard_unit_id": 475273,
+   "name": "Springfield College-Regional Online and Continuing Education",
+   "state": "MA",
+   "enrollment": 176,
+   "domain": "springfield.edu"
+  },
+  {
+   "scorecard_unit_id": 150251,
+   "name": "College of Court Reporting Inc",
+   "state": "IN",
+   "enrollment": 175,
+   "domain": "ccr.edu"
+  },
+  {
+   "scorecard_unit_id": 215637,
+   "name": "Walnut Hill College",
+   "state": "PA",
+   "enrollment": 175,
+   "domain": "walnuthillcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 241614,
+   "name": "Universidad Teologica del Caribe",
+   "state": "PR",
+   "enrollment": 173,
+   "domain": "utcpr.edu"
+  },
+  {
+   "scorecard_unit_id": 149028,
+   "name": "Saint Anthony College of Nursing",
+   "state": "IL",
+   "enrollment": 172,
+   "domain": "sacn.edu"
+  },
+  {
+   "scorecard_unit_id": 491297,
+   "name": "University of Wisconsin-Parkside Flex",
+   "state": "WI",
+   "enrollment": 172,
+   "domain": "wisconsin.edu"
+  },
+  {
+   "scorecard_unit_id": 155070,
+   "name": "Barclay College",
+   "state": "KS",
+   "enrollment": 168,
+   "domain": "barclaycollege.edu"
+  },
+  {
+   "scorecard_unit_id": 455770,
+   "name": "Providence Christian College",
+   "state": "CA",
+   "enrollment": 168,
+   "domain": "providencecc.edu"
+  },
+  {
+   "scorecard_unit_id": 154262,
+   "name": "St Luke's College",
+   "state": "IA",
+   "enrollment": 167,
+   "domain": "stlukescollege.edu"
+  },
+  {
+   "scorecard_unit_id": 490054,
+   "name": "HCI College",
+   "state": "FL",
+   "enrollment": 166,
+   "domain": "hci.edu"
+  },
+  {
+   "scorecard_unit_id": 106810,
+   "name": "Crowley's Ridge College",
+   "state": "AR",
+   "enrollment": 165,
+   "domain": "crc.edu"
+  },
+  {
+   "scorecard_unit_id": 135364,
+   "name": "Luther Rice College & Seminary",
+   "state": "GA",
+   "enrollment": 165,
+   "domain": "lutherrice.edu"
+  },
+  {
+   "scorecard_unit_id": 166869,
+   "name": "MGH Institute of Health Professions",
+   "state": "MA",
+   "enrollment": 164,
+   "domain": "mghihp.edu"
+  },
+  {
+   "scorecard_unit_id": 499404,
+   "name": "Arizona College of Nursing-Cleveland",
+   "state": "OH",
+   "enrollment": 164,
+   "domain": "arizonacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 126076,
+   "name": "Yeshiva Ohr Elchonon Chabad West Coast Talmudical Seminary",
+   "state": "CA",
+   "enrollment": 163,
+   "domain": "yoec.edu"
+  },
+  {
+   "scorecard_unit_id": 215992,
+   "name": "Laurel Technical Institute",
+   "state": "PA",
+   "enrollment": 163,
+   "domain": "laurel.edu"
+  },
+  {
+   "scorecard_unit_id": 497408,
+   "name": "Bridges Christian College",
+   "state": "LA",
+   "enrollment": 163,
+   "domain": "bcc.edu"
+  },
+  {
+   "scorecard_unit_id": 200086,
+   "name": "Nueta Hidatsa Sahnish College",
+   "state": "ND",
+   "enrollment": 161,
+   "domain": "nhsc.edu"
+  },
+  {
+   "scorecard_unit_id": 376224,
+   "name": "CEM College-Humacao",
+   "state": "PR",
+   "enrollment": 161,
+   "domain": "cemcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 156417,
+   "name": "Clear Creek Baptist Bible College",
+   "state": "KY",
+   "enrollment": 159,
+   "domain": "ccbbc.edu"
+  },
+  {
+   "scorecard_unit_id": 196307,
+   "name": "Upstate Medical University",
+   "state": "NY",
+   "enrollment": 159,
+   "domain": "upstate.edu"
+  },
+  {
+   "scorecard_unit_id": 202073,
+   "name": "Cleveland Institute of Music",
+   "state": "OH",
+   "enrollment": 159,
+   "domain": "cim.edu"
+  },
+  {
+   "scorecard_unit_id": 461032,
+   "name": "Carolina College of Biblical Studies",
+   "state": "NC",
+   "enrollment": 159,
+   "domain": "ccbs.edu"
+  },
+  {
+   "scorecard_unit_id": 372073,
+   "name": "Fremont University",
+   "state": "CA",
+   "enrollment": 157,
+   "domain": "fremont.edu"
+  },
+  {
+   "scorecard_unit_id": 442639,
+   "name": "University of the Potomac-VA Campus",
+   "state": "VA",
+   "enrollment": 157,
+   "domain": "potomac.edu"
+  },
+  {
+   "scorecard_unit_id": 485698,
+   "name": "American College of the Building Arts",
+   "state": "SC",
+   "enrollment": 155,
+   "domain": "acba.edu"
+  },
+  {
+   "scorecard_unit_id": 176789,
+   "name": "Calvary University",
+   "state": "MO",
+   "enrollment": 154,
+   "domain": "calvary.edu"
+  },
+  {
+   "scorecard_unit_id": 176910,
+   "name": "Central Christian College of the Bible",
+   "state": "MO",
+   "enrollment": 154,
+   "domain": "cccb.edu"
+  },
+  {
+   "scorecard_unit_id": 447050,
+   "name": "United States University",
+   "state": "CA",
+   "enrollment": 153,
+   "domain": "usuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 363916,
+   "name": "Caribbean University-Vega Baja",
+   "state": "PR",
+   "enrollment": 152,
+   "domain": "caribbean.edu"
+  },
+  {
+   "scorecard_unit_id": 441609,
+   "name": "Yeshiva Shaarei Torah of Rockland",
+   "state": "NY",
+   "enrollment": 152,
+   "domain": "yst.edu"
+  },
+  {
+   "scorecard_unit_id": 233082,
+   "name": "Southside College of Health Sciences",
+   "state": "VA",
+   "enrollment": 151,
+   "domain": "schs.edu"
+  },
+  {
+   "scorecard_unit_id": 485546,
+   "name": "California Intercontinental University",
+   "state": "SD",
+   "enrollment": 151,
+   "domain": "caluniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 115773,
+   "name": "Humphreys University",
+   "state": "CA",
+   "enrollment": 149,
+   "domain": "humphreys.edu"
+  },
+  {
+   "scorecard_unit_id": 500290,
+   "name": "Arizona College of Nursing - Chesapeake",
+   "state": "VA",
+   "enrollment": 149,
+   "domain": "arizonacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 137962,
+   "name": "Trinity College of Florida",
+   "state": "FL",
+   "enrollment": 148,
+   "domain": "trinitycollege.edu"
+  },
+  {
+   "scorecard_unit_id": 155496,
+   "name": "Manhattan Christian College",
+   "state": "KS",
+   "enrollment": 146,
+   "domain": "mccks.edu"
+  },
+  {
+   "scorecard_unit_id": 171881,
+   "name": "Kuyper College",
+   "state": "MI",
+   "enrollment": 145,
+   "domain": "kuyper.edu"
+  },
+  {
+   "scorecard_unit_id": 369516,
+   "name": "Bryan University",
+   "state": "MO",
+   "enrollment": 144,
+   "domain": "bryanu.edu"
+  },
+  {
+   "scorecard_unit_id": 475741,
+   "name": "Chamberlain University-Indiana",
+   "state": "IN",
+   "enrollment": 144,
+   "domain": "chamberlain.edu"
+  },
+  {
+   "scorecard_unit_id": 480198,
+   "name": "Warner Pacific University Professional and Graduate Studies",
+   "state": "OR",
+   "enrollment": 144,
+   "domain": "warnerpacific.edu"
+  },
+  {
+   "scorecard_unit_id": 490203,
+   "name": "Bolivar Technical College",
+   "state": "MO",
+   "enrollment": 144,
+   "domain": "bolivarcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 492069,
+   "name": "Champion Christian College",
+   "state": "AR",
+   "enrollment": 144,
+   "domain": "champion.edu"
+  },
+  {
+   "scorecard_unit_id": 155308,
+   "name": "Kansas Christian College",
+   "state": "KS",
+   "enrollment": 143,
+   "domain": "kansaschristian.edu"
+  },
+  {
+   "scorecard_unit_id": 212771,
+   "name": "Gratz College",
+   "state": "PA",
+   "enrollment": 143,
+   "domain": "gratz.edu"
+  },
+  {
+   "scorecard_unit_id": 126359,
+   "name": "Bel-Rea Institute of Animal Technology",
+   "state": "CO",
+   "enrollment": 139,
+   "domain": "belrea.edu"
+  },
+  {
+   "scorecard_unit_id": 377546,
+   "name": "Northwest College of Art & Design",
+   "state": "WA",
+   "enrollment": 139,
+   "domain": "ncad.edu"
+  },
+  {
+   "scorecard_unit_id": 139153,
+   "name": "Beulah Heights University",
+   "state": "GA",
+   "enrollment": 138,
+   "domain": "beulah.edu"
+  },
+  {
+   "scorecard_unit_id": 148511,
+   "name": "Rush University",
+   "state": "IL",
+   "enrollment": 138,
+   "domain": "rush.edu"
+  },
+  {
+   "scorecard_unit_id": 441690,
+   "name": "Universidad Pentecostal Mizpa",
+   "state": "PR",
+   "enrollment": 137,
+   "domain": "mizpa.edu"
+  },
+  {
+   "scorecard_unit_id": 480781,
+   "name": "California Miramar University",
+   "state": "CA",
+   "enrollment": 135,
+   "domain": "calmu.edu"
+  },
+  {
+   "scorecard_unit_id": 499370,
+   "name": "Arizona College of Nursing-Sarasota",
+   "state": "FL",
+   "enrollment": 133,
+   "domain": "arizonacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 199458,
+   "name": "Mid-Atlantic Christian University",
+   "state": "NC",
+   "enrollment": 132,
+   "domain": "macuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 449658,
+   "name": "Bais Medrash Toras Chesed",
+   "state": "NJ",
+   "enrollment": 132,
+   "domain": "bmtc.edu"
+  },
+  {
+   "scorecard_unit_id": 475608,
+   "name": "Criswell College",
+   "state": "TX",
+   "enrollment": 132,
+   "domain": "criswell.edu"
+  },
+  {
+   "scorecard_unit_id": 192624,
+   "name": "Machzikei Hadath Rabbinical College",
+   "state": "NY",
+   "enrollment": 131,
+   "domain": "mhrc.edu"
+  },
+  {
+   "scorecard_unit_id": 500333,
+   "name": "Arizona College of Nursing-St Louis",
+   "state": "MO",
+   "enrollment": 131,
+   "domain": "arizonacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 453792,
+   "name": "Ohio Medical Career College",
+   "state": "OH",
+   "enrollment": 129,
+   "domain": "omcc.edu"
+  },
+  {
+   "scorecard_unit_id": 457484,
+   "name": "Pacific Rim Christian University",
+   "state": "HI",
+   "enrollment": 129,
+   "domain": "pacrim.edu"
+  },
+  {
+   "scorecard_unit_id": 495147,
+   "name": "Pacific Northwest Christian College",
+   "state": "WA",
+   "enrollment": 129,
+   "domain": "pnwcc.edu"
+  },
+  {
+   "scorecard_unit_id": 486372,
+   "name": "San Francisco Film School",
+   "state": "CA",
+   "enrollment": 127,
+   "domain": "sanfranciscofilmschool.edu"
+  },
+  {
+   "scorecard_unit_id": 120166,
+   "name": "San Francisco Bay University",
+   "state": "CA",
+   "enrollment": 126,
+   "domain": "sfbu.edu"
+  },
+  {
+   "scorecard_unit_id": 199883,
+   "name": "Watts College of Nursing",
+   "state": "NC",
+   "enrollment": 124,
+   "domain": "wattscollegeofnursing.edu"
+  },
+  {
+   "scorecard_unit_id": 151467,
+   "name": "Vet Tech Institute of Indiana",
+   "state": "IN",
+   "enrollment": 123,
+   "domain": "vettechinstitute.edu"
+  },
+  {
+   "scorecard_unit_id": 457527,
+   "name": "Ambria College of Nursing",
+   "state": "IL",
+   "enrollment": 123,
+   "domain": "ambria.edu"
+  },
+  {
+   "scorecard_unit_id": 481252,
+   "name": "Ultrasound Medical Institute",
+   "state": "FL",
+   "enrollment": 121,
+   "domain": "nriinstitute.edu"
+  },
+  {
+   "scorecard_unit_id": 483018,
+   "name": "Antioch College",
+   "state": "OH",
+   "enrollment": 121,
+   "domain": "antiochcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 204884,
+   "name": "East Ohio College",
+   "state": "OH",
+   "enrollment": 118,
+   "domain": "eastohio.edu"
+  },
+  {
+   "scorecard_unit_id": 448239,
+   "name": "Careers Unlimited",
+   "state": "UT",
+   "enrollment": 118,
+   "domain": "ucdh.edu"
+  },
+  {
+   "scorecard_unit_id": 491631,
+   "name": "Women's Institute of Torah Seminary and College",
+   "state": "MD",
+   "enrollment": 118,
+   "domain": "wits.edu"
+  },
+  {
+   "scorecard_unit_id": 138664,
+   "name": "Interactive College of Technology-Morrow",
+   "state": "GA",
+   "enrollment": 117,
+   "domain": "ict.edu"
+  },
+  {
+   "scorecard_unit_id": 486053,
+   "name": "Bethlehem College & Seminary",
+   "state": "MN",
+   "enrollment": 117,
+   "domain": "bcsmn.edu"
+  },
+  {
+   "scorecard_unit_id": 475398,
+   "name": "Catholic International University",
+   "state": "WV",
+   "enrollment": 116,
+   "domain": "catholiciu.edu"
+  },
+  {
+   "scorecard_unit_id": 498623,
+   "name": "Justice University",
+   "state": "AZ",
+   "enrollment": 116,
+   "domain": "justiceuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 197647,
+   "name": "Yeshiva Derech Chaim",
+   "state": "NY",
+   "enrollment": 115,
+   "domain": "ydc.edu"
+  },
+  {
+   "scorecard_unit_id": 222628,
+   "name": "Amberton University",
+   "state": "TX",
+   "enrollment": 114,
+   "domain": "amberton.edu"
+  },
+  {
+   "scorecard_unit_id": 486354,
+   "name": "United International College",
+   "state": "FL",
+   "enrollment": 113,
+   "domain": "uinternational.edu"
+  },
+  {
+   "scorecard_unit_id": 134510,
+   "name": "Hobe Sound Bible College",
+   "state": "FL",
+   "enrollment": 112,
+   "domain": "hsbc.edu"
+  },
+  {
+   "scorecard_unit_id": 117283,
+   "name": "Latin American Bible Institute",
+   "state": "CA",
+   "enrollment": 111,
+   "domain": "labi.edu"
+  },
+  {
+   "scorecard_unit_id": 482228,
+   "name": "Veritas Baptist College",
+   "state": "IN",
+   "enrollment": 111,
+   "domain": "vbc.edu"
+  },
+  {
+   "scorecard_unit_id": 211893,
+   "name": "Curtis Institute of Music",
+   "state": "PA",
+   "enrollment": 109,
+   "domain": "curtis.edu"
+  },
+  {
+   "scorecard_unit_id": 446233,
+   "name": "Ecclesia College",
+   "state": "AR",
+   "enrollment": 108,
+   "domain": "ecollege.edu"
+  },
+  {
+   "scorecard_unit_id": 201867,
+   "name": "Cincinnati College of Mortuary Science",
+   "state": "OH",
+   "enrollment": 107,
+   "domain": "ccms.edu"
+  },
+  {
+   "scorecard_unit_id": 197221,
+   "name": "Webb Institute",
+   "state": "NY",
+   "enrollment": 106,
+   "domain": "webb.edu"
+  },
+  {
+   "scorecard_unit_id": 241386,
+   "name": "Caribbean University-Carolina",
+   "state": "PR",
+   "enrollment": 99,
+   "domain": "caribbean.edu"
+  },
+  {
+   "scorecard_unit_id": 444398,
+   "name": "Baptist University of the Americas",
+   "state": "TX",
+   "enrollment": 99,
+   "domain": "bua.edu"
+  },
+  {
+   "scorecard_unit_id": 149310,
+   "name": "Taylor Business Institute",
+   "state": "IL",
+   "enrollment": 98,
+   "domain": "tbiil.edu"
+  },
+  {
+   "scorecard_unit_id": 116226,
+   "name": "Interior Designers Institute",
+   "state": "CA",
+   "enrollment": 97,
+   "domain": "idi.edu"
+  },
+  {
+   "scorecard_unit_id": 183275,
+   "name": "Thomas More College of Liberal Arts",
+   "state": "NH",
+   "enrollment": 97,
+   "domain": "thomasmorecollege.edu"
+  },
+  {
+   "scorecard_unit_id": 439899,
+   "name": "Rosedale Bible College",
+   "state": "OH",
+   "enrollment": 96,
+   "domain": "rosedale.edu"
+  },
+  {
+   "scorecard_unit_id": 177038,
+   "name": "Cleveland University-Kansas City",
+   "state": "KS",
+   "enrollment": 95,
+   "domain": "cleveland.edu"
+  },
+  {
+   "scorecard_unit_id": 430670,
+   "name": "San Juan Bautista School of Medicine",
+   "state": "PR",
+   "enrollment": 94,
+   "domain": "sanjuanbautista.edu"
+  },
+  {
+   "scorecard_unit_id": 445133,
+   "name": "American InterContinental University-Houston",
+   "state": "TX",
+   "enrollment": 94,
+   "domain": "aiuniv.edu"
+  },
+  {
+   "scorecard_unit_id": 142090,
+   "name": "Boise Bible College",
+   "state": "ID",
+   "enrollment": 93,
+   "domain": "boisebible.edu"
+  },
+  {
+   "scorecard_unit_id": 160409,
+   "name": "Saint Joseph Seminary College",
+   "state": "LA",
+   "enrollment": 93,
+   "domain": "sjasc.edu"
+  },
+  {
+   "scorecard_unit_id": 176336,
+   "name": "Southeastern Baptist College",
+   "state": "MS",
+   "enrollment": 93,
+   "domain": "southeasternbaptist.edu"
+  },
+  {
+   "scorecard_unit_id": 183248,
+   "name": "St Joseph School of Nursing",
+   "state": "NH",
+   "enrollment": 93,
+   "domain": "sjson.edu"
+  },
+  {
+   "scorecard_unit_id": 189273,
+   "name": "Beth Hamedrash Shaarei Yosher Institute",
+   "state": "NY",
+   "enrollment": 91,
+   "domain": "bhsy.edu"
+  },
+  {
+   "scorecard_unit_id": 145497,
+   "name": "Hebrew Theological College",
+   "state": "IL",
+   "enrollment": 90,
+   "domain": "htc.edu"
+  },
+  {
+   "scorecard_unit_id": 216551,
+   "name": "Valley Forge Military College",
+   "state": "PA",
+   "enrollment": 90,
+   "domain": "vfmcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 178767,
+   "name": "Stevens-The Institute of Business & Arts",
+   "state": "MO",
+   "enrollment": 89,
+   "domain": "siba.edu"
+  },
+  {
+   "scorecard_unit_id": 477233,
+   "name": "Evangel University-James River Assembly of God Church",
+   "state": "MO",
+   "enrollment": 89,
+   "domain": "evangel.edu"
+  },
+  {
+   "scorecard_unit_id": 456542,
+   "name": "Geisinger Commonwealth School of Medicine",
+   "state": "PA",
+   "enrollment": 88,
+   "domain": "geisinger.edu"
+  },
+  {
+   "scorecard_unit_id": 493488,
+   "name": "Premiere International College",
+   "state": "FL",
+   "enrollment": 88,
+   "domain": "picollege.edu"
+  },
+  {
+   "scorecard_unit_id": 476601,
+   "name": "Bais HaMedrash and Mesivta of Baltimore",
+   "state": "MD",
+   "enrollment": 87,
+   "domain": "bhmb.edu"
+  },
+  {
+   "scorecard_unit_id": 217606,
+   "name": "Northpoint Bible College",
+   "state": "MA",
+   "enrollment": 86,
+   "domain": "northpoint.edu"
+  },
+  {
+   "scorecard_unit_id": 126784,
+   "name": "Colorado School of Trades",
+   "state": "CO",
+   "enrollment": 85,
+   "domain": "schooloftrades.edu"
+  },
+  {
+   "scorecard_unit_id": 490160,
+   "name": "Sacramento Ultrasound Institute",
+   "state": "CA",
+   "enrollment": 83,
+   "domain": "sui.edu"
+  },
+  {
+   "scorecard_unit_id": 219240,
+   "name": "Kairos University",
+   "state": "SD",
+   "enrollment": 82,
+   "domain": "kairos.edu"
+  },
+  {
+   "scorecard_unit_id": 443058,
+   "name": "Family of Faith Christian University",
+   "state": "OK",
+   "enrollment": 82,
+   "domain": "familyoffaith.edu"
+  },
+  {
+   "scorecard_unit_id": 486284,
+   "name": "Bethany Global University",
+   "state": "MN",
+   "enrollment": 81,
+   "domain": "bethanygu.edu"
+  },
+  {
+   "scorecard_unit_id": 499680,
+   "name": "Stellar Career College-Crown Point",
+   "state": "IN",
+   "enrollment": 81,
+   "domain": "stellarcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 449764,
+   "name": "Visible Music College",
+   "state": "TN",
+   "enrollment": 79,
+   "domain": "visible.edu"
+  },
+  {
+   "scorecard_unit_id": 490346,
+   "name": "Elyon College",
+   "state": "NY",
+   "enrollment": 79,
+   "domain": "elyon.edu"
+  },
+  {
+   "scorecard_unit_id": 113582,
+   "name": "Design Institute of San Diego",
+   "state": "CA",
+   "enrollment": 77,
+   "domain": "disd.edu"
+  },
+  {
+   "scorecard_unit_id": 137272,
+   "name": "St. John Vianney College Seminary",
+   "state": "FL",
+   "enrollment": 77,
+   "domain": "sjvcs.edu"
+  },
+  {
+   "scorecard_unit_id": 449612,
+   "name": "Louisiana Culinary Institute",
+   "state": "LA",
+   "enrollment": 77,
+   "domain": "lci.edu"
+  },
+  {
+   "scorecard_unit_id": 499398,
+   "name": "Arizona College of Nursing-Cincinnati",
+   "state": "OH",
+   "enrollment": 77,
+   "domain": "arizonacollege.edu"
+  },
+  {
+   "scorecard_unit_id": 149639,
+   "name": "VanderCook College of Music",
+   "state": "IL",
+   "enrollment": 76,
+   "domain": "vandercook.edu"
+  },
+  {
+   "scorecard_unit_id": 197692,
+   "name": "Yeshivath Shaar Hatorah",
+   "state": "NY",
+   "enrollment": 76,
+   "domain": "shaarhatorah.edu"
+  },
+  {
+   "scorecard_unit_id": 101453,
+   "name": "Heritage Christian University",
+   "state": "AL",
+   "enrollment": 75,
+   "domain": "hcu.edu"
+  },
+  {
+   "scorecard_unit_id": 174525,
+   "name": "Oak Hills Christian College",
+   "state": "MN",
+   "enrollment": 75,
+   "domain": "oakhills.edu"
+  },
+  {
+   "scorecard_unit_id": 495059,
+   "name": "Oak Valley College",
+   "state": "CA",
+   "enrollment": 75,
+   "domain": "oakvalley.edu"
+  },
+  {
+   "scorecard_unit_id": 490081,
+   "name": "America Evangelical University",
+   "state": "CA",
+   "enrollment": 73,
+   "domain": "aeu.edu"
+  },
+  {
+   "scorecard_unit_id": 193751,
+   "name": "Northeast College of Health Sciences",
+   "state": "NY",
+   "enrollment": 71,
+   "domain": "northeastcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 437750,
+   "name": "Professional Golfers Career College",
+   "state": "CA",
+   "enrollment": 70,
+   "domain": "golfcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 157030,
+   "name": "Kentucky Mountain Bible College",
+   "state": "KY",
+   "enrollment": 69,
+   "domain": "kmbc.edu"
+  },
+  {
+   "scorecard_unit_id": 481058,
+   "name": "Grace Mission University",
+   "state": "CA",
+   "enrollment": 68,
+   "domain": "gm.edu"
+  },
+  {
+   "scorecard_unit_id": 481720,
+   "name": "South University-High Point",
+   "state": "NC",
+   "enrollment": 67,
+   "domain": "southuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 124487,
+   "name": "Epic Bible College & Graduate School",
+   "state": "CA",
+   "enrollment": 66,
+   "domain": "epic.edu"
+  },
+  {
+   "scorecard_unit_id": 146533,
+   "name": "Lakeview College of Nursing",
+   "state": "IL",
+   "enrollment": 66,
+   "domain": "lcn.edu"
+  },
+  {
+   "scorecard_unit_id": 367361,
+   "name": "Interactive College of Technology",
+   "state": "TX",
+   "enrollment": 65,
+   "domain": "ict.edu"
+  },
+  {
+   "scorecard_unit_id": 475422,
+   "name": "Finger Lakes Health College of Nursing & Health Sciences",
+   "state": "NY",
+   "enrollment": 65,
+   "domain": "flhcon.edu"
+  },
+  {
+   "scorecard_unit_id": 488448,
+   "name": "Seattle Film Institute",
+   "state": "WA",
+   "enrollment": 65,
+   "domain": "sfi.edu"
+  },
+  {
+   "scorecard_unit_id": 153241,
+   "name": "Divine Word College",
+   "state": "IA",
+   "enrollment": 64,
+   "domain": "dwci.edu"
+  },
+  {
+   "scorecard_unit_id": 166054,
+   "name": "Hellenic College-Holy Cross Greek Orthodox School of Theology",
+   "state": "MA",
+   "enrollment": 64,
+   "domain": "hchc.edu"
+  },
+  {
+   "scorecard_unit_id": 233602,
+   "name": "Southeastern Free Will Baptist Bible College",
+   "state": "NC",
+   "enrollment": 64,
+   "domain": "sfwbc.edu"
+  },
+  {
+   "scorecard_unit_id": 457226,
+   "name": "Horizon University",
+   "state": "IN",
+   "enrollment": 63,
+   "domain": "horizonuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 448600,
+   "name": "Stautzenberger College-Brecksville",
+   "state": "OH",
+   "enrollment": 62,
+   "domain": "sctoday.edu"
+  },
+  {
+   "scorecard_unit_id": 439862,
+   "name": "Pacific Islands University",
+   "state": "GU",
+   "enrollment": 61,
+   "domain": "piu.edu"
+  },
+  {
+   "scorecard_unit_id": 205027,
+   "name": "Pontifical College Josephinum",
+   "state": "OH",
+   "enrollment": 60,
+   "domain": "pcj.edu"
+  },
+  {
+   "scorecard_unit_id": 147396,
+   "name": "Morrison Institute of Technology",
+   "state": "IL",
+   "enrollment": 59,
+   "domain": "morrisontech.edu"
+  },
+  {
+   "scorecard_unit_id": 418126,
+   "name": "New York College of Health Professions",
+   "state": "NY",
+   "enrollment": 58,
+   "domain": "nycollege.edu"
+  },
+  {
+   "scorecard_unit_id": 494898,
+   "name": "WellSpring School of Allied Health-Wichita",
+   "state": "KS",
+   "enrollment": 58,
+   "domain": "wellspring.edu"
+  },
+  {
+   "scorecard_unit_id": 494542,
+   "name": "Sattler College",
+   "state": "MA",
+   "enrollment": 57,
+   "domain": "sattler.edu"
+  },
+  {
+   "scorecard_unit_id": 146755,
+   "name": "Trinity College of Nursing & Health Sciences",
+   "state": "IL",
+   "enrollment": 56,
+   "domain": "trinitycollegeqc.edu"
+  },
+  {
+   "scorecard_unit_id": 172866,
+   "name": "Academy College",
+   "state": "MN",
+   "enrollment": 56,
+   "domain": "academycollege.edu"
+  },
+  {
+   "scorecard_unit_id": 208725,
+   "name": "New Hope Christian College-Eugene",
+   "state": "OR",
+   "enrollment": 56,
+   "domain": "newhope.edu"
+  },
+  {
+   "scorecard_unit_id": 149514,
+   "name": "Trinity International University-Illinois",
+   "state": "IL",
+   "enrollment": 55,
+   "domain": "tiu.edu"
+  },
+  {
+   "scorecard_unit_id": 245847,
+   "name": "Antioch University-Santa Barbara",
+   "state": "CA",
+   "enrollment": 55,
+   "domain": "antiochsb.edu"
+  },
+  {
+   "scorecard_unit_id": 450571,
+   "name": "Rasmussen University-Wisconsin",
+   "state": "WI",
+   "enrollment": 55,
+   "domain": "rasmussen.edu"
+  },
+  {
+   "scorecard_unit_id": 490045,
+   "name": "California Prestige University",
+   "state": "CA",
+   "enrollment": 55,
+   "domain": "cpu.edu"
+  },
+  {
+   "scorecard_unit_id": 488332,
+   "name": "Hope College of Arts and Sciences",
+   "state": "FL",
+   "enrollment": 54,
+   "domain": "hcas.edu"
+  },
+  {
+   "scorecard_unit_id": 488387,
+   "name": "Claremont Lincoln University",
+   "state": "CA",
+   "enrollment": 54,
+   "domain": "claremontlincoln.edu"
+  },
+  {
+   "scorecard_unit_id": 199971,
+   "name": "Carolina Christian College",
+   "state": "NC",
+   "enrollment": 52,
+   "domain": "carolina.edu"
+  },
+  {
+   "scorecard_unit_id": 200013,
+   "name": "Rasmussen University-North Dakota",
+   "state": "ND",
+   "enrollment": 52,
+   "domain": "rasmussen.edu"
+  },
+  {
+   "scorecard_unit_id": 193070,
+   "name": "Mesivtha Tifereth Jerusalem of America",
+   "state": "NY",
+   "enrollment": 51,
+   "domain": "mtj.edu"
+  },
+  {
+   "scorecard_unit_id": 231095,
+   "name": "Sterling College",
+   "state": "VT",
+   "enrollment": 50,
+   "domain": "sterlingcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 476692,
+   "name": "Yeshiva Gedolah Zichron Leyma",
+   "state": "NJ",
+   "enrollment": 47,
+   "domain": "yzl.edu"
+  },
+  {
+   "scorecard_unit_id": 200873,
+   "name": "Allegheny Wesleyan College",
+   "state": "OH",
+   "enrollment": 46,
+   "domain": "awc.edu"
+  },
+  {
+   "scorecard_unit_id": 487995,
+   "name": "Alhambra Medical University",
+   "state": "CA",
+   "enrollment": 45,
+   "domain": "amu.edu"
+  },
+  {
+   "scorecard_unit_id": 442523,
+   "name": "Alaska Christian College",
+   "state": "AK",
+   "enrollment": 44,
+   "domain": "alaskacc.edu"
+  },
+  {
+   "scorecard_unit_id": 493974,
+   "name": "College of Athens",
+   "state": "GA",
+   "enrollment": 44,
+   "domain": "collegeofathens.edu"
+  },
+  {
+   "scorecard_unit_id": 154174,
+   "name": "Palmer College of Chiropractic",
+   "state": "IA",
+   "enrollment": 43,
+   "domain": "palmer.edu"
+  },
+  {
+   "scorecard_unit_id": 436614,
+   "name": "International Baptist College and Seminary",
+   "state": "AZ",
+   "enrollment": 43,
+   "domain": "ibcs.edu"
+  },
+  {
+   "scorecard_unit_id": 209296,
+   "name": "National University of Natural Medicine",
+   "state": "OR",
+   "enrollment": 41,
+   "domain": "nunm.edu"
+  },
+  {
+   "scorecard_unit_id": 428259,
+   "name": "Ottawa University-Milwaukee",
+   "state": "WI",
+   "enrollment": 41,
+   "domain": "ottawa.edu"
+  },
+  {
+   "scorecard_unit_id": 443340,
+   "name": "Williamson Christian College",
+   "state": "TN",
+   "enrollment": 41,
+   "domain": "williamsoncc.edu"
+  },
+  {
+   "scorecard_unit_id": 177083,
+   "name": "Conception Seminary College",
+   "state": "MO",
+   "enrollment": 40,
+   "domain": "conception.edu"
+  },
+  {
+   "scorecard_unit_id": 166717,
+   "name": "William James College",
+   "state": "MA",
+   "enrollment": 39,
+   "domain": "williamjames.edu"
+  },
+  {
+   "scorecard_unit_id": 223117,
+   "name": "Baptist Missionary Association Theological Seminary",
+   "state": "TX",
+   "enrollment": 39,
+   "domain": "bmats.edu"
+  },
+  {
+   "scorecard_unit_id": 110316,
+   "name": "California Institute of Integral Studies",
+   "state": "CA",
+   "enrollment": 38,
+   "domain": "ciis.edu"
+  },
+  {
+   "scorecard_unit_id": 216047,
+   "name": "Saint Charles Borromeo Seminary-Overbrook",
+   "state": "PA",
+   "enrollment": 38,
+   "domain": "scs.edu"
+  },
+  {
+   "scorecard_unit_id": 470047,
+   "name": "WellSpring School of Allied Health-Lawrence",
+   "state": "KS",
+   "enrollment": 37,
+   "domain": "wellspring.edu"
+  },
+  {
+   "scorecard_unit_id": 496627,
+   "name": "California Northstate University",
+   "state": "CA",
+   "enrollment": 37,
+   "domain": "cnsu.edu"
+  },
+  {
+   "scorecard_unit_id": 233480,
+   "name": "Bon Secours St Mary's Hospital School of Medical Imaging",
+   "state": "VA",
+   "enrollment": 35,
+   "domain": "smhsomi.edu"
+  },
+  {
+   "scorecard_unit_id": 120184,
+   "name": "Notre Dame de Namur University",
+   "state": "CA",
+   "enrollment": 33,
+   "domain": "ndnu.edu"
+  },
+  {
+   "scorecard_unit_id": 498924,
+   "name": "URBE University",
+   "state": "FL",
+   "enrollment": 33,
+   "domain": "urbeuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 117575,
+   "name": "Southern California Seminary",
+   "state": "CA",
+   "enrollment": 32,
+   "domain": "socalsem.edu"
+  },
+  {
+   "scorecard_unit_id": 449870,
+   "name": "University of the West",
+   "state": "CA",
+   "enrollment": 32,
+   "domain": "uwest.edu"
+  },
+  {
+   "scorecard_unit_id": 494630,
+   "name": "Christ Mission College",
+   "state": "TX",
+   "enrollment": 32,
+   "domain": "cmctx.edu"
+  },
+  {
+   "scorecard_unit_id": 111045,
+   "name": "Haven University",
+   "state": "CA",
+   "enrollment": 28,
+   "domain": "haven.edu"
+  },
+  {
+   "scorecard_unit_id": 137777,
+   "name": "Talmudic College of Florida",
+   "state": "FL",
+   "enrollment": 27,
+   "domain": "talmudicu.edu"
+  },
+  {
+   "scorecard_unit_id": 494986,
+   "name": "Apex College of Veterinary Technology",
+   "state": "CO",
+   "enrollment": 27,
+   "domain": "apexcvt.edu"
+  },
+  {
+   "scorecard_unit_id": 488031,
+   "name": "Abraham Lincoln University",
+   "state": "CA",
+   "enrollment": 25,
+   "domain": "alu.edu"
+  },
+  {
+   "scorecard_unit_id": 102580,
+   "name": "Alaska Bible College",
+   "state": "AK",
+   "enrollment": 24,
+   "domain": "akbible.edu"
+  },
+  {
+   "scorecard_unit_id": 176451,
+   "name": "Wesley Biblical Seminary",
+   "state": "MS",
+   "enrollment": 24,
+   "domain": "wbs.edu"
+  },
+  {
+   "scorecard_unit_id": 262165,
+   "name": "Montana Bible College",
+   "state": "MT",
+   "enrollment": 24,
+   "domain": "montanabiblecollege.edu"
+  },
+  {
+   "scorecard_unit_id": 417752,
+   "name": "Messenger College",
+   "state": "TX",
+   "enrollment": 24,
+   "domain": "messengercollege.edu"
+  },
+  {
+   "scorecard_unit_id": 444778,
+   "name": "Charlotte Christian College and Theological Seminary",
+   "state": "NC",
+   "enrollment": 24,
+   "domain": "charlottechristian.edu"
+  },
+  {
+   "scorecard_unit_id": 497657,
+   "name": "Hawaii Tokai International College",
+   "state": "HI",
+   "enrollment": 24,
+   "domain": "htic.edu"
+  },
+  {
+   "scorecard_unit_id": 459736,
+   "name": "Touro University California",
+   "state": "CA",
+   "enrollment": 23,
+   "domain": "tu.edu"
+  },
+  {
+   "scorecard_unit_id": 486017,
+   "name": "Yeshiva Ohr Yisrael",
+   "state": "NY",
+   "enrollment": 23,
+   "domain": "yoy.edu"
+  },
+  {
+   "scorecard_unit_id": 198677,
+   "name": "Heritage Bible College",
+   "state": "NC",
+   "enrollment": 22,
+   "domain": "heritagebiblecollege.edu"
+  },
+  {
+   "scorecard_unit_id": 407610,
+   "name": "Pacific Bible College",
+   "state": "OR",
+   "enrollment": 22,
+   "domain": "pacificbible.edu"
+  },
+  {
+   "scorecard_unit_id": 123280,
+   "name": "Shasta Bible College and Graduate School",
+   "state": "CA",
+   "enrollment": 21,
+   "domain": "shasta.edu"
+  },
+  {
+   "scorecard_unit_id": 143978,
+   "name": "The Chicago School at Chicago",
+   "state": "IL",
+   "enrollment": 21,
+   "domain": "thechicagoschool.edu"
+  },
+  {
+   "scorecard_unit_id": 181543,
+   "name": "Summit Christian College",
+   "state": "NE",
+   "enrollment": 21,
+   "domain": "summitcc.edu"
+  },
+  {
+   "scorecard_unit_id": 435000,
+   "name": "Louisiana State University Health Sciences Center-Shreveport",
+   "state": "LA",
+   "enrollment": 21,
+   "domain": "lsuhs.edu"
+  },
+  {
+   "scorecard_unit_id": 164614,
+   "name": "Boston Baptist College",
+   "state": "MA",
+   "enrollment": 19,
+   "domain": "boston.edu"
+  },
+  {
+   "scorecard_unit_id": 481225,
+   "name": "Mid-South Christian College",
+   "state": "TN",
+   "enrollment": 19,
+   "domain": "midsouthchristian.edu"
+  },
+  {
+   "scorecard_unit_id": 206154,
+   "name": "Tri-State Bible College",
+   "state": "OH",
+   "enrollment": 17,
+   "domain": "tsbc.edu"
+  },
+  {
+   "scorecard_unit_id": 142957,
+   "name": "American Islamic College",
+   "state": "IL",
+   "enrollment": 16,
+   "domain": "aicusa.edu"
+  },
+  {
+   "scorecard_unit_id": 120698,
+   "name": "Palo Alto University",
+   "state": "CA",
+   "enrollment": 14,
+   "domain": "paloaltou.edu"
+  },
+  {
+   "scorecard_unit_id": 147590,
+   "name": "National University of Health Sciences",
+   "state": "IL",
+   "enrollment": 13,
+   "domain": "nuhs.edu"
+  },
+  {
+   "scorecard_unit_id": 434432,
+   "name": "Myotherapy Institute",
+   "state": "NE",
+   "enrollment": 12,
+   "domain": "myotherapy.edu"
+  },
+  {
+   "scorecard_unit_id": 142832,
+   "name": "Adler University",
+   "state": "IL",
+   "enrollment": 9,
+   "domain": "adler.edu"
+  },
+  {
+   "scorecard_unit_id": 214023,
+   "name": "ASPIRA City College",
+   "state": "PA",
+   "enrollment": 8,
+   "domain": "aspiracitycollege.edu"
+  },
+  {
+   "scorecard_unit_id": 167677,
+   "name": "Saint John's Seminary",
+   "state": "MA",
+   "enrollment": 7,
+   "domain": "sjs.edu"
+  },
+  {
+   "scorecard_unit_id": 484862,
+   "name": "University of West Los Angeles",
+   "state": "CA",
+   "enrollment": 7,
+   "domain": "uwla.edu"
+  },
+  {
+   "scorecard_unit_id": 439783,
+   "name": "New York College of Traditional Chinese Medicine",
+   "state": "NY",
+   "enrollment": 3,
+   "domain": "nyctcm.edu"
+  },
+  {
+   "scorecard_unit_id": 491190,
+   "name": "The Chicago School at San Diego",
+   "state": "CA",
+   "enrollment": 2,
+   "domain": "thechicagoschool.edu"
+  },
+  {
+   "scorecard_unit_id": 449834,
+   "name": "Virginia Beach Theological Seminary",
+   "state": "VA",
+   "enrollment": 1,
+   "domain": "vbts.edu"
+  },
+  {
+   "scorecard_unit_id": 497453,
+   "name": "Jackson Theological Seminary",
+   "state": "AR",
+   "enrollment": 1,
+   "domain": "jtseminary.edu"
+  },
+  {
+   "scorecard_unit_id": 104665,
+   "name": "The School of Architecture",
+   "state": "AZ",
+   "enrollment": 0,
+   "domain": "tsoa.edu"
+  },
+  {
+   "scorecard_unit_id": 108269,
+   "name": "Academy of Chinese Culture and Health Sciences",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "acchs.edu"
+  },
+  {
+   "scorecard_unit_id": 110398,
+   "name": "University of California College of the Law-San Francisco",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "uclawsf.edu"
+  },
+  {
+   "scorecard_unit_id": 111391,
+   "name": "California Western School of Law",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "cwsl.edu"
+  },
+  {
+   "scorecard_unit_id": 112127,
+   "name": "Church Divinity School of the Pacific",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "cdsp.edu"
+  },
+  {
+   "scorecard_unit_id": 113704,
+   "name": "Dominican School of Philosophy & Theology",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "dspt.edu"
+  },
+  {
+   "scorecard_unit_id": 114585,
+   "name": "Five Branches University",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "fivebranches.edu"
+  },
+  {
+   "scorecard_unit_id": 114734,
+   "name": "Franciscan School of Theology",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "fst.edu"
+  },
+  {
+   "scorecard_unit_id": 115214,
+   "name": "Graduate Theological Union",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "gtu.edu"
+  },
+  {
+   "scorecard_unit_id": 115746,
+   "name": "Pacifica Graduate Institute",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "pacifica.edu"
+  },
+  {
+   "scorecard_unit_id": 117520,
+   "name": "Life Chiropractic College West",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "lifewest.edu"
+  },
+  {
+   "scorecard_unit_id": 120795,
+   "name": "Pacific School of Religion",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "psr.edu"
+  },
+  {
+   "scorecard_unit_id": 121628,
+   "name": "RAND School of Public Policy",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "rand.edu"
+  },
+  {
+   "scorecard_unit_id": 122117,
+   "name": "Dongguk University Los Angeles",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "dula.edu"
+  },
+  {
+   "scorecard_unit_id": 122649,
+   "name": "San Joaquin College of Law",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "sjcl.edu"
+  },
+  {
+   "scorecard_unit_id": 123095,
+   "name": "Saybrook University",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "saybrook.edu"
+  },
+  {
+   "scorecard_unit_id": 123448,
+   "name": "Trinity Law School",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "tiu.edu"
+  },
+  {
+   "scorecard_unit_id": 123633,
+   "name": "South Baylo University",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "southbaylo.edu"
+  },
+  {
+   "scorecard_unit_id": 123916,
+   "name": "Starr King School for the Ministry",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "sksm.edu"
+  },
+  {
+   "scorecard_unit_id": 123943,
+   "name": "Marshall B Ketchum University",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "ketchum.edu"
+  },
+  {
+   "scorecard_unit_id": 123970,
+   "name": "Southwestern Law School",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "swlaw.edu"
+  },
+  {
+   "scorecard_unit_id": 125037,
+   "name": "The Colleges of Law at Ventura",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "collegesoflaw.edu"
+  },
+  {
+   "scorecard_unit_id": 125718,
+   "name": "Westminster Theological Seminary in California",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "wscal.edu"
+  },
+  {
+   "scorecard_unit_id": 126012,
+   "name": "The Wright Institute",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "wi.edu"
+  },
+  {
+   "scorecard_unit_id": 126049,
+   "name": "Thomas Jefferson School of Law",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "tjsl.edu"
+  },
+  {
+   "scorecard_unit_id": 126979,
+   "name": "Denver Seminary",
+   "state": "CO",
+   "enrollment": 0,
+   "domain": "denverseminary.edu"
+  },
+  {
+   "scorecard_unit_id": 127273,
+   "name": "Iliff School of Theology",
+   "state": "CO",
+   "enrollment": 0,
+   "domain": "iliff.edu"
+  },
+  {
+   "scorecard_unit_id": 129491,
+   "name": "Hartford International University for Religion and Peace",
+   "state": "CT",
+   "enrollment": 0,
+   "domain": "hartfordinternational.edu"
+  },
+  {
+   "scorecard_unit_id": 131405,
+   "name": "Pontifical Faculty of the Immaculate Conception at the Dominican House of Studies",
+   "state": "DC",
+   "enrollment": 0,
+   "domain": "dhs.edu"
+  },
+  {
+   "scorecard_unit_id": 131973,
+   "name": "Wesley Theological Seminary",
+   "state": "DC",
+   "enrollment": 0,
+   "domain": "wesleyseminary.edu"
+  },
+  {
+   "scorecard_unit_id": 136701,
+   "name": "Saint Vincent de Paul Regional Seminary",
+   "state": "FL",
+   "enrollment": 0,
+   "domain": "svdp.edu"
+  },
+  {
+   "scorecard_unit_id": 138929,
+   "name": "Atlanta's John Marshall Law School",
+   "state": "GA",
+   "enrollment": 0,
+   "domain": "johnmarshall.edu"
+  },
+  {
+   "scorecard_unit_id": 139348,
+   "name": "Columbia Theological Seminary",
+   "state": "GA",
+   "enrollment": 0,
+   "domain": "ctsnet.edu"
+  },
+  {
+   "scorecard_unit_id": 143233,
+   "name": "Bethany Theological Seminary",
+   "state": "IN",
+   "enrollment": 0,
+   "domain": "bethanyseminary.edu"
+  },
+  {
+   "scorecard_unit_id": 143659,
+   "name": "Catholic Theological Union at Chicago",
+   "state": "IL",
+   "enrollment": 0,
+   "domain": "ctu.edu"
+  },
+  {
+   "scorecard_unit_id": 144014,
+   "name": "Chicago Theological Seminary",
+   "state": "IL",
+   "enrollment": 0,
+   "domain": "ctschicago.edu"
+  },
+  {
+   "scorecard_unit_id": 145275,
+   "name": "Garrett-Evangelical Theological Seminary",
+   "state": "IL",
+   "enrollment": 0,
+   "domain": "garrett.edu"
+  },
+  {
+   "scorecard_unit_id": 145558,
+   "name": "Rosalind Franklin University of Medicine and Science",
+   "state": "IL",
+   "enrollment": 0,
+   "domain": "rosalindfranklin.edu"
+  },
+  {
+   "scorecard_unit_id": 145628,
+   "name": "Illinois College of Optometry",
+   "state": "IL",
+   "enrollment": 0,
+   "domain": "ico.edu"
+  },
+  {
+   "scorecard_unit_id": 145886,
+   "name": "Institute for Clinical Social Work",
+   "state": "IL",
+   "enrollment": 0,
+   "domain": "icsw.edu"
+  },
+  {
+   "scorecard_unit_id": 146490,
+   "name": "Lake Forest Graduate School of Management",
+   "state": "IL",
+   "enrollment": 0,
+   "domain": "lfgsm.edu"
+  },
+  {
+   "scorecard_unit_id": 146728,
+   "name": "Lutheran School of Theology at Chicago",
+   "state": "IL",
+   "enrollment": 0,
+   "domain": "lstc.edu"
+  },
+  {
+   "scorecard_unit_id": 146977,
+   "name": "McCormick Theological Seminary",
+   "state": "IL",
+   "enrollment": 0,
+   "domain": "mccormick.edu"
+  },
+  {
+   "scorecard_unit_id": 147031,
+   "name": "Meadville Theological School of Lombard College",
+   "state": "IL",
+   "enrollment": 0,
+   "domain": "meadville.edu"
+  },
+  {
+   "scorecard_unit_id": 147697,
+   "name": "Northern Baptist Theological Seminary",
+   "state": "IL",
+   "enrollment": 0,
+   "domain": "seminary.edu"
+  },
+  {
+   "scorecard_unit_id": 148885,
+   "name": "University of Saint Mary of the Lake",
+   "state": "IL",
+   "enrollment": 0,
+   "domain": "usml.edu"
+  },
+  {
+   "scorecard_unit_id": 148982,
+   "name": "Spertus College",
+   "state": "IL",
+   "enrollment": 0,
+   "domain": "spertus.edu"
+  },
+  {
+   "scorecard_unit_id": 150288,
+   "name": "Concordia Theological Seminary",
+   "state": "IN",
+   "enrollment": 0,
+   "domain": "ctsfw.edu"
+  },
+  {
+   "scorecard_unit_id": 151865,
+   "name": "Anabaptist Mennonite Biblical Seminary",
+   "state": "IN",
+   "enrollment": 0,
+   "domain": "ambs.edu"
+  },
+  {
+   "scorecard_unit_id": 152451,
+   "name": "Saint Meinrad School of Theology",
+   "state": "IN",
+   "enrollment": 0,
+   "domain": "saintmeinrad.edu"
+  },
+  {
+   "scorecard_unit_id": 154536,
+   "name": "Wartburg Theological Seminary",
+   "state": "IA",
+   "enrollment": 0,
+   "domain": "wartburgseminary.edu"
+  },
+  {
+   "scorecard_unit_id": 156222,
+   "name": "Asbury Theological Seminary",
+   "state": "KY",
+   "enrollment": 0,
+   "domain": "asburyseminary.edu"
+  },
+  {
+   "scorecard_unit_id": 156727,
+   "name": "Frontier Nursing University",
+   "state": "KY",
+   "enrollment": 0,
+   "domain": "frontier.edu"
+  },
+  {
+   "scorecard_unit_id": 157207,
+   "name": "Lexington Theological Seminary",
+   "state": "KY",
+   "enrollment": 0,
+   "domain": "lextheo.edu"
+  },
+  {
+   "scorecard_unit_id": 157298,
+   "name": "Louisville Presbyterian Theological Seminary",
+   "state": "KY",
+   "enrollment": 0,
+   "domain": "lpts.edu"
+  },
+  {
+   "scorecard_unit_id": 165495,
+   "name": "Conway School of Landscape Design",
+   "state": "MA",
+   "enrollment": 0,
+   "domain": "csld.edu"
+  },
+  {
+   "scorecard_unit_id": 165945,
+   "name": "Gordon-Conwell Theological Seminary",
+   "state": "MA",
+   "enrollment": 0,
+   "domain": "gordonconwell.edu"
+  },
+  {
+   "scorecard_unit_id": 166045,
+   "name": "Hebrew College",
+   "state": "MA",
+   "enrollment": 0,
+   "domain": "hebrewcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 166708,
+   "name": "University of Massachusetts Chan Medical School",
+   "state": "MA",
+   "enrollment": 0,
+   "domain": "umassmed.edu"
+  },
+  {
+   "scorecard_unit_id": 167093,
+   "name": "New England College of Optometry",
+   "state": "MA",
+   "enrollment": 0,
+   "domain": "neco.edu"
+  },
+  {
+   "scorecard_unit_id": 167215,
+   "name": "New England Law-Boston",
+   "state": "MA",
+   "enrollment": 0,
+   "domain": "nesl.edu"
+  },
+  {
+   "scorecard_unit_id": 169099,
+   "name": "Calvin Theological Seminary",
+   "state": "MI",
+   "enrollment": 0,
+   "domain": "calvinseminary.edu"
+  },
+  {
+   "scorecard_unit_id": 169220,
+   "name": "Michigan School of Psychology",
+   "state": "MI",
+   "enrollment": 0,
+   "domain": "msp.edu"
+  },
+  {
+   "scorecard_unit_id": 169424,
+   "name": "Cranbrook Academy of Art",
+   "state": "MI",
+   "enrollment": 0,
+   "domain": "cranbrookart.edu"
+  },
+  {
+   "scorecard_unit_id": 172477,
+   "name": "Thomas M Cooley Law School",
+   "state": "MI",
+   "enrollment": 0,
+   "domain": "cooley.edu"
+  },
+  {
+   "scorecard_unit_id": 172705,
+   "name": "Western Theological Seminary",
+   "state": "MI",
+   "enrollment": 0,
+   "domain": "westernsem.edu"
+  },
+  {
+   "scorecard_unit_id": 175139,
+   "name": "United Theological Seminary of the Twin Cities",
+   "state": "MN",
+   "enrollment": 0,
+   "domain": "unitedseminary.edu"
+  },
+  {
+   "scorecard_unit_id": 175281,
+   "name": "Mitchell Hamline School of Law",
+   "state": "MN",
+   "enrollment": 0,
+   "domain": "mitchellhamline.edu"
+  },
+  {
+   "scorecard_unit_id": 176600,
+   "name": "Aquinas Institute of Theology",
+   "state": "MO",
+   "enrollment": 0,
+   "domain": "ai.edu"
+  },
+  {
+   "scorecard_unit_id": 177092,
+   "name": "Concordia Seminary",
+   "state": "MO",
+   "enrollment": 0,
+   "domain": "csl.edu"
+  },
+  {
+   "scorecard_unit_id": 177126,
+   "name": "Covenant Theological Seminary",
+   "state": "MO",
+   "enrollment": 0,
+   "domain": "covenantseminary.edu"
+  },
+  {
+   "scorecard_unit_id": 177278,
+   "name": "Eden Theological Seminary",
+   "state": "MO",
+   "enrollment": 0,
+   "domain": "eden.edu"
+  },
+  {
+   "scorecard_unit_id": 177816,
+   "name": "Kenrick Glennon Seminary",
+   "state": "MO",
+   "enrollment": 0,
+   "domain": "kenrick.edu"
+  },
+  {
+   "scorecard_unit_id": 178518,
+   "name": "Nazarene Theological Seminary",
+   "state": "MO",
+   "enrollment": 0,
+   "domain": "nts.edu"
+  },
+  {
+   "scorecard_unit_id": 179317,
+   "name": "Saint Paul School of Theology",
+   "state": "KS",
+   "enrollment": 0,
+   "domain": "spst.edu"
+  },
+  {
+   "scorecard_unit_id": 185758,
+   "name": "New Brunswick Theological Seminary",
+   "state": "NJ",
+   "enrollment": 0,
+   "domain": "nbts.edu"
+  },
+  {
+   "scorecard_unit_id": 186122,
+   "name": "Princeton Theological Seminary",
+   "state": "NJ",
+   "enrollment": 0,
+   "domain": "ptsem.edu"
+  },
+  {
+   "scorecard_unit_id": 188207,
+   "name": "Southwestern College",
+   "state": "NM",
+   "enrollment": 0,
+   "domain": "swc.edu"
+  },
+  {
+   "scorecard_unit_id": 188535,
+   "name": "Albany Law School",
+   "state": "NY",
+   "enrollment": 0,
+   "domain": "albanylaw.edu"
+  },
+  {
+   "scorecard_unit_id": 188580,
+   "name": "Albany Medical College",
+   "state": "NY",
+   "enrollment": 0,
+   "domain": "amc.edu"
+  },
+  {
+   "scorecard_unit_id": 189015,
+   "name": "Bank Street College of Education",
+   "state": "NY",
+   "enrollment": 0,
+   "domain": "bankstreet.edu"
+  },
+  {
+   "scorecard_unit_id": 189501,
+   "name": "Brooklyn Law School",
+   "state": "NY",
+   "enrollment": 0,
+   "domain": "brooklaw.edu"
+  },
+  {
+   "scorecard_unit_id": 190080,
+   "name": "Colgate Rochester Crozer Divinity School",
+   "state": "NY",
+   "enrollment": 0,
+   "domain": "crcds.edu"
+  },
+  {
+   "scorecard_unit_id": 193821,
+   "name": "New York Law School",
+   "state": "NY",
+   "enrollment": 0,
+   "domain": "nyls.edu"
+  },
+  {
+   "scorecard_unit_id": 194073,
+   "name": "New York College of Podiatric Medicine",
+   "state": "NY",
+   "enrollment": 0,
+   "domain": "nycpm.edu"
+  },
+  {
+   "scorecard_unit_id": 195155,
+   "name": "St Bernard's School of Theology and Ministry",
+   "state": "NY",
+   "enrollment": 0,
+   "domain": "stbernards.edu"
+  },
+  {
+   "scorecard_unit_id": 195580,
+   "name": "Saint Vladimirs Orthodox Theological Seminary",
+   "state": "NY",
+   "enrollment": 0,
+   "domain": "svots.edu"
+  },
+  {
+   "scorecard_unit_id": 196228,
+   "name": "SUNY College of Optometry",
+   "state": "NY",
+   "enrollment": 0,
+   "domain": "sunyopt.edu"
+  },
+  {
+   "scorecard_unit_id": 196884,
+   "name": "Union Theological Seminary in the City of New York",
+   "state": "NY",
+   "enrollment": 0,
+   "domain": "utsnyc.edu"
+  },
+  {
+   "scorecard_unit_id": 203067,
+   "name": "Hebrew Union College-Jewish Institute of Religion",
+   "state": "NY",
+   "enrollment": 0,
+   "domain": "huc.edu"
+  },
+  {
+   "scorecard_unit_id": 203997,
+   "name": "Methodist Theological School in Ohio",
+   "state": "OH",
+   "enrollment": 0,
+   "domain": "mtso.edu"
+  },
+  {
+   "scorecard_unit_id": 204477,
+   "name": "Northeast Ohio Medical University",
+   "state": "OH",
+   "enrollment": 0,
+   "domain": "neomed.edu"
+  },
+  {
+   "scorecard_unit_id": 204990,
+   "name": "Payne Theological Seminary",
+   "state": "OH",
+   "enrollment": 0,
+   "domain": "payneseminary.edu"
+  },
+  {
+   "scorecard_unit_id": 206288,
+   "name": "United Theological Seminary",
+   "state": "OH",
+   "enrollment": 0,
+   "domain": "united.edu"
+  },
+  {
+   "scorecard_unit_id": 206516,
+   "name": "Winebrenner Theological Seminary",
+   "state": "OH",
+   "enrollment": 0,
+   "domain": "winebrenner.edu"
+  },
+  {
+   "scorecard_unit_id": 210368,
+   "name": "Western Seminary",
+   "state": "OR",
+   "enrollment": 0,
+   "domain": "westernseminary.edu"
+  },
+  {
+   "scorecard_unit_id": 210438,
+   "name": "University of Western States",
+   "state": "OR",
+   "enrollment": 0,
+   "domain": "uws.edu"
+  },
+  {
+   "scorecard_unit_id": 213631,
+   "name": "United Lutheran Seminary",
+   "state": "PA",
+   "enrollment": 0,
+   "domain": "unitedlutheranseminary.edu"
+  },
+  {
+   "scorecard_unit_id": 215424,
+   "name": "Pittsburgh Theological Seminary",
+   "state": "PA",
+   "enrollment": 0,
+   "domain": "pts.edu"
+  },
+  {
+   "scorecard_unit_id": 215619,
+   "name": "Reconstructionist Rabbinical College",
+   "state": "PA",
+   "enrollment": 0,
+   "domain": "rrc.edu"
+  },
+  {
+   "scorecard_unit_id": 215813,
+   "name": "Saint Vincent Seminary",
+   "state": "PA",
+   "enrollment": 0,
+   "domain": "saintvincentseminary.edu"
+  },
+  {
+   "scorecard_unit_id": 216348,
+   "name": "Theological Seminary of the Reformed Episcopal Church",
+   "state": "PA",
+   "enrollment": 0,
+   "domain": "reseminary.edu"
+  },
+  {
+   "scorecard_unit_id": 216463,
+   "name": "Trinity Anglican Seminary",
+   "state": "PA",
+   "enrollment": 0,
+   "domain": "tas.edu"
+  },
+  {
+   "scorecard_unit_id": 218751,
+   "name": "Sherman College of Chiropractic",
+   "state": "SC",
+   "enrollment": 0,
+   "domain": "sherman.edu"
+  },
+  {
+   "scorecard_unit_id": 220871,
+   "name": "Memphis Theological Seminary",
+   "state": "TN",
+   "enrollment": 0,
+   "domain": "memphisseminary.edu"
+  },
+  {
+   "scorecard_unit_id": 220996,
+   "name": "Middle Tennessee School of Anesthesia Inc",
+   "state": "TN",
+   "enrollment": 0,
+   "domain": "mtsa.edu"
+  },
+  {
+   "scorecard_unit_id": 221670,
+   "name": "Southern College of Optometry",
+   "state": "TN",
+   "enrollment": 0,
+   "domain": "sco.edu"
+  },
+  {
+   "scorecard_unit_id": 223001,
+   "name": "Austin Presbyterian Theological Seminary",
+   "state": "TX",
+   "enrollment": 0,
+   "domain": "austinseminary.edu"
+  },
+  {
+   "scorecard_unit_id": 224305,
+   "name": "Dallas Theological Seminary",
+   "state": "TX",
+   "enrollment": 0,
+   "domain": "dts.edu"
+  },
+  {
+   "scorecard_unit_id": 224712,
+   "name": "Episcopal Theological Seminary of the Southwest",
+   "state": "TX",
+   "enrollment": 0,
+   "domain": "ssw.edu"
+  },
+  {
+   "scorecard_unit_id": 227289,
+   "name": "Oblate School of Theology",
+   "state": "TX",
+   "enrollment": 0,
+   "domain": "ost.edu"
+  },
+  {
+   "scorecard_unit_id": 228866,
+   "name": "Texas Chiropractic College Foundation Inc",
+   "state": "TX",
+   "enrollment": 0,
+   "domain": "txchiro.edu"
+  },
+  {
+   "scorecard_unit_id": 231068,
+   "name": "SIT Graduate Institute",
+   "state": "VT",
+   "enrollment": 0,
+   "domain": "sit.edu"
+  },
+  {
+   "scorecard_unit_id": 233842,
+   "name": "Union Presbyterian Seminary",
+   "state": "VA",
+   "enrollment": 0,
+   "domain": "upsem.edu"
+  },
+  {
+   "scorecard_unit_id": 237880,
+   "name": "West Virginia School of Osteopathic Medicine",
+   "state": "WV",
+   "enrollment": 0,
+   "domain": "wvsom.edu"
+  },
+  {
+   "scorecard_unit_id": 239424,
+   "name": "Nashotah House",
+   "state": "WI",
+   "enrollment": 0,
+   "domain": "nashotah.edu"
+  },
+  {
+   "scorecard_unit_id": 239637,
+   "name": "Sacred Heart Seminary and School of Theology",
+   "state": "WI",
+   "enrollment": 0,
+   "domain": "shsst.edu"
+  },
+  {
+   "scorecard_unit_id": 240213,
+   "name": "Wisconsin School of Professional Psychology",
+   "state": "WI",
+   "enrollment": 0,
+   "domain": "wspp.edu"
+  },
+  {
+   "scorecard_unit_id": 241793,
+   "name": "Center for Advanced Studies On Puerto Rico and the Caribbean",
+   "state": "PR",
+   "enrollment": 0,
+   "domain": "ceaprc.edu"
+  },
+  {
+   "scorecard_unit_id": 242723,
+   "name": "Inter American University of Puerto Rico-School of Law",
+   "state": "PR",
+   "enrollment": 0,
+   "domain": "inter.edu"
+  },
+  {
+   "scorecard_unit_id": 243081,
+   "name": "Ponce Health Sciences University",
+   "state": "PR",
+   "enrollment": 0,
+   "domain": "phsu.edu"
+  },
+  {
+   "scorecard_unit_id": 243498,
+   "name": "Seminario Evangelico de Puerto Rico",
+   "state": "PR",
+   "enrollment": 0,
+   "domain": "se-pr.edu"
+  },
+  {
+   "scorecard_unit_id": 246789,
+   "name": "HJ International Graduate School for Peace and Public Leadership",
+   "state": "NY",
+   "enrollment": 0,
+   "domain": "uts.edu"
+  },
+  {
+   "scorecard_unit_id": 366368,
+   "name": "New York Academy of Art",
+   "state": "NY",
+   "enrollment": 0,
+   "domain": "nyaa.edu"
+  },
+  {
+   "scorecard_unit_id": 369002,
+   "name": "Massachusetts School of Law",
+   "state": "MA",
+   "enrollment": 0,
+   "domain": "mslaw.edu"
+  },
+  {
+   "scorecard_unit_id": 374024,
+   "name": "Adler Graduate School",
+   "state": "MN",
+   "enrollment": 0,
+   "domain": "alfredadler.edu"
+  },
+  {
+   "scorecard_unit_id": 381352,
+   "name": "Colorado Chinese Medicine University",
+   "state": "CO",
+   "enrollment": 0,
+   "domain": "ccmu.edu"
+  },
+  {
+   "scorecard_unit_id": 381459,
+   "name": "Phoenix Seminary",
+   "state": "AZ",
+   "enrollment": 0,
+   "domain": "ps.edu"
+  },
+  {
+   "scorecard_unit_id": 384306,
+   "name": "Acupuncture and Integrative Medicine College-Berkeley",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "aimc.edu"
+  },
+  {
+   "scorecard_unit_id": 401250,
+   "name": "Yo San University of Traditional Chinese Medicine",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "yosan.edu"
+  },
+  {
+   "scorecard_unit_id": 404222,
+   "name": "Inter American University of Puerto Rico-School of Optometry",
+   "state": "PR",
+   "enrollment": 0,
+   "domain": "inter.edu"
+  },
+  {
+   "scorecard_unit_id": 409254,
+   "name": "Erikson Institute",
+   "state": "IL",
+   "enrollment": 0,
+   "domain": "erikson.edu"
+  },
+  {
+   "scorecard_unit_id": 414966,
+   "name": "Phillips Theological Seminary",
+   "state": "OK",
+   "enrollment": 0,
+   "domain": "ptstulsa.edu"
+  },
+  {
+   "scorecard_unit_id": 420246,
+   "name": "Sonoran University of Health Sciences",
+   "state": "AZ",
+   "enrollment": 0,
+   "domain": "sonoran.edu"
+  },
+  {
+   "scorecard_unit_id": 420705,
+   "name": "Bakke Graduate University",
+   "state": "TX",
+   "enrollment": 0,
+   "domain": "bgu.edu"
+  },
+  {
+   "scorecard_unit_id": 429085,
+   "name": "American College of Acupuncture and Oriental Med",
+   "state": "TX",
+   "enrollment": 0,
+   "domain": "acaom.edu"
+  },
+  {
+   "scorecard_unit_id": 430704,
+   "name": "Texas Health and Science University",
+   "state": "TX",
+   "enrollment": 0,
+   "domain": "thsu.edu"
+  },
+  {
+   "scorecard_unit_id": 432348,
+   "name": "Appalachian School of Law",
+   "state": "VA",
+   "enrollment": 0,
+   "domain": "asl.edu"
+  },
+  {
+   "scorecard_unit_id": 434441,
+   "name": "Florida College of Integrative Medicine",
+   "state": "FL",
+   "enrollment": 0,
+   "domain": "fcim.edu"
+  },
+  {
+   "scorecard_unit_id": 439020,
+   "name": "Midwest College of Oriental Medicine-Skokie",
+   "state": "IL",
+   "enrollment": 0,
+   "domain": "acupuncture.edu"
+  },
+  {
+   "scorecard_unit_id": 439446,
+   "name": "Atlantic Institute of Oriental Medicine",
+   "state": "FL",
+   "enrollment": 0,
+   "domain": "atom.edu"
+  },
+  {
+   "scorecard_unit_id": 439817,
+   "name": "Northeastern Seminary",
+   "state": "NY",
+   "enrollment": 0,
+   "domain": "nes.edu"
+  },
+  {
+   "scorecard_unit_id": 439914,
+   "name": "Seattle Institute of East Asian Medicine",
+   "state": "WA",
+   "enrollment": 0,
+   "domain": "sieam.edu"
+  },
+  {
+   "scorecard_unit_id": 440004,
+   "name": "Upper Valley Educators Institute",
+   "state": "NH",
+   "enrollment": 0,
+   "domain": "uvei.edu"
+  },
+  {
+   "scorecard_unit_id": 440031,
+   "name": "Keck Graduate Institute",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "kgi.edu"
+  },
+  {
+   "scorecard_unit_id": 441104,
+   "name": "Richmont Graduate University",
+   "state": "TN",
+   "enrollment": 0,
+   "domain": "richmont.edu"
+  },
+  {
+   "scorecard_unit_id": 441131,
+   "name": "The Seattle School of Theology & Psychology",
+   "state": "WA",
+   "enrollment": 0,
+   "domain": "theseattleschool.edu"
+  },
+  {
+   "scorecard_unit_id": 442064,
+   "name": "Won Institute of Graduate Studies",
+   "state": "PA",
+   "enrollment": 0,
+   "domain": "woninstitute.edu"
+  },
+  {
+   "scorecard_unit_id": 442295,
+   "name": "Ave Maria School of Law",
+   "state": "FL",
+   "enrollment": 0,
+   "domain": "avemarialaw.edu"
+  },
+  {
+   "scorecard_unit_id": 442806,
+   "name": "Edward Via College of Osteopathic Medicine",
+   "state": "VA",
+   "enrollment": 0,
+   "domain": "vcom.edu"
+  },
+  {
+   "scorecard_unit_id": 443702,
+   "name": "Bexley Hall Seabury Western Theological Seminary Federation Inc.",
+   "state": "IL",
+   "enrollment": 0,
+   "domain": "bexleyseabury.edu"
+  },
+  {
+   "scorecard_unit_id": 444103,
+   "name": "Byzantine Catholic Seminary of Saints Cyril and Methodius",
+   "state": "PA",
+   "enrollment": 0,
+   "domain": "bcs.edu"
+  },
+  {
+   "scorecard_unit_id": 444334,
+   "name": "Advance Science International College",
+   "state": "FL",
+   "enrollment": 0,
+   "domain": "asicollege.edu"
+  },
+  {
+   "scorecard_unit_id": 444699,
+   "name": "Institute of Clinical Acupuncture & Oriental Medicine",
+   "state": "HI",
+   "enrollment": 0,
+   "domain": "orientalmedicine.edu"
+  },
+  {
+   "scorecard_unit_id": 445054,
+   "name": "Toyota Technological Institute at Chicago",
+   "state": "IL",
+   "enrollment": 0,
+   "domain": "ttic.edu"
+  },
+  {
+   "scorecard_unit_id": 445869,
+   "name": "Divine Mercy University",
+   "state": "VA",
+   "enrollment": 0,
+   "domain": "divinemercy.edu"
+  },
+  {
+   "scorecard_unit_id": 446039,
+   "name": "Arizona School of Acupuncture and Oriental Medicine",
+   "state": "AZ",
+   "enrollment": 0,
+   "domain": "asaom.edu"
+  },
+  {
+   "scorecard_unit_id": 447698,
+   "name": "Phoenix Institute of Herbal Medicine & Acupuncture",
+   "state": "AZ",
+   "enrollment": 0,
+   "domain": "pihma.edu"
+  },
+  {
+   "scorecard_unit_id": 447801,
+   "name": "University of East-West Medicine",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "uewm.edu"
+  },
+  {
+   "scorecard_unit_id": 448691,
+   "name": "International Institute for Restorative Practices",
+   "state": "PA",
+   "enrollment": 0,
+   "domain": "iirp.edu"
+  },
+  {
+   "scorecard_unit_id": 449481,
+   "name": "Dragon Rises College of Oriental Medicine",
+   "state": "FL",
+   "enrollment": 0,
+   "domain": "dragonrises.edu"
+  },
+  {
+   "scorecard_unit_id": 449922,
+   "name": "Appalachian College of Pharmacy",
+   "state": "VA",
+   "enrollment": 0,
+   "domain": "acp.edu"
+  },
+  {
+   "scorecard_unit_id": 450304,
+   "name": "Brite Divinity School",
+   "state": "TX",
+   "enrollment": 0,
+   "domain": "brite.edu"
+  },
+  {
+   "scorecard_unit_id": 451079,
+   "name": "Academy for Five Element Acupuncture",
+   "state": "FL",
+   "enrollment": 0,
+   "domain": "acupuncturist.edu"
+  },
+  {
+   "scorecard_unit_id": 451510,
+   "name": "Charleston School of Law",
+   "state": "SC",
+   "enrollment": 0,
+   "domain": "charlestonlaw.edu"
+  },
+  {
+   "scorecard_unit_id": 454838,
+   "name": "Institute of Taoist Education and Acupuncture",
+   "state": "CO",
+   "enrollment": 0,
+   "domain": "itea.edu"
+  },
+  {
+   "scorecard_unit_id": 455099,
+   "name": "Urshan Graduate School of Theology",
+   "state": "MO",
+   "enrollment": 0,
+   "domain": "urshan.edu"
+  },
+  {
+   "scorecard_unit_id": 455178,
+   "name": "Daoist Traditions College of Chinese Medical Arts",
+   "state": "NC",
+   "enrollment": 0,
+   "domain": "daoisttraditions.edu"
+  },
+  {
+   "scorecard_unit_id": 455433,
+   "name": "The Chicago School at Anaheim",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "thechicagoschool.edu"
+  },
+  {
+   "scorecard_unit_id": 455813,
+   "name": "Pontifical John Paul II Institute for Studies on Marriage and Family",
+   "state": "DC",
+   "enrollment": 0,
+   "domain": "johnpaulii.edu"
+  },
+  {
+   "scorecard_unit_id": 455992,
+   "name": "Vermont College of Fine Arts",
+   "state": "VT",
+   "enrollment": 0,
+   "domain": "vcfa.edu"
+  },
+  {
+   "scorecard_unit_id": 457271,
+   "name": "Academy for Jewish Religion California",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "ajrca.edu"
+  },
+  {
+   "scorecard_unit_id": 459745,
+   "name": "The Chicago School at Washington DC",
+   "state": "DC",
+   "enrollment": 0,
+   "domain": "thechicagoschool.edu"
+  },
+  {
+   "scorecard_unit_id": 461120,
+   "name": "Omega Graduate School",
+   "state": "TN",
+   "enrollment": 0,
+   "domain": "ogs.edu"
+  },
+  {
+   "scorecard_unit_id": 461139,
+   "name": "Jung Tao School of Classical Chinese Medicine",
+   "state": "NC",
+   "enrollment": 0,
+   "domain": "jungtao.edu"
+  },
+  {
+   "scorecard_unit_id": 461485,
+   "name": "Shepherds Theological Seminary",
+   "state": "NC",
+   "enrollment": 0,
+   "domain": "shepherds.edu"
+  },
+  {
+   "scorecard_unit_id": 462044,
+   "name": "Institute for Doctoral Studies in the Visual Arts",
+   "state": "ME",
+   "enrollment": 0,
+   "domain": "idsva.edu"
+  },
+  {
+   "scorecard_unit_id": 475228,
+   "name": "The Colleges of Law at Santa Barbara",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "collegesoflaw.edu"
+  },
+  {
+   "scorecard_unit_id": 475495,
+   "name": "Rocky Mountain University of Health Professions",
+   "state": "UT",
+   "enrollment": 0,
+   "domain": "rm.edu"
+  },
+  {
+   "scorecard_unit_id": 480790,
+   "name": "Rocky Vista University",
+   "state": "CO",
+   "enrollment": 0,
+   "domain": "rvu.edu"
+  },
+  {
+   "scorecard_unit_id": 481030,
+   "name": "Future Generations University",
+   "state": "WV",
+   "enrollment": 0,
+   "domain": "future.edu"
+  },
+  {
+   "scorecard_unit_id": 483975,
+   "name": "Alabama College of Osteopathic Medicine",
+   "state": "AL",
+   "enrollment": 0,
+   "domain": "acom.edu"
+  },
+  {
+   "scorecard_unit_id": 485403,
+   "name": "High Tech High Graduate School of Education",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "hthgse.edu"
+  },
+  {
+   "scorecard_unit_id": 486080,
+   "name": "Elmezzi Graduate School of Molecular Medicine",
+   "state": "NY",
+   "enrollment": 0,
+   "domain": "northwell.edu"
+  },
+  {
+   "scorecard_unit_id": 487153,
+   "name": "The Chicago School at Xavier University of Louisiana",
+   "state": "LA",
+   "enrollment": 0,
+   "domain": "thechicagoschool.edu"
+  },
+  {
+   "scorecard_unit_id": 487649,
+   "name": "California Institute of Advanced Management",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "ciam.edu"
+  },
+  {
+   "scorecard_unit_id": 488527,
+   "name": "Arkansas Colleges of Health Education",
+   "state": "AR",
+   "enrollment": 0,
+   "domain": "achehealth.edu"
+  },
+  {
+   "scorecard_unit_id": 488554,
+   "name": "Burrell College of Osteopathic Medicine",
+   "state": "NM",
+   "enrollment": 0,
+   "domain": "burrell.edu"
+  },
+  {
+   "scorecard_unit_id": 488572,
+   "name": "California Health Sciences University",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "chsu.edu"
+  },
+  {
+   "scorecard_unit_id": 488907,
+   "name": "Wongu University of Oriental Medicine",
+   "state": "NV",
+   "enrollment": 0,
+   "domain": "wongu.edu"
+  },
+  {
+   "scorecard_unit_id": 489335,
+   "name": "Institute of Buddhist Studies",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "shin-ibs.edu"
+  },
+  {
+   "scorecard_unit_id": 490106,
+   "name": "Virginia University of Integrative Medicine",
+   "state": "VA",
+   "enrollment": 0,
+   "domain": "vuim.edu"
+  },
+  {
+   "scorecard_unit_id": 490373,
+   "name": "Western Michigan University Homer Stryker M.D. School of Medicine",
+   "state": "MI",
+   "enrollment": 0,
+   "domain": "wmed.edu"
+  },
+  {
+   "scorecard_unit_id": 491808,
+   "name": "Meridian University",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "meridianuniversity.edu"
+  },
+  {
+   "scorecard_unit_id": 492704,
+   "name": "Ponce Health Sciences University-Centro Universitario de San Juan",
+   "state": "PR",
+   "enrollment": 0,
+   "domain": "psm.edu"
+  },
+  {
+   "scorecard_unit_id": 493947,
+   "name": "Idaho College of Osteopathic Medicine",
+   "state": "ID",
+   "enrollment": 0,
+   "domain": "icom.edu"
+  },
+  {
+   "scorecard_unit_id": 493956,
+   "name": "Cal Northern School of Law",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "calnorthern.edu"
+  },
+  {
+   "scorecard_unit_id": 494010,
+   "name": "Ponce Health Sciences University-St Louis",
+   "state": "MO",
+   "enrollment": 0,
+   "domain": "phsu.edu"
+  },
+  {
+   "scorecard_unit_id": 495192,
+   "name": "Alder Graduate School of Education",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "aldergse.edu"
+  },
+  {
+   "scorecard_unit_id": 495314,
+   "name": "Hackensack Meridian School of Medicine",
+   "state": "NJ",
+   "enrollment": 0,
+   "domain": "hmsom.edu"
+  },
+  {
+   "scorecard_unit_id": 496405,
+   "name": "Newlane University",
+   "state": "UT",
+   "enrollment": 0,
+   "domain": "newlane.edu"
+  },
+  {
+   "scorecard_unit_id": 496469,
+   "name": "Daybreak University",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "daybreak.edu"
+  },
+  {
+   "scorecard_unit_id": 497718,
+   "name": "Academy for Jewish Religion",
+   "state": "NY",
+   "enrollment": 0,
+   "domain": "ajr.edu"
+  },
+  {
+   "scorecard_unit_id": 498234,
+   "name": "Larkin University",
+   "state": "FL",
+   "enrollment": 0,
+   "domain": "larkin.edu"
+  },
+  {
+   "scorecard_unit_id": 499981,
+   "name": "Southwest University of Naprapathic Medicine",
+   "state": "NM",
+   "enrollment": 0,
+   "domain": "sunm.edu"
+  },
+  {
+   "scorecard_unit_id": 500670,
+   "name": "University of Fairfax",
+   "state": "VA",
+   "enrollment": 0,
+   "domain": "ufairfax.edu"
+  },
+  {
+   "scorecard_unit_id": 500829,
+   "name": "Northpoint College",
+   "state": "MI",
+   "enrollment": 0,
+   "domain": "northpointcollege.edu"
+  },
+  {
+   "scorecard_unit_id": 501196,
+   "name": "College of Health Care Professions-Garland",
+   "state": "TX",
+   "enrollment": 0,
+   "domain": "chcp.edu"
+  },
+  {
+   "scorecard_unit_id": 501327,
+   "name": "Glendale Career College-North-West College-MFSON-Riverside",
+   "state": "CA",
+   "enrollment": 0,
+   "domain": "nw.edu"
+  },
+  {
+   "scorecard_unit_id": 501345,
+   "name": "Chicago College of Oriental Medicine",
+   "state": "IL",
+   "enrollment": 0,
+   "domain": "ccom.edu"
+  },
+  {
+   "scorecard_unit_id": 501406,
+   "name": "Care Hope College",
+   "state": "FL",
+   "enrollment": 0,
+   "domain": "carehope.edu"
+  },
+  {
+   "scorecard_unit_id": 501521,
+   "name": "Herzing University-Clarksville",
+   "state": "TN",
+   "enrollment": 0,
+   "domain": "herzing.edu"
+  },
+  {
+   "scorecard_unit_id": 501549,
+   "name": "The Chicago School at Dallas",
+   "state": "TX",
+   "enrollment": 0,
+   "domain": "thechicagoschool.edu"
+  }
+ ]
+}

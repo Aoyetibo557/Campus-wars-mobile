@@ -1,0 +1,369 @@
+{
+ "generated_at": "2026-10-15T03:52:15.507Z",
+ "checked": 1761,
+ "with_mx": 1689,
+ "without_mx_or_a": [
+  {
+   "domain": "alleg.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "auc.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "bennet.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "cavern.nmsu.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "csubak.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "dabcc.nmsu.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "daviscollege.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "email.uophx.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "gru.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "hsc.colorado.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "lmc.cs.sunysb.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "mursuky.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "nodak.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "northwestcollege.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "seattleantioch.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "selmauniversity.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "southeastmissourihospitalcollege.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "spscc.ctc.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "tbcc.cc.or.us",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "uchaswv.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "umhelena.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "usouixfalls.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "wccc.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "wmwoods.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "wuacc.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "wvstate.edu",
+   "mx": false,
+   "a": false
+  },
+  {
+   "domain": "wwcc.wy.edu",
+   "mx": false,
+   "a": false
+  }
+ ],
+ "without_mx_but_a": [
+  {
+   "domain": "ati.osu.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "berkeleycitycollege.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "bloomington.iu.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "colsouth.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "cuyamaca.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "eastern.wvnet.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "gocolumbia.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "greatbay.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "grossmont.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "harrisburg.psu.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "hawaii.hawaii.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "hilo.hawaii.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "iub.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "kapiolani.hawaii.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "kishwaukeecollege.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "laney.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "leeward.hawaii.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "lrcc.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "manoa.hawaii.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "mccnh.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "nashuacc.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "ncta.unl.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "nhti.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "oxnardcollege.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "paulquinn.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "rivervalley.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "sdcity.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "sdmiramar.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "sl.psu.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "suny.oneonta.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "umdearborn.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "ups.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "upt.pitt.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "usafa.af.mil",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "venturacollege.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "wayne.uakron.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "wcc.yccd.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "windward.hawaii.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "wp.missouristate.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "www.clcmn.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "www.sunyacc.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "www.sunyulster.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "www.tjc.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "www3.sunysuffolk.edu",
+   "mx": false,
+   "a": true
+  },
+  {
+   "domain": "yc.yccd.edu",
+   "mx": false,
+   "a": true
+  }
+ ]
+}

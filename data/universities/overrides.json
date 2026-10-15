@@ -1,0 +1,36 @@
+{
+  "_comment": [
+    "Hand-edited overrides for the universities pipeline. Always wins.",
+    "predominant_min: minimum predominant degree to include (1=cert, 2=associate, 3=bachelor's, 4=graduate).",
+    "exclude: scorecard_unit_ids to drop entirely.",
+    "allowed_non_edu_domains: non-.edu domains allowed for ANY school.",
+    "schools.<unitid>: short_name fix; add_domains/remove_domains; allow_non_edu for that school."
+  ],
+  "predominant_min": 2,
+  "exclude": [],
+  "remove_domains": [
+    "aloma.edu"
+  ],
+  "_note_aloma": "aloma.edu is a typo in the Hipo file for alamo.edu (4 Alamo colleges)",
+  "allowed_non_edu_domains": [
+    "cwidaho.cc", "jeffstateonline.com", "usafa.af.mil", "gmc.cc.ga.us",
+    "indianatech.net", "cgcc.cc.or.us", "tbcc.cc.or.us", "lacounty.org",
+    "dhs.lacounty.gov", "swc.tc", "kbocc.org", "acs350.org"
+  ],
+  "schools": {
+    "211440": {
+      "_note": "CMU — andrew.cmu.edu is the real student domain, missing from Hipo",
+      "add_domains": ["andrew.cmu.edu"]
+    },
+    "166887": {
+      "_note": "Middlesex CC MA — ambiguous in Hipo (2 entries, same school); union of its real domains",
+      "add_domains": ["mxcc.commnet.edu", "middlesex.mass.edu"],
+      "short_name": "MxCC"
+    },
+    "185536": {
+      "_note": "Middlesex College NJ — hipo entry 'Middlesex County College' holds middlesexcc.edu",
+      "add_domains": ["middlesexcc.edu"],
+      "short_name": "MCC"
+    }
+  }
+}
