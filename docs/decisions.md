@@ -46,7 +46,7 @@ Last updated: 2026-10-14
 ### D7. Wordle: one shared daily puzzle
 - **Decision:** Everyone gets the same Wordle puzzle each day. The answer stays on the server and never reaches the client (`wordle-guess` validates guesses and returns feedback only).
 - **Implementation note:** Either a table such as `wordle_daily(puzzle_date, answer)` with no client access under RLS, or an answer derived from the date plus a server secret. The agent proposes one and waits for approval. The puzzle date uses the D6 timezone.
-- **Still open:** word lists (O11) and behavior after completing or abandoning the day's puzzle (O16).
+- **Resolved by:** word lists (D27) and behavior after completing or abandoning the day's puzzle (D26).
 - **Affects:** Migrations, `start-session`, `wordle-guess`, PRD sections 7 and 9. Resolves PRD open question 6.
 
 ### D8. University picker data and `short_name` (formerly O6)
@@ -97,7 +97,7 @@ Last updated: 2026-10-14
 
 ### D18. Wordle daily: lazy insert, 30-day exclusion, fallback
 - **Decision:** `ensure_wordle_daily(p_date)` (service role) materializes the shared puzzle: insert `on conflict (puzzle_date) do nothing` then re-select, so concurrent first callers agree. Candidates exclude words used in the previous 30 days; if the exclusion eliminates every candidate, it falls back to the full `is_answer` list rather than erroring.
-- **Note:** resume/forfeit behavior for an unfinished day's puzzle lives in `start-session` and is still undecided (O16) — D18 only covers answer selection.
+- **Note:** resume/forfeit behavior for an unfinished day's puzzle lives in `start-session` (decisions D26). D18 only covers answer selection.
 - **Affects:** migrations, `start-session`, `wordle-guess`, PRD section 9.
 
 ### D19. Generated types path
@@ -135,6 +135,34 @@ Last updated: 2026-10-14
 - **Decision:** After email verification, one screen asks for the display name (2 to 20 code points, D14). Onboarding is complete if and only if `profiles.onboarded_at` is not null. It is set once by a `complete_onboarding(p_display_name)` SECURITY DEFINER function that runs the name checks. A quit before finishing returns the user to the name screen. It ends with a call to action to play the first game.
 - **Affects:** `profiles` schema, route guard, onboarding screen.
 
+### D26. Wordle daily lifecycle: one play per day, resume if unfinished (formerly O16)
+- **Decision:** A player gets one Wordle session per puzzle date (New York date, D6). After completing it, the app shows the result and waits until the next puzzle; there is no replay. If a player starts but does not finish, they resume the same session: guesses are validated and stored on the server, so reopening the app restores the board. An unfinished session from a previous day is simply left behind; the new day starts a new session.
+- **Why:** Matches the shared daily puzzle (D7) and the 1-scored-play cap (D5), and avoids replay exploits.
+- **Implementation notes:** One session per user, game, and puzzle date should be enforced atomically in the database (for example a unique index on user, game and a deterministic seed for Wordle), so concurrent `start-session` calls cannot create two. Responses include `next_puzzle_at` so the client never needs its own timezone logic.
+- **Affects:** `start-session`, `game_sessions` indexes, Home daily card, result screen. Resolves PRD Wordle behavior.
+
+### D27. Wordle word lists: open-licensed sources, curated answers (formerly O11)
+- **Decision:** Build both lists ourselves from permissively licensed open word lists. Do not copy the original Wordle lists. The valid-guess list is as large as the licensed sources reasonably support. The answer list is a curated subset of common five-letter words, with offensive words removed, and has at least 1,500 entries so the 30-day no-repeat rule (D18) never runs dry. Every answer is also a valid guess. Each source's license is verified and recorded in `docs/data-sources.md`; sources with unclear or non-commercial-only terms are not used. The owner reviews the final answer list.
+- **Affects:** `wordle_words` data, loader script, `docs/data-sources.md`.
+
+### D28. Wordle guesses are validated on the server only
+- **Decision:** Every guess goes through the `wordle-guess` Edge Function, which checks it against the valid-guess list, computes per-letter feedback, and stores it. The valid-guess list and the answer never ship in the app. A guess that is not in the list returns "not a word" and does not consume one of the six guesses. The answer is revealed only when the game has finished.
+- **Affects:** `wordle-guess`, Wordle screen, tests that scan responses for answer leaks.
+
+### D29. Build order: Wordle first
+- **Decision:** Wordle is built end to end first (functions, screen, result, Home). Trivia and Speed Math follow once Wordle works.
+- **Affects:** `start-session` supports only `wordle` at first and returns a clear "not available yet" for other games.
+
+### D30. Users always read their own school
+- **Decision:** An authenticated user can select the university referenced by their own `profiles.university_id` even when it is unlisted (`email_domains` empty). The listed-only rule for every other access path is unchanged, and the readable columns stay the same safe set (`id, name, short_name, state, country, email_domains`).
+- **Why:** A data refresh can empty a school's domains; its members must not lose their greeting or affiliation read.
+- **Affects:** `universities` RLS policies.
+
+### D31. Display names reject invisible and blank-looking characters
+- **Decision:** `profiles_check_display_name` rejects (does not silently normalize) names containing zero-width characters (U+200B–U+200D), bidirectional controls (U+200E–U+200F, U+202A–U+202E, U+2060–U+2069), blank-looking spaces (U+00A0, U+1680, U+2000–U+200A, U+202F, U+205F, U+3000), blank glyphs (U+2800, U+115F–U+1160, U+3164, U+FFA0) and BOM (U+FEFF), raising `display_name contains invalid characters` before the blocklist check. Variation selectors (U+FE00–U+FE0F) are not rejected because they are legitimate parts of emoji sequences.
+- **Known limitation (accepted, do not "fix"):** names that legitimately need ZWNJ or ZWJ — for example some Persian or Indic names, and ZWJ-based emoji sequences like 👨‍👩‍👧 — are rejected too. Users in that situation can pick a nickname.
+- **Affects:** `profiles_check_display_name`, onboarding name screen error mapping.
+
 ---
 
 ## Open (recommended defaults, awaiting confirmation)
@@ -162,29 +190,19 @@ Last updated: 2026-10-14
 - **Recommended:** Seed a server-side `trivia_questions` bank (never fetched by the client). If using Open Trivia DB, verify its license and attribution requirements before shipping (believed to be share-alike). Decode HTML entities once at seed time.
 - **Affects:** `seed.sql`, `start-session`, PRD open question 7.
 
-### O11. Wordle word lists
-- **Recommended:** Choose and license two lists: possible answers and valid guesses. The legacy app has no Wordle code or word list, so this is net-new.
-- **Affects:** `wordle-guess` function, seed data, and the answer-selection mechanism in D7.
-
-### O12. Shared package
-- **Recommended:** Create `packages/shared/` when the seeded PRNG is needed (Speed Math problems, question order). Not before.
-
-### O14. Fresh Supabase project and secrets hygiene
-- **Recommended:** Create a new Supabase project. Do not reuse the old project or its keys. Before the baseline commit, check `_legacy-web/` for `.env` files or committed keys and rotate anything found. Redact the old project ID from docs if the repo could become public.
-
-### O15. Legacy code cleanup
-- **Recommended:** After everything needed is ported, delete or gitignore `_legacy-web/`. The audit is the distilled record.
-
-### O16. Wordle after completing or abandoning the day's puzzle
-- **Recommended:** After completing today's puzzle, show the result and wait until the next day (no replay). If a player starts but doesn't finish, they resume the same session, since guesses are validated and stored server-side.
-- **Alternative:** Allow unscored replays with a different puzzle, and treat an unfinished session as forfeited.
-- **Note (D18):** this behavior lives in `start-session`, not in `wordle_daily` / `ensure_wordle_daily` (which only picks the answer). Still undecided.
-- **Affects:** `start-session` behavior for Wordle, session status handling, Home screen daily card.
-
 ### O17. Schools not listed / no school email
 - **Recommended:** "My school isn't listed" opens a simple waitlist form (school name + contact email), stored through an RPC or Edge Function with rate limiting. No signup is possible without a listed school (D23), so this link would otherwise be a dead end.
 - **Open:** where requests are stored and how you get notified. Resolves PRD open question 2.
 
+### O18. Wordle finalization path
+- **Recommended:** Finalize the game inside the final `wordle-guess` call (when the word is solved or the sixth guess is used), in the same server step that stores that guess, rather than relying on a separate client call to `submit-session`. This removes the failure mode where the app dies between the last guess and the submit. `submit-session` is then built with Trivia and Speed Math, which need it.
+- **Alternative:** Follow the PRD literally: the client calls `submit-session` after the last guess.
+- **Decide:** when reviewing the plan for Prompt b in `Wordle_Prompts.md`.
+- **Affects:** `wordle-guess`, `submit-session` scope, PRD section 10.
+
+### O19. Display-name combining marks and mixed scripts
+- **Recommended (not built):** Limit runs of combining marks in display names (prevents stacked-mark / "zalgo" text that breaks layouts), and consider rejecting names that mix look-alike scripts (e.g. Latin + Cyrillic homoglyphs). Both would live in `profiles_check_display_name` alongside D31.
+- **Affects:** `profiles_check_display_name`, name validation.
 ---
 
 ## PRD edits pending
@@ -201,3 +219,4 @@ The agent reported syncing PRD sections 7, 8.2, 9, 9.2, 9.3, 9.4 and 10 to the m
 - [ ] D11: note that display names are not unique and a profanity filter applies
 - [ ] D23/D24/D25: apply Part 2 of `School_Verification_Decisions_and_PRD.md` (sections 4.1, 4.2, 5.1, 6, 9, 9.2, 11, 14, 19); this replaces the old D4 edits
 - [ ] Section 19: mark question 1 resolved by D23 and question 2 pointed to O17; questions 3, 4, 5, 6 resolved by D3, D5, D6, D7
+- [ ] D26/D27/D28/D29: apply Part 2 of `Wordle_Decisions_and_PRD.md` (sections 7 and 10)
