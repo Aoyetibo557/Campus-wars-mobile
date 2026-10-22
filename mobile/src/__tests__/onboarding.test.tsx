@@ -6,7 +6,6 @@ import {
 
 import OnboardingScreen from "@/app/onboarding";
 import { useAuth } from "@/lib/auth";
-import { signOut } from "@/lib/auth-api";
 import { useCompleteOnboarding, useMyUniversity } from "@/lib/profile";
 
 jest.mock("@/lib/supabase", () => ({ supabase: {} }));
