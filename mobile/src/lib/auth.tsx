@@ -4,12 +4,14 @@ import type { Session } from "@supabase/supabase-js";
 
 import { supabase } from "@/lib/supabase";
 import { queryClient } from "@/lib/queryClient";
+import { useSignupFlow } from "@/lib/signup-flow";
 import type { ProfileStatus } from "@/lib/route-guards";
 
 export type Profile = {
   id: string;
   display_name: string;
   university_id: string | null;
+  onboarded_at: string | null;
 };
 
 type AuthContextValue = {
@@ -36,7 +38,7 @@ const AuthContext = createContext<AuthContextValue | null>(null);
 async function fetchProfile(userId: string): Promise<Profile> {
   const { data, error } = await supabase
     .from("profiles")
-    .select("id, display_name, university_id")
+    .select("id, display_name, university_id, onboarded_at")
     .eq("id", userId)
     .single();
   // A successful query with no row is treated as an error (retry screen),
@@ -59,6 +61,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     } = supabase.auth.onAuthStateChange((event, next) => {
       // Never await Supabase calls inside the callback — state updates only.
       setSession(next);
+      if (event === "SIGNED_IN") {
+        // Signup flow is done once a real session exists.
+        useSignupFlow.getState().clear();
+      }
       if (event === "SIGNED_OUT") {
         setRecoveryInProgress(false);
         queryClient.clear();

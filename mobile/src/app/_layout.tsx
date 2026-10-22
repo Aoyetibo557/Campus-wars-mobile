@@ -80,7 +80,7 @@ function RootNavigator() {
     session: sessionState,
     recoveryInProgress,
     profileStatus,
-    hasSchool: profile?.university_id != null,
+    onboarded: profile?.onboarded_at != null,
   });
 
   useEffect(() => {
