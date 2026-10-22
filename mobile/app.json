@@ -3,6 +3,7 @@
     "name": "Campus Wars",
     "slug": "campuswars",
     "version": "1.0.0",
+    "platforms": ["ios", "android"],
     "orientation": "portrait",
     "icon": "./assets/images/cw_logo_emblem.png",
     "scheme": "campuswars",
