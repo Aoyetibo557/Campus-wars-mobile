@@ -1,5 +1,10 @@
--- D26: a user always reads their own university, even when unlisted.
--- D27: display names with zero-width / bidi / blank-looking chars reject.
+-- D30: a user always reads their own university, even when unlisted.
+-- D31: display names with zero-width / bidi / blank-looking chars reject.
+--
+-- ACCEPTED LIMITATION (D31, do not "fix"): names that legitimately need
+-- ZWNJ or ZWJ — e.g. some Persian/Indic names, ZWJ emoji sequences —
+-- are rejected too. Users pick a nickname. If U+200C/U+200D ever get
+-- allowed again, the test below must be revisited together with D31.
 -- Runs as postgres; `set local role` simulates clients.
 
 create extension if not exists pgtap;

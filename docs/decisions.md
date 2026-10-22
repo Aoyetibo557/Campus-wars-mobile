@@ -153,6 +153,16 @@ Last updated: 2026-10-14
 - **Decision:** Wordle is built end to end first (functions, screen, result, Home). Trivia and Speed Math follow once Wordle works.
 - **Affects:** `start-session` supports only `wordle` at first and returns a clear "not available yet" for other games.
 
+### D30. Users always read their own school
+- **Decision:** An authenticated user can select the university referenced by their own `profiles.university_id` even when it is unlisted (`email_domains` empty). The listed-only rule for every other access path is unchanged, and the readable columns stay the same safe set (`id, name, short_name, state, country, email_domains`).
+- **Why:** A data refresh can empty a school's domains; its members must not lose their greeting or affiliation read.
+- **Affects:** `universities` RLS policies.
+
+### D31. Display names reject invisible and blank-looking characters
+- **Decision:** `profiles_check_display_name` rejects (does not silently normalize) names containing zero-width characters (U+200B–U+200D), bidirectional controls (U+200E–U+200F, U+202A–U+202E, U+2060–U+2069), blank-looking spaces (U+00A0, U+1680, U+2000–U+200A, U+202F, U+205F, U+3000), blank glyphs (U+2800, U+115F–U+1160, U+3164, U+FFA0) and BOM (U+FEFF), raising `display_name contains invalid characters` before the blocklist check. Variation selectors (U+FE00–U+FE0F) are not rejected because they are legitimate parts of emoji sequences.
+- **Known limitation (accepted, do not "fix"):** names that legitimately need ZWNJ or ZWJ — for example some Persian or Indic names, and ZWJ-based emoji sequences like 👨‍👩‍👧 — are rejected too. Users in that situation can pick a nickname.
+- **Affects:** `profiles_check_display_name`, onboarding name screen error mapping.
+
 ---
 
 ## Open (recommended defaults, awaiting confirmation)
@@ -189,6 +199,10 @@ Last updated: 2026-10-14
 - **Alternative:** Follow the PRD literally: the client calls `submit-session` after the last guess.
 - **Decide:** when reviewing the plan for Prompt b in `Wordle_Prompts.md`.
 - **Affects:** `wordle-guess`, `submit-session` scope, PRD section 10.
+
+### O19. Display-name combining marks and mixed scripts
+- **Recommended (not built):** Limit runs of combining marks in display names (prevents stacked-mark / "zalgo" text that breaks layouts), and consider rejecting names that mix look-alike scripts (e.g. Latin + Cyrillic homoglyphs). Both would live in `profiles_check_display_name` alongside D31.
+- **Affects:** `profiles_check_display_name`, name validation.
 ---
 
 ## PRD edits pending
