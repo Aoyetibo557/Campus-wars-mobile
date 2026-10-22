@@ -9,10 +9,15 @@ export const RESEND_COOLDOWN_SECONDS = 60;
  * `supabase.auth` directly; tests mock this module.
  * Emails are normalized (trim + lowercase) here once.
  */
-export async function signUp(email: string, password: string) {
+export async function signUp(
+  email: string,
+  password: string,
+  universityId: string,
+) {
   return supabase.auth.signUp({
     email: normalizeEmail(email),
     password,
+    options: { data: { university_id: universityId } },
   });
 }
 

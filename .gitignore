@@ -28,3 +28,6 @@ supabase/.env
 coverage/
 .DS_Store
 *.log
+
+# Universities pipeline: raw API downloads/cache (never commit)
+data/universities/raw/

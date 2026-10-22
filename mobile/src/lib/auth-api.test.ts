@@ -28,11 +28,12 @@ const CLEAN = "anu@uni.edu";
 describe("auth-api email normalization", () => {
   beforeEach(() => jest.clearAllMocks());
 
-  it("signUp passes a trimmed, lowercased email", async () => {
-    await signUp(MESSY, "password1");
+  it("signUp passes a trimmed, lowercased email + university_id metadata", async () => {
+    await signUp(MESSY, "password1", "uni-1");
     expect(auth.signUp).toHaveBeenCalledWith({
       email: CLEAN,
       password: "password1",
+      options: { data: { university_id: "uni-1" } },
     });
   });
 

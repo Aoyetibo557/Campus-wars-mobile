@@ -64,6 +64,21 @@ describe("VerifyScreen", () => {
     expect(field.props.value).toBe("");
   });
 
+  it("maps a mailbox collision to neutral copy + a Log in CTA, not 'wrong code'", async () => {
+    mockedVerify.mockResolvedValue({
+      data: {},
+      error: { message: "Error confirming user", status: 500 },
+    } as never);
+    await render(<VerifyScreen />);
+    await fireEvent.changeText(screen.getByTestId("verify-code"), "000000");
+    expect(screen.getByText(/couldn't confirm that email/i)).toBeTruthy();
+    expect(screen.queryByText(/wrong or has expired/i)).toBeNull();
+    // The prominent Log in button appears for this case.
+    const login = screen.getByText("Log in");
+    await fireEvent.press(login);
+    expect(mockReplace).toHaveBeenCalledWith("/log-in");
+  });
+
   it("blocks resend during the 60s cooldown, then resends", async () => {
     jest.useFakeTimers();
     try {

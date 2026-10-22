@@ -4,7 +4,7 @@ const base: AuthRouteInput = {
   session: "none",
   recoveryInProgress: false,
   profileStatus: "idle",
-  hasSchool: false,
+  onboarded: false,
 };
 const state = (overrides: Partial<AuthRouteInput>) => ({
   ...base,
@@ -34,43 +34,43 @@ describe("resolveRouteArea truth table", () => {
     ).toBe("retry");
   });
 
-  it("session + loaded profile + null school → onboarding", () => {
+  it("session + loaded profile + not onboarded → onboarding", () => {
     expect(
       resolveRouteArea(
-        state({ session: "active", profileStatus: "loaded", hasSchool: false }),
+        state({ session: "active", profileStatus: "loaded", onboarded: false }),
       ),
     ).toBe("onboarding");
   });
 
-  it("session + loaded profile + school → tabs", () => {
+  it("session + loaded profile + onboarded → tabs", () => {
     expect(
       resolveRouteArea(
-        state({ session: "active", profileStatus: "loaded", hasSchool: true }),
+        state({ session: "active", profileStatus: "loaded", onboarded: true }),
       ),
     ).toBe("tabs");
   });
 
-  it("recovery with a school → stays in auth (password not set yet)", () => {
+  it("recovery when onboarded → stays in auth (password not set yet)", () => {
     expect(
       resolveRouteArea(
         state({
           session: "active",
           recoveryInProgress: true,
           profileStatus: "loaded",
-          hasSchool: true,
+          onboarded: true,
         }),
       ),
     ).toBe("auth");
   });
 
-  it("recovery without a school → stays in auth, not onboarding", () => {
+  it("recovery when not onboarded → stays in auth, not onboarding", () => {
     expect(
       resolveRouteArea(
         state({
           session: "active",
           recoveryInProgress: true,
           profileStatus: "loaded",
-          hasSchool: false,
+          onboarded: false,
         }),
       ),
     ).toBe("auth");

@@ -4,6 +4,7 @@ import { useRouter } from "expo-router";
 import { Screen } from "@/components/Screen";
 import { Button } from "@/components/ui/button";
 import { Text } from "@/components/ui/text";
+import { useSignupFlow } from "@/lib/signup-flow";
 
 export default function WelcomeScreen() {
   const router = useRouter();
@@ -17,8 +18,16 @@ export default function WelcomeScreen() {
         </Text>
       </View>
       <View className="gap-3">
-        <Button onPress={() => router.push("/sign-up")}>Create account</Button>
-        <Button variant="secondary" onPress={() => router.push("/log-in")}>
+        <Button onPress={() => router.push("/pick-school")}>
+          Create account
+        </Button>
+        <Button
+          variant="secondary"
+          onPress={() => {
+            useSignupFlow.getState().clear();
+            router.push("/log-in");
+          }}
+        >
           Log in
         </Button>
       </View>

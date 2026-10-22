@@ -19,7 +19,7 @@ const { createClient } = require("@supabase/supabase-js");
 
 const API = "http://127.0.0.1:54321";
 const MAILPIT = "http://127.0.0.1:54324";
-const DOMAIN = "virginia.edu"; // seeded listed school (seed.sql)
+let DOMAIN = null; // resolved at runtime: first listed school's domain
 
 const results = [];
 const check = (name, ok, extra = "") => {
@@ -70,7 +70,6 @@ const signUp = (email, password, data) =>
   supabase.auth.signUp({ email, password, options: data ? { data } : {} });
 
 const ts = Date.now();
-const email = `e2e-${ts}@${DOMAIN}`;
 const password = "e2e-password-1";
 const newPassword = "e2e-password-2";
 const seen = new Set();
@@ -79,14 +78,17 @@ const seen = new Set();
 const { data: uni, error: uniErr } = await supabase
   .from("universities")
   .select("id, name, email_domains")
-  .eq("name", "University of Virginia")
+  .limit(1)
   .single();
+DOMAIN = uni?.email_domains?.[0] ?? null;
 check(
-  "anon reads listed university (incl. email_domains) for the picker",
-  !uniErr && uni?.id && uni.email_domains.includes("virginia.edu"),
+  "anon reads a listed university (incl. email_domains) for the picker",
+  !uniErr && uni?.id && DOMAIN,
   uniErr?.message ?? "",
 );
 const uniId = uni?.id;
+const email = `e2e-${ts}@${DOMAIN}`;
+const alias = `e2e-${ts}+alias@${DOMAIN}`;
 
 // ── Hook rejections (no auth.users row → no confirmation email) ─────────
 const { error: gmailErr } = await signUp(`e2e-${ts}@gmail.com`, password, {
@@ -99,9 +101,11 @@ check(
   gmailErr?.message ?? "no error returned!",
 );
 
-const { error: crossErr } = await signUp(`e2e-${ts}@vt.edu`, password, {
-  university_id: uniId,
-});
+const { error: crossErr } = await signUp(
+  `e2e-${ts}@not-this-school.example`,
+  password,
+  { university_id: uniId },
+);
 check("another school's domain rejected", !!crossErr, crossErr?.message ?? "");
 
 const { error: noMetaErr } = await signUp(
@@ -158,7 +162,6 @@ if (ok) {
 }
 
 // ── Mailbox registry: +tag alias collides at confirmation, not signup ────
-const alias = `e2e-${ts}+alias@${DOMAIN}`;
 const { error: aliasSuErr } = await signUp(alias, password, {
   university_id: uniId,
 });

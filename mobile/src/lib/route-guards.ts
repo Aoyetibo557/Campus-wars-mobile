@@ -1,7 +1,7 @@
 /**
  * Route-guard truth table (drives <Stack.Protected> in app/_layout.tsx).
  *
- *  session | recovery | profile status | has school | where the user belongs
+ *  session | recovery | profile status | onboarded | where the user belongs
  * ---------+----------+----------------+-----------+------------------------
  *  unknown | any      | any            | any       | splash (still resolving)
  *  none    | any      | any            | any       | (auth) group
@@ -14,9 +14,10 @@
  *  active  | false    | loaded         | false     | /onboarding
  *  active  | false    | loaded         | true      | /(tabs)
  *
- * "Error" and "undefined university_id" are never treated as "no school":
- * onboarding is reached only from a loaded profile with null university_id
- * (the D22 completion rule).
+ * "Error" and a missing profile row are never treated as "not onboarded":
+ * onboarding is reached only from a loaded profile with null onboarded_at
+ * (the D25 completion rule — the profile trigger sets university_id at
+ * signup, so the null-university_id rule is replaced by D25).
  */
 
 export type ProfileStatus = "idle" | "loading" | "loaded" | "error";
@@ -26,7 +27,8 @@ export type AuthRouteInput = {
   session: "unknown" | "none" | "active";
   recoveryInProgress: boolean;
   profileStatus: ProfileStatus;
-  hasSchool: boolean;
+  /** profile.onboarded_at != null */
+  onboarded: boolean;
 };
 
 export type RouteArea = "auth" | "splash" | "retry" | "onboarding" | "tabs";
@@ -41,6 +43,6 @@ export function resolveRouteArea(input: AuthRouteInput): RouteArea {
     case "error":
       return "retry";
     case "loaded":
-      return input.hasSchool ? "tabs" : "onboarding";
+      return input.onboarded ? "tabs" : "onboarding";
   }
 }

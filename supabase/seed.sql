@@ -2,26 +2,18 @@
 -- to a remote project. Real config (games, blocklist, reset_state) lives in
 -- migrations, not here.
 
--- sample universities for development (D23/D24 schema).
--- Listed schools have >= 1 email domain and appear in the signup picker;
--- unlisted schools (empty domains) are hidden from all clients.
--- CMU is deliberately dual-domain (andrew.cmu.edu is a real student domain)
--- to exercise multi-domain matching. website/scorecard_unit_id are populated
--- by the D24 import pipeline, not by hand — a couple of real websites are
--- seeded here so the shape is exercised.
+-- minimal dev universities with REAL scorecard_unit_ids — the loader
+-- (scripts/universities/load.mjs) upserts on that key, so these merge into
+-- real rows instead of duplicating. CMU is dual-domain (andrew.cmu.edu is a
+-- real student domain, also carried in overrides.json). Tests must create
+-- their own fixtures; nothing may depend on these rows.
 insert into public.universities
-  (name, short_name, country, state, email_domains, website) values
-  ('University of Virginia',              'UVA',   'US', 'VA', '{virginia.edu}',              'virginia.edu'),
-  ('Virginia Tech',                       'VT',    'US', 'VA', '{vt.edu}',                    'vt.edu'),
-  ('University of Michigan',              'UMich', 'US', 'MI', '{umich.edu}',                 'umich.edu'),
-  ('Ohio State University',               'OSU',   'US', 'OH', '{osu.edu}',                   'osu.edu'),
-  ('University of Florida',               'UF',    'US', 'FL', '{ufl.edu}',                   'ufl.edu'),
-  ('University of Texas at Austin',       'UT',    'US', 'TX', '{utexas.edu}',                'utexas.edu'),
-  ('University of North Carolina',        'UNC',   'US', 'NC', '{unc.edu}',                   'unc.edu'),
-  ('Georgia Institute of Technology',     'GT',    'US', 'GA', '{gatech.edu}',                'gatech.edu'),
-  ('Carnegie Mellon University',          'CMU',   'US', 'PA', '{cmu.edu,andrew.cmu.edu}',    'cmu.edu'),
-  ('Fictional State University',          'FSU',   'US', 'XX', '{}',                          null),
-  ('Westshore Community College',         'WCC',   'US', 'YY', '{}',                          null);
+  (name, short_name, country, state, website, scorecard_unit_id, email_domains) values
+  ('University of Virginia-Main Campus', 'UVA', 'US', 'VA', 'https://virginia.edu', 234076, '{virginia.edu}'),
+  ('Virginia Polytechnic Institute and State University', 'VT', 'US', 'VA', 'https://vt.edu', 233921, '{vt.edu}'),
+  ('Carnegie Mellon University', 'CMU', 'US', 'PA', 'https://cmu.edu', 211440, '{cmu.edu,andrew.cmu.edu}'),
+  ('University of Michigan-Ann Arbor', 'UMich', 'US', 'MI', 'https://umich.edu', 170976, '{umich.edu}'),
+  ('Ohio State University-Main Campus', 'OSU', 'US', 'OH', 'https://osu.edu', 204796, '{osu.edu}');
 -- university_points rows are created automatically by the insert trigger.
 
 -- DEV trivia questions (category 'dev'). Placeholder content only — the real

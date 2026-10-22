@@ -8,9 +8,9 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Text } from "@/components/ui/text";
-import { signIn } from "@/lib/auth-api";
+import { resendSignupCode, signIn } from "@/lib/auth-api";
 import { mapAuthError } from "@/lib/auth-errors";
-import { isValidEmail } from "@/lib/validation";
+import { isValidEmail, normalizeEmail } from "@/lib/validation";
 
 export default function LogInScreen() {
   const router = useRouter();
@@ -36,8 +36,20 @@ export default function LogInScreen() {
     submittingRef.current = false;
     setPending(false);
     if (error) {
-      // Login errors are deliberately generic — they never reveal
-      // whether the email exists.
+      // GoTrue returns email_not_confirmed ONLY when the password is
+      // correct (wrong passwords get invalid_credentials — probed
+      // locally). Safe to resend a fresh code + route to verify; the
+      // server enforces the resend rate limit.
+      if (error.code === "email_not_confirmed") {
+        void resendSignupCode(email);
+        router.push({
+          pathname: "/verify",
+          params: { email: normalizeEmail(email) },
+        });
+        return;
+      }
+      // All other login errors are deliberately generic — they never
+      // reveal whether the email exists.
       setFormError(mapAuthError(error));
       return;
     }
@@ -91,7 +103,7 @@ export default function LogInScreen() {
 
       {formError && <Text variant="danger">{formError}</Text>}
 
-      <Button onPress={submit} loading={pending}>
+      <Button testID="login-submit" onPress={submit} loading={pending}>
         Log in
       </Button>
 
@@ -99,7 +111,7 @@ export default function LogInScreen() {
         <Button variant="ghost" onPress={() => router.push("/forgot-password")}>
           Forgot password?
         </Button>
-        <Button variant="ghost" onPress={() => router.replace("/sign-up")}>
+        <Button variant="ghost" onPress={() => router.replace("/pick-school")}>
           New here? Create account
         </Button>
       </View>

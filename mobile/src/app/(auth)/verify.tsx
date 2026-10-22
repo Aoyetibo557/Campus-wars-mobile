@@ -12,7 +12,7 @@ import {
   resendSignupCode,
   verifyCode,
 } from "@/lib/auth-api";
-import { mapAuthError } from "@/lib/auth-errors";
+import { isConfirmCollision, mapAuthError } from "@/lib/auth-errors";
 import { isCompleteCode } from "@/lib/validation";
 
 export default function VerifyScreen() {
@@ -22,6 +22,7 @@ export default function VerifyScreen() {
 
   const [code, setCode] = useState("");
   const [error, setError] = useState<string | null>(null);
+  const [collision, setCollision] = useState(false);
   const [verifying, setVerifying] = useState(false);
   const [resending, setResending] = useState(false);
   const [cooldown, setCooldown] = useState(RESEND_COOLDOWN_SECONDS);
@@ -41,10 +42,14 @@ export default function VerifyScreen() {
       if (verifying || !isCompleteCode(value)) return;
       setVerifying(true);
       setError(null);
+      setCollision(false);
       const { error: err } = await verifyCode(email, value, "signup");
       setVerifying(false);
       if (err) {
         setCode("");
+        // Mailbox-already-linked surfaces only as a generic "Error
+        // confirming user" — never map it to "wrong code".
+        setCollision(isConfirmCollision(err));
         setError(mapAuthError(err));
         codeRef.current?.focus();
         return;
@@ -103,6 +108,12 @@ export default function VerifyScreen() {
       >
         {cooldown > 0 ? `Resend code (${cooldown}s)` : "Resend code"}
       </Button>
+
+      {collision && (
+        <Button variant="secondary" onPress={() => router.replace("/log-in")}>
+          Log in
+        </Button>
+      )}
 
       <View className="gap-1">
         <Button variant="ghost" onPress={() => router.back()}>
