@@ -141,8 +141,9 @@ Last updated: 2026-10-14
 - **Implementation notes:** One session per user, game, and puzzle date should be enforced atomically in the database (for example a unique index on user, game and a deterministic seed for Wordle), so concurrent `start-session` calls cannot create two. Responses include `next_puzzle_at` so the client never needs its own timezone logic.
 - **Affects:** `start-session`, `game_sessions` indexes, Home daily card, result screen. Resolves PRD Wordle behavior.
 
-### D27. Wordle word lists: open-licensed sources, curated answers (formerly O11)
-- **Decision:** Build both lists ourselves from permissively licensed open word lists. Do not copy the original Wordle lists. The valid-guess list is as large as the licensed sources reasonably support. The answer list is a curated subset of common five-letter words, with offensive words removed, and has at least 1,500 entries so the 30-day no-repeat rule (D18) never runs dry. Every answer is also a valid guess. Each source's license is verified and recorded in `docs/data-sources.md`; sources with unclear or non-commercial-only terms are not used. The owner reviews the final answer list.
+### D27. Wordle word lists: ENABLE for guesses, our own curated answers (formerly O11)
+- **Decision:** Valid guesses come from the ENABLE word list alone (public domain; license verified and recorded), filtered to five-letter words. The answer list is hand-curated by us (drafted, then reviewed by the owner), with at least 600 entries at launch and more added over time. Every answer must be a valid guess. No frequency lists, SCOWL, or third-party offensive-word lists are used; a short hand-written exclusion list may remove slurs from the guess list. The original Wordle lists are not used or reproduced.
+- **Why:** Fewer sources means fewer licenses to verify and a smaller review job. The 30-day no-repeat rule (D18) works fine with 600 answers.
 - **Affects:** `wordle_words` data, loader script, `docs/data-sources.md`.
 
 ### D28. Wordle guesses are validated on the server only

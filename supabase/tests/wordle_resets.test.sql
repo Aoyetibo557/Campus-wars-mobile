@@ -5,6 +5,14 @@ create extension if not exists pgtap;
 begin;
 select plan(15);
 
+-- fixtures: REPLACE the answer pool inside this transaction (rolls back),
+-- so the daily-pool assertions hold whether or not real lists are loaded.
+-- nonsense words that cannot collide with the loaded lists
+delete from public.wordle_words;
+insert into public.wordle_words (word, is_answer) values
+  ('zzzxq', true), ('qzzzx', true), ('zzqzx', true),
+  ('qqzxz', false), ('zxqzq', false);
+
 -- == wordle daily ==
 
 select lives_ok(

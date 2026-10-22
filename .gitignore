@@ -31,3 +31,4 @@ coverage/
 
 # Universities pipeline: raw API downloads/cache (never commit)
 data/universities/raw/
+data/wordle/source-cache/
